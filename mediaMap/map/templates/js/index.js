@@ -110,7 +110,7 @@ $(function () {
             content: contentString,
             maxWidth: 400
         });
-        map.data.loadGeoJson('../res/new.geojson'); // TODO add geojson file
+        map.data.loadGeoJson('../res/Melb_ad.geojson'); // TODO add geojson file
         map.data.setStyle(function (feature) {
             return ({
                 fillColor: feature.getProperty('color'),
