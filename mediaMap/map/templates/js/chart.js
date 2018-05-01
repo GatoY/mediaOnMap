@@ -1,5 +1,5 @@
 $(function () {
-    var myChart = echarts.init(document.getElementById('main'));
+    var myChart = echarts.init(document.getElementById('chart'));
 
     // 指定图表的配置项和数据
     var option = {
