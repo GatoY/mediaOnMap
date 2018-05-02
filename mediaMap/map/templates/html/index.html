@@ -1,81 +1,16 @@
-<html>
-
-<head>
-    <title>{% block title %}{% endblock %}</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='../css/custom.css' rel='stylesheet' type='text/css'>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-</head>
-
-<body>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Tweeter Analysis</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav col-sm-11 mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Sentiment</a>
-            </li>
-            <!--<li class="nav-item">-->
-            <!--<a class="nav-link" href="#">Scenario 1</a>-->
-            <!--</li>-->
-            <!--<li class="nav-item">-->
-            <!--<a class="nav-link" href="#">Scenario 2</a>-->
-            <!--</li>-->
-            <!--<li class="nav-item">-->
-            <!--<a class="nav-link" href="#">Scenario 3</a>-->
-            <!--</li>-->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    Scenarios
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Scenario1</a>
-                    <a class="dropdown-item" href="#">Scenario3</a>
-                    <!--<div class="dropdown-divider"></div>-->
-                    <a class="dropdown-item" href="#">Scenario3</a>
-                </div>
-            </li>
-        </ul>
-        <!--<form class="form-inline my-2 my-lg-0">-->
-        <!--<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">-->
-        <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
-        <!--</form>-->
-        <button class="btn btn-secondary col-sm-1" id="solve" type="button">Github</button>
-    </div>
-</nav>
-
-<div class="container">
-
-    <div class="row">
-
-    </div>
+{% extends 'map/base.html' %}
+{% load staticfiles %}
+{% block content %}
     <!-- /.row-->
-
     <div class="row">
         <div id="map"></div>
 
     </div>
-
     <div class="row">
         <!--<div class="col-md-6">-->
         <!--<div id="chart"></div>-->
         <!--&lt;!&ndash;<div id="chart" style="width: 600px;height:400px;"></div>&ndash;&gt;-->
         <!--</div>-->
-
         <div class="col-md-6">
             <div id="chart1" style="width:100%;height:400px;"></div>
             <!-- /.8 -->
@@ -84,7 +19,6 @@
             <div id="chart2" style="width:100%;height:400px;"></div>
             <!-- /.8 -->
         </div>
-
         <!--<div class="col-md-6">-->
         <!--<div class="offer-item offer-2 animated fadeInRight">-->
         <!--<figure>-->
@@ -101,26 +35,4 @@
         <!--</div>-->
         <!--</div>-->
         <!--</div>-->
-
-    </div>
-
-</div>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
-        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
-        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-        crossorigin="anonymous"></script>
-
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6Z479QhF3vXmksr0WsN6PtYGkDaYIoxA"></script>
-<script src="../js/index.js"></script>
-<script src="../js/echarts.js"></script>
-
-</body>
-
-</html>
+{% endblock content %}
