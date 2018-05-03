@@ -21,65 +21,42 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav col-md-10 mr-auto">
-            <li class="nav-item active">
+        <ul class="navbar-nav col-sm-11 mr-auto">
+            <li class="nav-item">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="sentiment.html">Sentiment</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown active">
                 <a class="nav-link dropdown-toggle" href="sentiment.html" id="navbarDropdown" role="button"
                    data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">
                     Scenarios
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Scenario1</a>
-                    <a class="dropdown-item" href="#">Scenario3</a>
-                    <!--<div class="dropdown-divider"></div>-->
-                    <a class="dropdown-item" href="#">Scenario3</a>
+                    <a class="dropdown-item" href="scenario1.html">Scenario1</a>
+                    <a class="dropdown-item" href="scenario1.html">Scenario2</a>
+                    <a class="dropdown-item" href="scenario1.html">Scenario3</a>
                 </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="abousUs.html">About us</a>
             </li>
         </ul>
         <ul class="navbar-nav col-sm-1 mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Report</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="https://github.com">Github</a>
             </li>
         </ul>
-
-        <!--<button class="btn btn-secondary col-sm-1" id="solve" type="button">Github</button>-->
     </div>
 </nav>
 
-<div class="container-fluid">
-
-    <!-- /.row-->
-
-
-    <div class="row-fluid">
-        <div class="col-md-12" id="map"></div>
-        <div id="info-box">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 id="suburb-name" class="card-title">Suburb Name</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Sentiment: </h6>
-                        <p id="sentiment" class="card-text">sentiment number</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="container">
 
     <div class="row">
-
+    </div>
+    <div class="row">
+        <div id="map"></div>
+    </div>
+    <div class="row">
         <div class="col-md-6">
             <div id="chart1" style="width:100%;height:400px;"></div>
             <!-- /.8 -->
@@ -88,19 +65,13 @@
             <div id="chart2" style="width:100%;height:400px;"></div>
             <!-- /.8 -->
         </div>
-        <div class="col-md-12" style="margin-top: 30px">
-            <div id="chart3" style="width:100%;height:400px;"></div>
-            <!-- /.8 -->
+        <div class="col-md-12">
+            <div id="chart3" style="width:100%;height:400px;margin-bottom: 40px"></div>
         </div>
-
-    </div>
-
-    <div class="row">
-        <div class="col-md-12" style="margin-top: 30px">
-            <div id="mychart" style="width:100%;height:100%;"></div>
+        <div class="col-md-6">
+            <div id="chart4" style="width:100%;height:400px;margin-bottom: 40px"></div>
         </div>
     </div>
-
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -114,11 +85,8 @@
         crossorigin="anonymous"></script>
 
 
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6Z479QhF3vXmksr0WsN6PtYGkDaYIoxA"></script>
-<script src="../js/sentiment.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6Z479QhF3vXmksr0WsN6PtYGkDaYIoxA"></script>
+<script src="../js/scenario1.js"></script>
 <script src="../js/echarts.js"></script>
 
 </body>
-
-</html>

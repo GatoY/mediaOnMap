@@ -145,13 +145,6 @@
         map.data.setStyle(styleFeature);
         map.data.addListener('mouseover', mouseInToRegion);
         map.data.addListener('mouseout', mouseOutOfRegion);
-        map.data.addListener('mouseup', function (event) {
-            var infowindow = new google.maps.InfoWindow({
-                content: 'hahaha'
-            });
-            infowindow.open(map, {lat: 40, lng: -100});
-            // map.data.overrideStyle(event.feature, {fillColor: 'red'});
-        });
 
         // wire up the button
         var selectBox = document.getElementById('census-variable');
@@ -301,13 +294,6 @@
     function mouseOutOfRegion(e) {
         // reset the hover state, returning the border to normal
         e.feature.setProperty('state', 'normal');
-    }
-
-    function haha(e) {
-        var infowindow = new google.maps.InfoWindow({
-            content: 'hahaha'
-        });
-        infowindow.open(map, e.latLng);
     }
 
 </script>

@@ -15,7 +15,6 @@ h1 {
     margin-bottom: 40px;
 }
 
-
 .info-window {
     font-family: 'Montserrat', sans-serif;
 }
@@ -24,3 +23,18 @@ h1 {
     color: #999;
 }
 
+#info-box {
+    background-color: transparent;
+    bottom: 30px;
+    top: 120px;
+    width: 200px;
+    min-height: 200px;
+    position: absolute;
+    left: 30px;
+}
+
+.card {
+    -moz-box-shadow: 2px 2px 5px #999999;
+    -webkit-box-shadow: 2px 2px 5px #999999;
+    box-shadow: 2px 2px 5px #999999;
+}
