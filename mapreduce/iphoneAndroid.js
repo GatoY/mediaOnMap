@@ -1,4 +1,5 @@
 //find the total numbers of iphone and android users
+//not used in this project. Only for testing mapreduce function.
 
 //map
 function(doc) {

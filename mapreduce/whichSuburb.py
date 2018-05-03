@@ -31,3 +31,4 @@ with open('jsonExample.json') as f:
     # print(type(dict_twitter))
     print(getCoordinate(dict_twitter))
     print(getSentiment(dict_twitter))
+
