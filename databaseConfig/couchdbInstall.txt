@@ -1,0 +1,27 @@
+mkdir /home/ubuntu/common
+
+sudo docker run -d --name couchdb \
+--log-opt max-size=100m \
+--restart always \
+-p 5984:5984 \
+-p 5986:5986 \
+-p 4369:4369 \
+-p 9100-9200:9100-9200 \
+-v /home/ubuntu/common:/home/couchdb/common \
+-e COUCHDB_DATA_DIR="/home/couchdb/common/data" \
+-e COUCHDB_USER='admin' \
+-e COUCHDB_HASHED_PASSWORD='-pbkdf2-b1eb7a68b0778a529c68d30749954e9e430417fb,4da0f8f1d98ce649a9c5a3845241ae24,10' \
+-e COUCHDB_COOKIE='mycookie' \
+-e COUCHDB_SECRET='mysecret' \
+-e COUCHDB_NODE_NAME='43.240.98.116' \
+redgeoff/couchdb
+
+# use  ¡® couchdb-hash-pwd -p mysecret¡¯ to get hash password
+
+#CORS ¡®for communication¡¯
+
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs build-essential
+sudo npm install npm -g
+sudo npm install -g add-cors-to-couchdb
+add-cors-to-couchdb http://localhost:5984 -u admin -p admin

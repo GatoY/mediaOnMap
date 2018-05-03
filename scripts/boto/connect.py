@@ -3,7 +3,7 @@ import key
 from boto.ec2.regioninfo import RegionInfo 
 
 def connect():
-	region = RegionInfo(name = 'melbourne', endpoint = 'nova.rc.nectar.org.au')
+	region = RegionInfo(name = 'melbourne-np', endpoint = 'nova.rc.nectar.org.au')
 
 	access_idkey = key.key
 	access_id = access_idkey.get_id(access_idkey)
