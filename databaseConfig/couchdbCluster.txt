@@ -1,0 +1,8 @@
+sudo docker pull couchdb:2.1.1
+
+export declare -a nodes=(43.240.98.148 43.240.98.115)
+export masternode=`echo ${nodes} | cut -f1 -d' '`
+export othernodes=`echo ${nodes[@]} | sed s/${masternode}//`
+export size=${#nodes[@]}
+export user=admin
+export pass=admin
