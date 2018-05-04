@@ -1,0 +1,24 @@
+---
+- hosts: harvesters
+  remote_user: ubuntu
+  sudo: yes
+  tasks:
+  - name: install screen
+    apt:
+      name: screen
+
+  - name: install pip
+    apt:
+      name: python-pip
+
+  - name: pip install couchdb
+    command: pip install couchdb
+
+  - name: pip install tweepy
+    command: pip install tweepy
+
+  - name: pip install textblob
+    command: pip install -U textblob
+    
+  - name: textblob download corpora
+    command: python -m textblob.download_corpora

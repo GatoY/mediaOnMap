@@ -1,0 +1,16 @@
+{
+	"twitter_tokens":[
+		{
+			"consumer_key":"IqmucSYMZbDRwtigKOZfMEjW2", 
+			"consumer_secret" : "3LDNBcJCtKDoFpDeVv3pC8UcIap27qAqNSwv1gtYdaKxdNoQ0Q",
+			"access_token":"358667464-ZvWbERSJkP3WjAjwJP8SimTR37GlmuzPZe1yoIIk",
+			"access_token_secret":"aH3gCUF8aKPyDRct0N63ijlLcC9Rn2zqVsXEzJzlaM47v"
+		}
+	],
+
+	"db_server":"http://localhost:5984/",
+	"db_name":"twitter",
+
+	"locations":[144.2,-38.5,145.8,-37.2],
+	"geocode":"-37.814,144.96332,200km"
+}
