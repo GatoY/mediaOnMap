@@ -1,0 +1,17 @@
+---
+- hosts: dbservers
+  remote_user: ubuntu
+  sudo: yes
+  tasks:
+    - name: "initiate server"
+      command: sh /home/ubuntu/prepare.sh
+      
+    - name: "install couchdb"
+      command: sh /home/ubuntu/install.sh
+
+- hosts: masterdb
+  remote_user: ubuntu
+  sudo: yes
+  tasks:
+    - name: "setup cluster"
+      command: sh /home/ubuntu/cluster_setup.sh
