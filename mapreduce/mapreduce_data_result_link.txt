@@ -1,0 +1,24 @@
+ssh -L5984:127.0.0.1:5984 ubuntu@下面随意哪个ip
+Couchdb集群:
+master:
+	115.146.86.130 
+slave:
+	115.146.85.220
+	115.146.85.235
+	115.146.84.231
+
+登录localhost:5984/_util
+admin, admin
+
+
+sentimentByCoordinate.json:
+
+http://localhost:5984/twitter/_design/mapReduce/_view/sentimentByCoordinate?group=true&reduce=true
+
+sentimentByHours.json:
+
+http://localhost:5984/twitter/_design/mapReduce/_view/sentimentByHours?group=true&reduce=true
+
+sentimentByWeekdays.json:
+
+http://localhost:5984/twitter/_design/mapReduce/_view/sentimentByWeekdays?group=true&reduce=true
