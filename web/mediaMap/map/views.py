@@ -14,4 +14,19 @@ def index(request):
 
 def map(request):
     return render(request,'map/chart.html')
+
+def scenario1(request):
+    return render(request,'map/scenario1.html')
+
+def scenario2(request):
+    return render(request,'map/scenario1.html')
+
+def scenario3(request):
+    return render(request,'map/scenario3.html')
+
+def aboutUs(request):
+    return render(request,'map/aboutUs.html')
+
+def report(request):
+    return render(request,'map/report.html')
 # Create your views here.
