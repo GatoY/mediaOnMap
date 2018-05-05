@@ -1,66 +1,72 @@
 {% extends 'map/base.html' %}
 {% load static %}
-{% block content %}
 
+{% block content %}
 <div class="row">
-	<div id="map"></div>
-	<div class="card z-depth-1-half" style="width: 100%; margin-bottom: 20px">
-		<div class="card-body">
-			<h5 class="card-title">COMP90024 Assignment 2</h5>
-			<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-			<p class="card-text">description description description description description</p>
-		</div>
-	</div>
+    <div id="map"></div>
+    <div class="card z-depth-1-half" style="width: 100%; margin-bottom: 20px">
+        <div class="card-body">
+            <h5 class="card-title">COMP90024 Assignment 2</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">description description description description description</p>
+        </div>
+    </div>
 </div>
 
 <h3>
-	Authors
+    Authors
 </h3>
 
 <div class="row">
 
-	<div class="col-sm-6 col-md-4 col-xl-4 mb-3" id='chart1'>
-		<a href="#">
-			<img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
-			style="height: 400px">
-			<h5 class="mb-1">Jize Dong</h5>
-		</a>
-		<p class="text-muted">Information Technology</p>
-	</div>
+    <div class="col-sm-6 col-md-4 col-xl-4 mb-3">
+        <a href="#">
+            <img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
+                 width="960" height="600">
+            <h5 class="mb-1">Jize Dong</h5>
+        </a>
+        <p class="text-muted">Information Technology</p>
+    </div>
 
-	<div class="col-sm-6 col-md-4 col-xl-4 mb-3">
-		<a href="#">
-			<img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
-			width="824" height="400">
-			<h5 class="mb-1">Jize Dong</h5>
-		</a>
-		<p class="text-muted">Information Technology</p>
-	</div>
+    <div class="col-sm-6 col-md-4 col-xl-4 mb-3">
+        <a href="#">
+            <img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
+                 width="960" height="600">
+            <h5 class="mb-1">Jize Dong</h5>
+        </a>
+        <p class="text-muted">Information Technology</p>
+    </div>
 
-	<div class="col-sm-6 col-md-4 col-xl-4 mb-3">
-		<a href="#">
-			<img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
-			width="960" height="600">
-			<h5 class="mb-1">Jize Dong</h5>
-		</a>
-		<p class="text-muted">Information Technology</p>
-	</div>
+    <div class="col-sm-6 col-md-4 col-xl-4 mb-3">
+        <a href="#">
+            <img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
+                 width="960" height="600">
+            <h5 class="mb-1">Jize Dong</h5>
+        </a>
+        <p class="text-muted">Information Technology</p>
+    </div>
 
-	<div class="col-sm-6 col-md-4 col-xl-4 mb-3">
-		<a href="#">
-			<img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
-			width="960" height="600">
-			<h5 class="mb-1">Jize Dong</h5>
-		</a>
-		<p class="text-muted">Information Technology</p>
-	</div>
-	<div class="col-sm-6 col-md-4 col-xl-4 mb-3">
-		<a href="#">
-			<img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
-			width="960" height="600">
-			<h5 class="mb-1">Jize Dong</h5>
-		</a>
-		<p class="text-muted">Information Technology</p>
-	</div>
+    <div class="col-sm-6 col-md-4 col-xl-4 mb-3">
+        <a href="#">
+            <img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
+                 width="960" height="600">
+            <h5 class="mb-1">Jize Dong</h5>
+        </a>
+        <p class="text-muted">Information Technology</p>
+    </div>
+    <div class="col-sm-6 col-md-4 col-xl-4 mb-3">
+        <a href="#">
+            <img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
+                 width="960" height="600">
+            <h5 class="mb-1">Jize Dong</h5>
+        </a>
+        <p class="text-muted">Information Technology</p>
+    </div>
 </div>
 {% endblock content %}
+
+{% block content-js %}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6Z479QhF3vXmksr0WsN6PtYGkDaYIoxA"></script>
+<script src="{% static 'map/js/echarts.js' %}"></script>
+<script src="{% static 'map/js/index.js' %}"></script>
+{% endblock content-js %}

@@ -1,124 +1,336 @@
-<html>
+{% extends 'map/base.html' %}
+{% load static %}
+{% block content %}
 
-<head>
-    <title>{% block title %}{% endblock %}</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='../css/custom.css' rel='stylesheet' type='text/css'>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-</head>
-
-<body>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Tweeter Analysis</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav col-md-10 mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="sentiment.html">Sentiment</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="sentiment.html" id="navbarDropdown" role="button"
-                   data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    Scenarios
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Scenario1</a>
-                    <a class="dropdown-item" href="#">Scenario2</a>
-                    <!--<div class="dropdown-divider"></div>-->
-                    <a class="dropdown-item" href="#">Scenario3</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="aboutUs.html">About us</a>
-            </li>
-        </ul>
-        <ul class="navbar-nav col-sm-1 mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Report</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://github.com">Github</a>
-            </li>
-        </ul>
-
-        <!--<button class="btn btn-secondary col-sm-1" id="solve" type="button">Github</button>-->
-    </div>
-</nav>
-
-<div class="container-fluid">
-
-    <!-- /.row-->
-
-
-    <div class="row-fluid">
-        <div class="col-md-12" id="map"></div>
-        <div id="info-box">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 id="suburb-name" class="card-title">Suburb Name</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Sentiment: </h6>
-                        <p id="sentiment" class="card-text">sentiment number</p>
-                    </div>
+<div class="row-fluid">
+    <div class="col-md-12" id="map"></div>
+    <div id="info-box">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 id="suburb-name" class="card-title">Suburb Name</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Sentiment: </h6>
+                    <p id="sentiment" class="card-text">sentiment number</p>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <div class="row">
+<div class="row">
 
-        <div class="col-md-6">
-            <div id="chart1" style="width:100%;height:400px;"></div>
-            <!-- /.8 -->
-        </div>
-        <div class="col-md-6">
-            <div id="chart2" style="width:100%;height:400px;"></div>
-            <!-- /.8 -->
-        </div>
-        <div class="col-md-12" style="margin-top: 30px">
-            <div id="chart3" style="width:100%;height:400px;"></div>
-            <!-- /.8 -->
-        </div>
-
+    <div class="col-md-6">
+        <div id="chart1" style="width:100%;height:400px;"></div>
+        <!-- /.8 -->
     </div>
-
-    <div class="row">
-        <div class="col-md-12" style="margin-top: 30px">
-            <div id="mychart" style="width:100%;height:100%;"></div>
-        </div>
+    <div class="col-md-6">
+        <div id="chart2" style="width:100%;height:400px;"></div>
+        <!-- /.8 -->
+    </div>
+    <div class="col-md-12" style="margin-top: 30px">
+        <div id="chart3" style="width:100%;height:400px;"></div>
+        <!-- /.8 -->
     </div>
 
 </div>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
-        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
-        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-        crossorigin="anonymous"></script>
+<!--<div class="row">-->
+<!--<div class="col-md-12" style="margin-top: 30px">-->
+<!--<div id="mychart" style="width:100%;height:100%;"></div>-->
+<!--</div>-->
+<!--</div>-->
+
+{% endblock content %}
+
+{% block content-js %}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6Z479QhF3vXmksr0WsN6PtYGkDaYIoxA"></script>
+<script src="{% static 'map/js/echarts.js' %}"></script>
+
+<script>
+    function initMap() {
+        var location = {lat: -37.8136, lng: 144.99758596};
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+            center: location,
+            zoom: 10,
+            panControl: false,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            styles: [
+                {
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#f5f5f5"
+                        }
+                    ]
+                },
+                {
+                    "elementType": "labels.icon",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#616161"
+                        }
+                    ]
+                },
+                {
+                    "elementType": "labels.text.stroke",
+                    "stylers": [
+                        {
+                            "color": "#f5f5f5"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "administrative.land_parcel",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#bdbdbd"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#eeeeee"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#757575"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi.park",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#e5e5e5"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi.park",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#9e9e9e"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#ffffff"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.arterial",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#757575"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#dadada"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#616161"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.local",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#9e9e9e"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit.line",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#e5e5e5"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit.station",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#eeeeee"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#c9c9c9"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#9e9e9e"
+                        }
+                    ]
+                }
+            ]
+
+        };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+
+        map.data.loadGeoJson("{% static 'map/img/Melb_ad.geojson' %}");
+        // map.data.loadGeoJson('../img/Melb_ad.geojson');
+        map.data.setStyle(function (feature) {
+            var outlineWeight = 0.5, zIndex = 1;
+            if (feature.getProperty('state') === 'hover') {
+                outlineWeight = zIndex = 2;
+            }
+            return ({
+                fillColor: feature.getProperty('color'),
+                fillOpacity: 0.6,
+                strokeWeight: outlineWeight,
+                zIndex: zIndex,
+                strokeColor: '#FFFFFF',
+                strokeOpacity: 0.9
+            });
+        });
+        map.data.addListener('mouseover', function (event) {
+            event.feature.setProperty('state', 'hover');
+
+            console.log(event.feature.getProperty('pos'));
+            $("#suburb-name").text(event.feature.getProperty('vic_loca_2'));
+            $("#sentiment").text(event.feature.getProperty('pos'));
+            event.feature.setProperty('state', 'hover');
+
+        });
+        map.data.addListener('mouseout', function (event) {
+            event.feature.setProperty('state', 'normal');
+        })
+
+    }
+
+    google.maps.event.addDomListener(window, 'load', initMap);
 
 
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6Z479QhF3vXmksr0WsN6PtYGkDaYIoxA"></script>
-<script src="../js/sentiment.js"></script>
-<script src="../js/echarts.js"></script>
+    var chart1 = echarts.init(document.getElementById('chart1'), 'light').setOption({
+        title: {
+            text: 'ECharts 入门示例'
+        },
+        tooltip: {},
+        legend: {
+            data: ['销量']
+        },
+        xAxis: {
+            data: ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"]
+        },
+        yAxis: {},
+        series: [{
+            name: '销量',
+            type: 'bar',
+            data: [5, 20, 36, 10, 10, 20]
+        }]
+    });
 
-</body>
+    var chart2 = echarts.init(document.getElementById('chart2')).setOption({
+        xAxis: {
+            type: 'category',
+            data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+        },
+        yAxis: {
+            type: 'value'
+        },
+        series: [{
+            data: [820, 932, 901, 934, 1290, 1330, 1320],
+            type: 'line'
+        }]
+    });
 
-</html>
+
+    var chart3 = echarts.init(document.getElementById('chart3')).setOption({
+        title: {
+            text: '基础雷达图'
+        },
+        tooltip: {},
+        legend: {
+            data: ['预算分配（Allocated Budget）', '实际开销（Actual Spending）']
+        },
+        radar: {
+            // shape: 'circle',
+            name: {
+                textStyle: {
+                    color: '#fff',
+                    backgroundColor: '#999',
+                    borderRadius: 3,
+                    padding: [3, 5]
+                }
+            },
+            indicator: [
+                {name: '销售（sales）', max: 6500},
+                {name: '管理（Administration）', max: 16000},
+                {name: '信息技术（Information Techology）', max: 30000},
+                {name: '客服（Customer Support）', max: 38000},
+                {name: '研发（Development）', max: 52000},
+                {name: '市场（Marketing）', max: 25000}
+            ]
+        },
+        series: [{
+            name: '预算 vs 开销（Budget vs spending）',
+            type: 'radar',
+            // areaStyle: {normal: {}},
+            data: [
+                {
+                    value: [4300, 10000, 28000, 35000, 50000, 19000],
+                    name: '预算分配（Allocated Budget）'
+                },
+                {
+                    value: [5000, 14000, 28000, 31000, 42000, 21000],
+                    name: '实际开销（Actual Spending）'
+                }
+            ]
+        }]
+    });
+
+</script>
+
+{% endblock content-js %}
