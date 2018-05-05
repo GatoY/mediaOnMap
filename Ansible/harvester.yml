@@ -22,3 +22,9 @@
     
   - name: textblob download corpora
     command: python -m textblob.download_corpora
+
+  - name: pip install shapely
+    command: pip install shapely
+
+  - name: pip install fiona
+    command: pip install fiona

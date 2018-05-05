@@ -7,6 +7,7 @@ from tweepy import OAuthHandler
 from tweepy import Stream
 from tweepy.streaming import StreamListener 
 from textblob import TextBlob
+from getSuburb import CoordinateToSA2
 
 def readConfigFromFile():
 	try:
@@ -32,25 +33,30 @@ def insertTweet(db, tweet):
 
 def sentimentAnalysis(text):
 	polarity = TextBlob(text).sentiment.polarity
-	# print('textblob polarity = %f' % (polarity))
 	return polarity
 
 class MyStreamListener(StreamListener):
-	def __init__(self, db):
+	def __init__(self, db, sa2):
 		self.db = db
+		self.sa2 = sa2
 
 	def on_data(self, data):
-		print(data)
 		try:
 			tweet = json.loads(data)
 
 			if tweet['coordinates'] or tweet['geo'] or tweet['place']:
-				# print(tweet['id_str'])
 				text = tweet['text']
-				# print(text)
 
 				polarity = sentimentAnalysis(text)
 				tweet['sentiment'] =  float('%.6f' % polarity)
+
+				sa2_code = None
+				sa2_name = None
+				if tweet['coordinates']:
+					sa2_code, sa2_name = sa2.sa2_maincode(tweet['coordinates']['coordinates'])
+
+				tweet['sa2_code'] = sa2_code
+				tweet['sa2_name'] = sa2_name
 				
 				insertTweet(db, tweet)
 		except:
@@ -78,7 +84,9 @@ def main():
 
 	db = connectDB(db_server, db_name)
 
-	myStreamListener = MyStreamListener(db)
+	sa2 = CoordinateToSA2()
+
+	myStreamListener = MyStreamListener(db, sa2)
 	myStream = Stream(auth=auth, listener=myStreamListener)
 	myStream.filter(locations=locations, languages=['en'])
 

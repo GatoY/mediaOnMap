@@ -7,10 +7,7 @@ from tweepy import OAuthHandler
 from tweepy import API
 from tweepy import Cursor
 from textblob import TextBlob
-# from vaderSentiment.vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-
-# reload(sys)
-# sys.setdefaultencoding('utf-8')
+from getSuburb import CoordinateToSA2
 
 def readConfigFromFile():
 	try:
@@ -36,17 +33,9 @@ def insertTweet(db, tweet):
 
 def sentimentAnalysis(text):
 	polarity = TextBlob(text).sentiment.polarity
-	# print('textblob polarity = %f' % (polarity))
 	return polarity
 
-# def sentimentAnalysis2(text):
-# 	analyzer = SentimentIntensityAnalyzer()
-# 	vs = analyzer.polarity_scores(text)
-# 	polarity = vs['compound']
-# 	print('vaderSen polarity = %f' % (polarity))
-# 	return polarity
-
-def searchTwitters(api, geocode, db):
+def searchTwitters(api, geocode, db, sa2):
 	max_id = sys.maxsize
 
 	while True:
@@ -58,19 +47,23 @@ def searchTwitters(api, geocode, db):
 			if tweets:
 				# Get the id of the last tweet as the max_id of next search
 				max_id = tweets[len(tweets) - 1]._json['id']
-				# print ('max id = %d' % (max_id))
 
 				for myTweet in tweets:
 					tweet = myTweet._json
 
 					if tweet['coordinates'] or tweet['geo'] or tweet['place']:
-						# print(tweet['id_str'])
 						text = tweet['text']
-						# print(text)
 
 						polarity = sentimentAnalysis(text)
-						# polarity2 = sentimentAnalysis2(text)
 						tweet['sentiment'] =  float('%.6f' % polarity)
+
+						sa2_code = None
+						sa2_name = None
+						if tweet['coordinates']:
+							sa2_code, sa2_name = sa2.sa2_maincode(tweet['coordinates']['coordinates'])
+
+						tweet['sa2_code'] = sa2_code
+						tweet['sa2_name'] = sa2_name
 
 						insertTweet(db, tweet)
 
@@ -101,7 +94,9 @@ def main():
 
 	db = connectDB(db_server, db_name)
 
-	searchTwitters(api, geocode, db)
+	sa2 = CoordinateToSA2()
+
+	searchTwitters(api, geocode, db, sa2)
 
 if __name__ == '__main__':
 	main()
