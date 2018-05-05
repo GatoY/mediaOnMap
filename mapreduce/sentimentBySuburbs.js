@@ -1,13 +1,14 @@
-// get average sentiment group by different coordinates
+// get average sentiment group by suburb
 //map
 function (doc) {
-  if(doc['geo']['coordinates']){
-    var coordinates = doc['geo']['coordinates'];
-    var sentiment = doc['sentiment'];
+  if(doc["sa2_name"] != null){
+    var suburb = doc["sa2_name"];
+    var sentiment = doc["sentiment"];
+    emit(suburb, sentiment);
   }
-  emit(coordinates, sentiment);
-}
 
+
+}
 //reduce
 function(keys, values, rereduce) {
     if (!rereduce){
