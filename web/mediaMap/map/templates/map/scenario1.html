@@ -24,3 +24,11 @@
         </div>
     </div>
 {% endblock content %}
+
+{% block content-js %}
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6Z479QhF3vXmksr0WsN6PtYGkDaYIoxA"></script>
+<script src="{% static 'map/js/echarts.js' %}"></script>
+<script src="{% static 'map/js/scenario1.js' %}"></script>
+
+{% endblock content-js %}

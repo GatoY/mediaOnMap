@@ -2,7 +2,7 @@ $(function () {
 
     function initMap() {
         var location = {lat: -37.8136, lng: 144.99758596};
-        var mapCanvas = document.getElementById("map");
+        var mapCanvas = document.getElementById('map');
         var mapOptions = {
             center: location,
             zoom: 10,
@@ -202,41 +202,41 @@ $(function () {
     google.maps.event.addDomListener(window, 'load', initMap);
 
 
-    var chart1 = echarts.init(document.getElementById('chart1'), 'light').setOption({
-        title: {
-            text: 'ECharts demo'
-        },
-        tooltip: {},
-        legend: {
-            data: ['销量', '哈哈']
-        },
-        xAxis: {
-            data: ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"]
-        },
-        yAxis: {},
-        series: [{
-            name: '销量',
-            type: 'bar',
-            data: [5, 20, 36, 10, 10, 20]
-        }, {
-            name: '哈哈',
-            type: 'bar',
-            data: [5, 20, 36, 10, 10, 20]
-        }]
-    });
-
-    var chart2 = echarts.init(document.getElementById('chart2')).setOption({
-        xAxis: {
-            type: 'category',
-            data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-        },
-        yAxis: {
-            type: 'value'
-        },
-        series: [{
-            data: [820, 932, 901, 934, 1290, 1330, 1320],
-            type: 'line'
-        }]
-    });
+    // var chart1 = echarts.init(document.getElementById('chart1'), 'light').setOption({
+    //     title: {
+    //         text: 'ECharts demo'
+    //     },
+    //     tooltip: {},
+    //     legend: {
+    //         data: ['销量', '哈哈']
+    //     },
+    //     xAxis: {
+    //         data: ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"]
+    //     },
+    //     yAxis: {},
+    //     series: [{
+    //         name: '销量',
+    //         type: 'bar',
+    //         data: [5, 20, 36, 10, 10, 20]
+    //     }, {
+    //         name: '哈哈',
+    //         type: 'bar',
+    //         data: [5, 20, 36, 10, 10, 20]
+    //     }]
+    // });
+    //
+    // var chart2 = echarts.init(document.getElementById('chart2')).setOption({
+    //     xAxis: {
+    //         type: 'category',
+    //         data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+    //     },
+    //     yAxis: {
+    //         type: 'value'
+    //     },
+    //     series: [{
+    //         data: [820, 932, 901, 934, 1290, 1330, 1320],
+    //         type: 'line'
+    //     }]
+    // });
 
 });

@@ -1,0 +1,6306 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    144.4667829,
+    -38.463002,
+    145.6252533,
+    -37.41228824
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4283"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9903389,
+          -37.87219174
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 22.0,
+        "gid": 1,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9903389,
+        "lat": -37.87219174
+      },
+      "id": "vcglr_gaming_venues_2015_2017.1"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9723853,
+          -37.76605089
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 54.0,
+        "gid": 2,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9723853,
+        "lat": -37.76605089
+      },
+      "id": "vcglr_gaming_venues_2015_2017.2"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.142603,
+          -38.009523
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 77.0,
+        "gid": 3,
+        "exp_q1_2_4": 0.0,
+        "long": 145.142603,
+        "lat": -38.009523
+      },
+      "id": "vcglr_gaming_venues_2015_2017.3"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.990351,
+          -37.77713622
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 50.0,
+        "gid": 4,
+        "exp_q1_2_4": 0.0,
+        "long": 144.990351,
+        "lat": -37.77713622
+      },
+      "id": "vcglr_gaming_venues_2015_2017.4"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2135486,
+          -37.98588378
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 24.0,
+        "gid": 5,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2135486,
+        "lat": -37.98588378
+      },
+      "id": "vcglr_gaming_venues_2015_2017.5"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8324823,
+          -37.86423673
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 37.0,
+        "gid": 8,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8324823,
+        "lat": -37.86423673
+      },
+      "id": "vcglr_gaming_venues_2015_2017.8"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8288382,
+          -37.86747514
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 58.0,
+        "gid": 9,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8288382,
+        "lat": -37.86747514
+      },
+      "id": "vcglr_gaming_venues_2015_2017.9"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8493026,
+          -37.86407882
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 83.0,
+        "gid": 10,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8493026,
+        "lat": -37.86407882
+      },
+      "id": "vcglr_gaming_venues_2015_2017.10"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2580308,
+          -38.11120347
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 80.0,
+        "gid": 12,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2580308,
+        "lat": -38.11120347
+      },
+      "id": "vcglr_gaming_venues_2015_2017.12"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0279581,
+          -37.86588199
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 45.0,
+        "gid": 13,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0279581,
+        "lat": -37.86588199
+      },
+      "id": "vcglr_gaming_venues_2015_2017.13"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.864864,
+          -37.780386
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 50.0,
+        "gid": 16,
+        "exp_q1_2_4": 0.0,
+        "long": 144.864864,
+        "lat": -37.780386
+      },
+      "id": "vcglr_gaming_venues_2015_2017.16"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9970473,
+          -37.80993341
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 32.0,
+        "gid": 24,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9970473,
+        "lat": -37.80993341
+      },
+      "id": "vcglr_gaming_venues_2015_2017.24"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9910213,
+          -37.86867796
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 45.0,
+        "gid": 25,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9910213,
+        "lat": -37.86867796
+      },
+      "id": "vcglr_gaming_venues_2015_2017.25"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.4930429,
+          -38.28265624
+        ]
+      },
+      "properties": {
+        "region": "Barwon South-West",
+        "egm_no_e_1": 29.0,
+        "gid": 29,
+        "exp_q1_2_4": 0.0,
+        "long": 144.4930429,
+        "lat": -38.28265624
+      },
+      "id": "vcglr_gaming_venues_2015_2017.29"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9545678,
+          -37.81920519
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 22.0,
+        "gid": 30,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9545678,
+        "lat": -37.81920519
+      },
+      "id": "vcglr_gaming_venues_2015_2017.30"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1608375,
+          -38.19596332
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 30.0,
+        "gid": 31,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1608375,
+        "lat": -38.19596332
+      },
+      "id": "vcglr_gaming_venues_2015_2017.31"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.268951,
+          -37.840805
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 79.0,
+        "gid": 32,
+        "exp_q1_2_4": 0.0,
+        "long": 145.268951,
+        "lat": -37.840805
+      },
+      "id": "vcglr_gaming_venues_2015_2017.32"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.028755,
+          -37.977954
+        ]
+      },
+      "properties": {
+        "region": "Hume",
+        "egm_no_e_1": 0.0,
+        "gid": 33,
+        "exp_q1_2_4": 0.0,
+        "long": 145.028755,
+        "lat": -37.977954
+      },
+      "id": "vcglr_gaming_venues_2015_2017.33"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9626262,
+          -37.83092097
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 40.0,
+        "gid": 35,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9626262,
+        "lat": -37.83092097
+      },
+      "id": "vcglr_gaming_venues_2015_2017.35"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0271796,
+          -37.91318337
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 80.0,
+        "gid": 40,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0271796,
+        "lat": -37.91318337
+      },
+      "id": "vcglr_gaming_venues_2015_2017.40"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.042673,
+          -37.919278
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 90.0,
+        "gid": 41,
+        "exp_q1_2_4": 0.0,
+        "long": 145.042673,
+        "lat": -37.919278
+      },
+      "id": "vcglr_gaming_venues_2015_2017.41"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3451156,
+          -38.03053475
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 63.0,
+        "gid": 42,
+        "exp_q1_2_4": 0.0,
+        "long": 145.3451156,
+        "lat": -38.03053475
+      },
+      "id": "vcglr_gaming_venues_2015_2017.42"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3371551,
+          -38.05875598
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 94.0,
+        "gid": 44,
+        "exp_q1_2_4": 0.0,
+        "long": 145.3371551,
+        "lat": -38.05875598
+      },
+      "id": "vcglr_gaming_venues_2015_2017.44"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.151739,
+          -37.81686535
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 66.0,
+        "gid": 46,
+        "exp_q1_2_4": 0.0,
+        "long": 145.151739,
+        "lat": -37.81686535
+      },
+      "id": "vcglr_gaming_venues_2015_2017.46"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.05878,
+          -37.921308
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 75.0,
+        "gid": 49,
+        "exp_q1_2_4": 0.0,
+        "long": 145.05878,
+        "lat": -37.921308
+      },
+      "id": "vcglr_gaming_venues_2015_2017.49"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9692226,
+          -37.81200181
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 100.0,
+        "gid": 50,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9692226,
+        "lat": -37.81200181
+      },
+      "id": "vcglr_gaming_venues_2015_2017.50"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1220187,
+          -37.83969454
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 39.0,
+        "gid": 51,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1220187,
+        "lat": -37.83969454
+      },
+      "id": "vcglr_gaming_venues_2015_2017.51"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1196207,
+          -37.8156829
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 103.0,
+        "gid": 52,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1196207,
+        "lat": -37.8156829
+      },
+      "id": "vcglr_gaming_venues_2015_2017.52"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8484491,
+          -37.77974392
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 45.0,
+        "gid": 53,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8484491,
+        "lat": -37.77974392
+      },
+      "id": "vcglr_gaming_venues_2015_2017.53"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.095246,
+          -37.600723
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 60.0,
+        "gid": 54,
+        "exp_q1_2_4": 0.0,
+        "long": 145.095246,
+        "lat": -37.600723
+      },
+      "id": "vcglr_gaming_venues_2015_2017.54"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9098564,
+          -37.69105401
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 55.0,
+        "gid": 55,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9098564,
+        "lat": -37.69105401
+      },
+      "id": "vcglr_gaming_venues_2015_2017.55"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9667551,
+          -37.74154154
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 35.0,
+        "gid": 56,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9667551,
+        "lat": -37.74154154
+      },
+      "id": "vcglr_gaming_venues_2015_2017.56"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.062779,
+          -37.697066
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 20.0,
+        "gid": 57,
+        "exp_q1_2_4": 0.0,
+        "long": 145.062779,
+        "lat": -37.697066
+      },
+      "id": "vcglr_gaming_venues_2015_2017.57"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.058701,
+          -37.695687
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 96.0,
+        "gid": 58,
+        "exp_q1_2_4": 0.0,
+        "long": 145.058701,
+        "lat": -37.695687
+      },
+      "id": "vcglr_gaming_venues_2015_2017.58"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.170806,
+          -37.853529
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 73.0,
+        "gid": 59,
+        "exp_q1_2_4": 0.0,
+        "long": 145.170806,
+        "lat": -37.853529
+      },
+      "id": "vcglr_gaming_venues_2015_2017.59"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4931833,
+          -38.07705604
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 88.0,
+        "gid": 60,
+        "exp_q1_2_4": 0.0,
+        "long": 145.4931833,
+        "lat": -38.07705604
+      },
+      "id": "vcglr_gaming_venues_2015_2017.60"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.378651,
+          -38.02857
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 40.0,
+        "gid": 61,
+        "exp_q1_2_4": 0.0,
+        "long": 145.378651,
+        "lat": -38.02857
+      },
+      "id": "vcglr_gaming_venues_2015_2017.61"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0196024,
+          -37.63810414
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 75.0,
+        "gid": 62,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0196024,
+        "lat": -37.63810414
+      },
+      "id": "vcglr_gaming_venues_2015_2017.62"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.039481,
+          -37.877525
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 105.0,
+        "gid": 63,
+        "exp_q1_2_4": 0.0,
+        "long": 145.039481,
+        "lat": -37.877525
+      },
+      "id": "vcglr_gaming_venues_2015_2017.63"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0032967,
+          -37.88399492
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 52.0,
+        "gid": 64,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0032967,
+        "lat": -37.88399492
+      },
+      "id": "vcglr_gaming_venues_2015_2017.64"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9593425,
+          -37.81109787
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 41.0,
+        "gid": 65,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9593425,
+        "lat": -37.81109787
+      },
+      "id": "vcglr_gaming_venues_2015_2017.65"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1643728,
+          -37.88135975
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 65.0,
+        "gid": 66,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1643728,
+        "lat": -37.88135975
+      },
+      "id": "vcglr_gaming_venues_2015_2017.66"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.13317,
+          -38.027454
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 40.0,
+        "gid": 68,
+        "exp_q1_2_4": 0.0,
+        "long": 145.13317,
+        "lat": -38.027454
+      },
+      "id": "vcglr_gaming_venues_2015_2017.68"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.089395,
+          -37.969096
+        ]
+      },
+      "properties": {
+        "region": null,
+        "egm_no_e_1": 41.0,
+        "gid": 69,
+        "exp_q1_2_4": 0.0,
+        "long": 145.089395,
+        "lat": -37.969096
+      },
+      "id": "vcglr_gaming_venues_2015_2017.69"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.171311,
+          -37.763437
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 50.0,
+        "gid": 70,
+        "exp_q1_2_4": 0.0,
+        "long": 145.171311,
+        "lat": -37.763437
+      },
+      "id": "vcglr_gaming_venues_2015_2017.70"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3254515,
+          -37.75002463
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 37.0,
+        "gid": 71,
+        "exp_q1_2_4": 0.0,
+        "long": 145.3254515,
+        "lat": -37.75002463
+      },
+      "id": "vcglr_gaming_venues_2015_2017.71"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.111143,
+          -37.932177
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 29.0,
+        "gid": 75,
+        "exp_q1_2_4": 0.0,
+        "long": 145.111143,
+        "lat": -37.932177
+      },
+      "id": "vcglr_gaming_venues_2015_2017.75"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1226123,
+          -37.92537699
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 71.0,
+        "gid": 76,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1226123,
+        "lat": -37.92537699
+      },
+      "id": "vcglr_gaming_venues_2015_2017.76"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5638457,
+          -38.15411276
+        ]
+      },
+      "properties": {
+        "region": "Barwon South-West",
+        "egm_no_e_1": 40.0,
+        "gid": 77,
+        "exp_q1_2_4": 0.0,
+        "long": 144.5638457,
+        "lat": -38.15411276
+      },
+      "id": "vcglr_gaming_venues_2015_2017.77"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9678321,
+          -37.8185304
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 100.0,
+        "gid": 78,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9678321,
+        "lat": -37.8185304
+      },
+      "id": "vcglr_gaming_venues_2015_2017.78"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.029312,
+          -37.820496
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 0.0,
+        "gid": 79,
+        "exp_q1_2_4": 0.0,
+        "long": 145.029312,
+        "lat": -37.820496
+      },
+      "id": "vcglr_gaming_venues_2015_2017.79"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2761196,
+          -37.88268651
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 40.0,
+        "gid": 81,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2761196,
+        "lat": -37.88268651
+      },
+      "id": "vcglr_gaming_venues_2015_2017.81"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8187526,
+          -37.76051095
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 60.0,
+        "gid": 82,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8187526,
+        "lat": -37.76051095
+      },
+      "id": "vcglr_gaming_venues_2015_2017.82"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.302911,
+          -37.822652
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 105.0,
+        "gid": 83,
+        "exp_q1_2_4": 0.0,
+        "long": 145.302911,
+        "lat": -37.822652
+      },
+      "id": "vcglr_gaming_venues_2015_2017.83"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.761801,
+          -37.868158
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 60.0,
+        "gid": 84,
+        "exp_q1_2_4": 0.0,
+        "long": 144.761801,
+        "lat": -37.868158
+      },
+      "id": "vcglr_gaming_venues_2015_2017.84"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9012106,
+          -37.79953119
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 25.0,
+        "gid": 85,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9012106,
+        "lat": -37.79953119
+      },
+      "id": "vcglr_gaming_venues_2015_2017.85"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2537793,
+          -37.79732123
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 82.0,
+        "gid": 86,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2537793,
+        "lat": -37.79732123
+      },
+      "id": "vcglr_gaming_venues_2015_2017.86"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.004481,
+          -37.858994
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 18.0,
+        "gid": 87,
+        "exp_q1_2_4": 0.0,
+        "long": 145.004481,
+        "lat": -37.858994
+      },
+      "id": "vcglr_gaming_venues_2015_2017.87"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6604748,
+          -37.90216538
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 75.0,
+        "gid": 94,
+        "exp_q1_2_4": 0.0,
+        "long": 144.6604748,
+        "lat": -37.90216538
+      },
+      "id": "vcglr_gaming_venues_2015_2017.94"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9424509,
+          -37.6654718
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 47.0,
+        "gid": 95,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9424509,
+        "lat": -37.6654718
+      },
+      "id": "vcglr_gaming_venues_2015_2017.95"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.962433,
+          -37.76262429
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 0.0,
+        "gid": 98,
+        "exp_q1_2_4": 0.0,
+        "long": 144.962433,
+        "lat": -37.76262429
+      },
+      "id": "vcglr_gaming_venues_2015_2017.98"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.89895,
+          -37.801971
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 21.0,
+        "gid": 99,
+        "exp_q1_2_4": 0.0,
+        "long": 144.89895,
+        "lat": -37.801971
+      },
+      "id": "vcglr_gaming_venues_2015_2017.99"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.993966,
+          -37.849136
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 48.0,
+        "gid": 100,
+        "exp_q1_2_4": 0.0,
+        "long": 144.993966,
+        "lat": -37.849136
+      },
+      "id": "vcglr_gaming_venues_2015_2017.100"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9202718,
+          -37.59897263
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 70.0,
+        "gid": 101,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9202718,
+        "lat": -37.59897263
+      },
+      "id": "vcglr_gaming_venues_2015_2017.101"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0026096,
+          -37.74082529
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 79.0,
+        "gid": 103,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0026096,
+        "lat": -37.74082529
+      },
+      "id": "vcglr_gaming_venues_2015_2017.103"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.287353,
+          -38.117525
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 50.0,
+        "gid": 104,
+        "exp_q1_2_4": 0.0,
+        "long": 145.287353,
+        "lat": -38.117525
+      },
+      "id": "vcglr_gaming_venues_2015_2017.104"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9280614,
+          -37.74413755
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 40.0,
+        "gid": 105,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9280614,
+        "lat": -37.74413755
+      },
+      "id": "vcglr_gaming_venues_2015_2017.105"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.352492,
+          -37.75706633
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 68.0,
+        "gid": 106,
+        "exp_q1_2_4": 0.0,
+        "long": 145.352492,
+        "lat": -37.75706633
+      },
+      "id": "vcglr_gaming_venues_2015_2017.106"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.999585,
+          -37.762455
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 54.0,
+        "gid": 107,
+        "exp_q1_2_4": 0.0,
+        "long": 144.999585,
+        "lat": -37.762455
+      },
+      "id": "vcglr_gaming_venues_2015_2017.107"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.262504,
+          -37.790238
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 105.0,
+        "gid": 108,
+        "exp_q1_2_4": 0.0,
+        "long": 145.262504,
+        "lat": -37.790238
+      },
+      "id": "vcglr_gaming_venues_2015_2017.108"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.224983,
+          -37.97056
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 103.0,
+        "gid": 110,
+        "exp_q1_2_4": 0.0,
+        "long": 145.224983,
+        "lat": -37.97056
+      },
+      "id": "vcglr_gaming_venues_2015_2017.110"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.219655,
+          -37.985754
+        ]
+      },
+      "properties": {
+        "region": "Hume",
+        "egm_no_e_1": 63.0,
+        "gid": 111,
+        "exp_q1_2_4": 0.0,
+        "long": 145.219655,
+        "lat": -37.985754
+      },
+      "id": "vcglr_gaming_venues_2015_2017.111"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.226263,
+          -37.991468
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 77.0,
+        "gid": 112,
+        "exp_q1_2_4": 0.0,
+        "long": 145.226263,
+        "lat": -37.991468
+      },
+      "id": "vcglr_gaming_venues_2015_2017.112"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.998726,
+          -37.744399
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 65.0,
+        "gid": 113,
+        "exp_q1_2_4": 0.0,
+        "long": 144.998726,
+        "lat": -37.744399
+      },
+      "id": "vcglr_gaming_venues_2015_2017.113"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.031564,
+          -38.244866
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 32.0,
+        "gid": 114,
+        "exp_q1_2_4": 0.0,
+        "long": 145.031564,
+        "lat": -38.244866
+      },
+      "id": "vcglr_gaming_venues_2015_2017.114"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7807051,
+          -37.76999827
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 73.0,
+        "gid": 116,
+        "exp_q1_2_4": 0.0,
+        "long": 144.7807051,
+        "lat": -37.76999827
+      },
+      "id": "vcglr_gaming_venues_2015_2017.116"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7879677,
+          -37.77064204
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 74.0,
+        "gid": 117,
+        "exp_q1_2_4": 0.0,
+        "long": 144.7879677,
+        "lat": -37.77064204
+      },
+      "id": "vcglr_gaming_venues_2015_2017.117"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8303804,
+          -37.78809919
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 55.0,
+        "gid": 118,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8303804,
+        "lat": -37.78809919
+      },
+      "id": "vcglr_gaming_venues_2015_2017.118"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1560993,
+          -37.67347877
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 40.0,
+        "gid": 119,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1560993,
+        "lat": -37.67347877
+      },
+      "id": "vcglr_gaming_venues_2015_2017.119"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9912491,
+          -37.86453345
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 40.0,
+        "gid": 120,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9912491,
+        "lat": -37.86453345
+      },
+      "id": "vcglr_gaming_venues_2015_2017.120"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1115831,
+          -37.9793612
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 90.0,
+        "gid": 121,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1115831,
+        "lat": -37.9793612
+      },
+      "id": "vcglr_gaming_venues_2015_2017.121"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1432769,
+          -37.78660182
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 85.0,
+        "gid": 122,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1432769,
+        "lat": -37.78660182
+      },
+      "id": "vcglr_gaming_venues_2015_2017.122"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2907043,
+          -37.80300392
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 97.0,
+        "gid": 123,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2907043,
+        "lat": -37.80300392
+      },
+      "id": "vcglr_gaming_venues_2015_2017.123"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9676372,
+          -38.33145745
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 41.0,
+        "gid": 124,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9676372,
+        "lat": -38.33145745
+      },
+      "id": "vcglr_gaming_venues_2015_2017.124"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.966303,
+          -37.73748677
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 75.0,
+        "gid": 125,
+        "exp_q1_2_4": 0.0,
+        "long": 144.966303,
+        "lat": -37.73748677
+      },
+      "id": "vcglr_gaming_venues_2015_2017.125"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9623169,
+          -37.76776009
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 50.0,
+        "gid": 126,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9623169,
+        "lat": -37.76776009
+      },
+      "id": "vcglr_gaming_venues_2015_2017.126"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.066833,
+          -37.871423
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 25.0,
+        "gid": 127,
+        "exp_q1_2_4": 0.0,
+        "long": 145.066833,
+        "lat": -37.871423
+      },
+      "id": "vcglr_gaming_venues_2015_2017.127"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3148001,
+          -37.83546949
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 19.0,
+        "gid": 128,
+        "exp_q1_2_4": 0.0,
+        "long": 145.3148001,
+        "lat": -37.83546949
+      },
+      "id": "vcglr_gaming_venues_2015_2017.128"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.116669,
+          -38.050571
+        ]
+      },
+      "properties": {
+        "region": "Hume",
+        "egm_no_e_1": 80.0,
+        "gid": 131,
+        "exp_q1_2_4": 0.0,
+        "long": 145.116669,
+        "lat": -38.050571
+      },
+      "id": "vcglr_gaming_venues_2015_2017.131"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9894515,
+          -37.71550576
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 100.0,
+        "gid": 132,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9894515,
+        "lat": -37.71550576
+      },
+      "id": "vcglr_gaming_venues_2015_2017.132"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9959076,
+          -37.88318401
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 28.0,
+        "gid": 134,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9959076,
+        "lat": -37.88318401
+      },
+      "id": "vcglr_gaming_venues_2015_2017.134"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1465563,
+          -37.72136347
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 40.0,
+        "gid": 135,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1465563,
+        "lat": -37.72136347
+      },
+      "id": "vcglr_gaming_venues_2015_2017.135"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0244783,
+          -37.64927644
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 40.0,
+        "gid": 136,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0244783,
+        "lat": -37.64927644
+      },
+      "id": "vcglr_gaming_venues_2015_2017.136"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.142349,
+          -38.000708
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 30.0,
+        "gid": 137,
+        "exp_q1_2_4": 0.0,
+        "long": 145.142349,
+        "lat": -38.000708
+      },
+      "id": "vcglr_gaming_venues_2015_2017.137"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.018587,
+          -37.653902
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 100.0,
+        "gid": 138,
+        "exp_q1_2_4": 0.0,
+        "long": 145.018587,
+        "lat": -37.653902
+      },
+      "id": "vcglr_gaming_venues_2015_2017.138"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.020381,
+          -37.623816
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 45.0,
+        "gid": 139,
+        "exp_q1_2_4": 0.0,
+        "long": 145.020381,
+        "lat": -37.623816
+      },
+      "id": "vcglr_gaming_venues_2015_2017.139"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.663354,
+          -38.265786
+        ]
+      },
+      "properties": {
+        "region": "Hume",
+        "egm_no_e_1": 0.0,
+        "gid": 140,
+        "exp_q1_2_4": 0.0,
+        "long": 144.663354,
+        "lat": -38.265786
+      },
+      "id": "vcglr_gaming_venues_2015_2017.140"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.919045,
+          -37.751116
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 100.0,
+        "gid": 141,
+        "exp_q1_2_4": 0.0,
+        "long": 144.919045,
+        "lat": -37.751116
+      },
+      "id": "vcglr_gaming_venues_2015_2017.141"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.000656,
+          -37.692384
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 89.0,
+        "gid": 142,
+        "exp_q1_2_4": 0.0,
+        "long": 145.000656,
+        "lat": -37.692384
+      },
+      "id": "vcglr_gaming_venues_2015_2017.142"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.016376,
+          -37.77993
+        ]
+      },
+      "properties": {
+        "region": "Hume",
+        "egm_no_e_1": 30.0,
+        "gid": 143,
+        "exp_q1_2_4": 0.0,
+        "long": 145.016376,
+        "lat": -37.77993
+      },
+      "id": "vcglr_gaming_venues_2015_2017.143"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9634774,
+          -37.71523034
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 35.0,
+        "gid": 145,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9634774,
+        "lat": -37.71523034
+      },
+      "id": "vcglr_gaming_venues_2015_2017.145"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.286525,
+          -37.890012
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 34.0,
+        "gid": 146,
+        "exp_q1_2_4": 0.0,
+        "long": 145.286525,
+        "lat": -37.890012
+      },
+      "id": "vcglr_gaming_venues_2015_2017.146"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2970611,
+          -37.88903351
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 49.0,
+        "gid": 147,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2970611,
+        "lat": -37.88903351
+      },
+      "id": "vcglr_gaming_venues_2015_2017.147"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9624547,
+          -37.71892429
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 64.0,
+        "gid": 148,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9624547,
+        "lat": -37.71892429
+      },
+      "id": "vcglr_gaming_venues_2015_2017.148"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.919469,
+          -37.786421
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 0.0,
+        "gid": 149,
+        "exp_q1_2_4": 0.0,
+        "long": 144.919469,
+        "lat": -37.786421
+      },
+      "id": "vcglr_gaming_venues_2015_2017.149"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.091408,
+          -37.89287985
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 46.0,
+        "gid": 151,
+        "exp_q1_2_4": 0.0,
+        "long": 145.091408,
+        "lat": -37.89287985
+      },
+      "id": "vcglr_gaming_venues_2015_2017.151"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30273,
+          -38.018648
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 83.0,
+        "gid": 153,
+        "exp_q1_2_4": 0.0,
+        "long": 145.30273,
+        "lat": -38.018648
+      },
+      "id": "vcglr_gaming_venues_2015_2017.153"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.121317,
+          -38.147449
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 0.0,
+        "gid": 154,
+        "exp_q1_2_4": 0.0,
+        "long": 145.121317,
+        "lat": -38.147449
+      },
+      "id": "vcglr_gaming_venues_2015_2017.154"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1479637,
+          -38.15075701
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 82.0,
+        "gid": 155,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1479637,
+        "lat": -38.15075701
+      },
+      "id": "vcglr_gaming_venues_2015_2017.155"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0280315,
+          -37.75749106
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 30.0,
+        "gid": 156,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0280315,
+        "lat": -37.75749106
+      },
+      "id": "vcglr_gaming_venues_2015_2017.156"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8831021,
+          -37.6876069
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 86.0,
+        "gid": 163,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8831021,
+        "lat": -37.6876069
+      },
+      "id": "vcglr_gaming_venues_2015_2017.163"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.802682,
+          -37.7866152
+        ]
+      },
+      "properties": {
+        "region": "Hume",
+        "egm_no_e_1": 50.0,
+        "gid": 164,
+        "exp_q1_2_4": 0.0,
+        "long": 144.802682,
+        "lat": -37.7866152
+      },
+      "id": "vcglr_gaming_venues_2015_2017.164"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9195928,
+          -37.70520736
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 40.0,
+        "gid": 165,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9195928,
+        "lat": -37.70520736
+      },
+      "id": "vcglr_gaming_venues_2015_2017.165"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5852672,
+          -37.68334178
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 45.0,
+        "gid": 166,
+        "exp_q1_2_4": 0.0,
+        "long": 144.5852672,
+        "lat": -37.68334178
+      },
+      "id": "vcglr_gaming_venues_2015_2017.166"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.968769,
+          -37.81046999
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 60.0,
+        "gid": 167,
+        "exp_q1_2_4": 0.0,
+        "long": 144.968769,
+        "lat": -37.81046999
+      },
+      "id": "vcglr_gaming_venues_2015_2017.167"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1205752,
+          -38.14520216
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 64.0,
+        "gid": 172,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1205752,
+        "lat": -38.14520216
+      },
+      "id": "vcglr_gaming_venues_2015_2017.172"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0390517,
+          -38.21975616
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 70.0,
+        "gid": 173,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0390517,
+        "lat": -38.21975616
+      },
+      "id": "vcglr_gaming_venues_2015_2017.173"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8179324,
+          -37.72410801
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 69.0,
+        "gid": 177,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8179324,
+        "lat": -37.72410801
+      },
+      "id": "vcglr_gaming_venues_2015_2017.177"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1046735,
+          -37.7027558
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 30.0,
+        "gid": 178,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1046735,
+        "lat": -37.7027558
+      },
+      "id": "vcglr_gaming_venues_2015_2017.178"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.105831,
+          -37.702044
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 77.0,
+        "gid": 179,
+        "exp_q1_2_4": 0.0,
+        "long": 145.105831,
+        "lat": -37.702044
+      },
+      "id": "vcglr_gaming_venues_2015_2017.179"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.160137,
+          -37.957302
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 93.0,
+        "gid": 180,
+        "exp_q1_2_4": 0.0,
+        "long": 145.160137,
+        "lat": -37.957302
+      },
+      "id": "vcglr_gaming_venues_2015_2017.180"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2727027,
+          -38.0066659
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 80.0,
+        "gid": 182,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2727027,
+        "lat": -38.0066659
+      },
+      "id": "vcglr_gaming_venues_2015_2017.182"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.015056,
+          -37.937566
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 30.0,
+        "gid": 183,
+        "exp_q1_2_4": 0.0,
+        "long": 145.015056,
+        "lat": -37.937566
+      },
+      "id": "vcglr_gaming_venues_2015_2017.183"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2668802,
+          -38.03442742
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 73.0,
+        "gid": 184,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2668802,
+        "lat": -38.03442742
+      },
+      "id": "vcglr_gaming_venues_2015_2017.184"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0514383,
+          -37.79911033
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 47.0,
+        "gid": 185,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0514383,
+        "lat": -37.79911033
+      },
+      "id": "vcglr_gaming_venues_2015_2017.185"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1870002,
+          -38.29663696
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 50.0,
+        "gid": 186,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1870002,
+        "lat": -38.29663696
+      },
+      "id": "vcglr_gaming_venues_2015_2017.186"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.5212045,
+          -37.65183891
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 50.0,
+        "gid": 187,
+        "exp_q1_2_4": 0.0,
+        "long": 145.5212045,
+        "lat": -37.65183891
+      },
+      "id": "vcglr_gaming_venues_2015_2017.187"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0432355,
+          -37.94993776
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 41.0,
+        "gid": 188,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0432355,
+        "lat": -37.94993776
+      },
+      "id": "vcglr_gaming_venues_2015_2017.188"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.920111,
+          -37.575709
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 60.0,
+        "gid": 189,
+        "exp_q1_2_4": 0.0,
+        "long": 144.920111,
+        "lat": -37.575709
+      },
+      "id": "vcglr_gaming_venues_2015_2017.189"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8883049,
+          -37.77312012
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 62.0,
+        "gid": 190,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8883049,
+        "lat": -37.77312012
+      },
+      "id": "vcglr_gaming_venues_2015_2017.190"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.171605,
+          -37.947569
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 90.0,
+        "gid": 191,
+        "exp_q1_2_4": 0.0,
+        "long": 145.171605,
+        "lat": -37.947569
+      },
+      "id": "vcglr_gaming_venues_2015_2017.191"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9803429,
+          -37.41228824
+        ]
+      },
+      "properties": {
+        "region": "Hume",
+        "egm_no_e_1": 45.0,
+        "gid": 193,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9803429,
+        "lat": -37.41228824
+      },
+      "id": "vcglr_gaming_venues_2015_2017.193"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6924466,
+          -37.86927556
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 91.0,
+        "gid": 194,
+        "exp_q1_2_4": 0.0,
+        "long": 144.6924466,
+        "lat": -37.86927556
+      },
+      "id": "vcglr_gaming_venues_2015_2017.194"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6949961,
+          -37.8638635
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 55.0,
+        "gid": 195,
+        "exp_q1_2_4": 0.0,
+        "long": 144.6949961,
+        "lat": -37.8638635
+      },
+      "id": "vcglr_gaming_venues_2015_2017.195"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.69118977,
+          -37.8486271
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 65.0,
+        "gid": 198,
+        "exp_q1_2_4": 0.0,
+        "long": 144.69118977,
+        "lat": -37.8486271
+      },
+      "id": "vcglr_gaming_venues_2015_2017.198"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6475971,
+          -37.8840186
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 70.0,
+        "gid": 200,
+        "exp_q1_2_4": 0.0,
+        "long": 144.6475971,
+        "lat": -37.8840186
+      },
+      "id": "vcglr_gaming_venues_2015_2017.200"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0418836,
+          -37.76938053
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 100.0,
+        "gid": 201,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0418836,
+        "lat": -37.76938053
+      },
+      "id": "vcglr_gaming_venues_2015_2017.201"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0021561,
+          -37.75109703
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 46.0,
+        "gid": 203,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0021561,
+        "lat": -37.75109703
+      },
+      "id": "vcglr_gaming_venues_2015_2017.203"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1564917,
+          -38.13723325
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 29.0,
+        "gid": 205,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1564917,
+        "lat": -38.13723325
+      },
+      "id": "vcglr_gaming_venues_2015_2017.205"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8288838,
+          -37.74710052
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 86.0,
+        "gid": 206,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8288838,
+        "lat": -37.74710052
+      },
+      "id": "vcglr_gaming_venues_2015_2017.206"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8901511,
+          -37.75248838
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 25.0,
+        "gid": 207,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8901511,
+        "lat": -37.75248838
+      },
+      "id": "vcglr_gaming_venues_2015_2017.207"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.836292,
+          -37.719642
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 50.0,
+        "gid": 208,
+        "exp_q1_2_4": 0.0,
+        "long": 144.836292,
+        "lat": -37.719642
+      },
+      "id": "vcglr_gaming_venues_2015_2017.208"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.162111,
+          -37.992108
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 89.0,
+        "gid": 210,
+        "exp_q1_2_4": 0.0,
+        "long": 145.162111,
+        "lat": -37.992108
+      },
+      "id": "vcglr_gaming_venues_2015_2017.210"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1841482,
+          -38.29889332
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 33.0,
+        "gid": 212,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1841482,
+        "lat": -38.29889332
+      },
+      "id": "vcglr_gaming_venues_2015_2017.212"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.034095,
+          -38.218217
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 40.0,
+        "gid": 213,
+        "exp_q1_2_4": 0.0,
+        "long": 145.034095,
+        "lat": -38.218217
+      },
+      "id": "vcglr_gaming_venues_2015_2017.213"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.243874,
+          -37.853503
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 100.0,
+        "gid": 214,
+        "exp_q1_2_4": 0.0,
+        "long": 145.243874,
+        "lat": -37.853503
+      },
+      "id": "vcglr_gaming_venues_2015_2017.214"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2442497,
+          -37.8707641
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 73.0,
+        "gid": 215,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2442497,
+        "lat": -37.8707641
+      },
+      "id": "vcglr_gaming_venues_2015_2017.215"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8125305,
+          -37.8737296
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 61.0,
+        "gid": 216,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8125305,
+        "lat": -37.8737296
+      },
+      "id": "vcglr_gaming_venues_2015_2017.216"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.021908,
+          -37.66703
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 36.0,
+        "gid": 224,
+        "exp_q1_2_4": 0.0,
+        "long": 145.021908,
+        "lat": -37.66703
+      },
+      "id": "vcglr_gaming_venues_2015_2017.224"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.195024,
+          -38.151997
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 52.0,
+        "gid": 225,
+        "exp_q1_2_4": 0.0,
+        "long": 145.195024,
+        "lat": -38.151997
+      },
+      "id": "vcglr_gaming_venues_2015_2017.225"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.092915,
+          -37.893028
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 92.0,
+        "gid": 228,
+        "exp_q1_2_4": 0.0,
+        "long": 145.092915,
+        "lat": -37.893028
+      },
+      "id": "vcglr_gaming_venues_2015_2017.228"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.4667829,
+          -38.1772763
+        ]
+      },
+      "properties": {
+        "region": "Barwon South-West",
+        "egm_no_e_1": 35.0,
+        "gid": 230,
+        "exp_q1_2_4": 0.0,
+        "long": 144.4667829,
+        "lat": -38.1772763
+      },
+      "id": "vcglr_gaming_venues_2015_2017.230"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.909832,
+          -37.744569
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 38.0,
+        "gid": 231,
+        "exp_q1_2_4": 0.0,
+        "long": 144.909832,
+        "lat": -37.744569
+      },
+      "id": "vcglr_gaming_venues_2015_2017.231"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0211456,
+          -37.88939896
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 50.0,
+        "gid": 232,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0211456,
+        "lat": -37.88939896
+      },
+      "id": "vcglr_gaming_venues_2015_2017.232"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1149553,
+          -38.05079472
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 49.0,
+        "gid": 233,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1149553,
+        "lat": -38.05079472
+      },
+      "id": "vcglr_gaming_venues_2015_2017.233"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.108377,
+          -37.730511
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 85.0,
+        "gid": 236,
+        "exp_q1_2_4": 0.0,
+        "long": 145.108377,
+        "lat": -37.730511
+      },
+      "id": "vcglr_gaming_venues_2015_2017.236"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1195395,
+          -37.92429894
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 35.0,
+        "gid": 237,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1195395,
+        "lat": -37.92429894
+      },
+      "id": "vcglr_gaming_venues_2015_2017.237"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2514204,
+          -38.04383023
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 55.0,
+        "gid": 238,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2514204,
+        "lat": -38.04383023
+      },
+      "id": "vcglr_gaming_venues_2015_2017.238"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9727613,
+          -37.76208647
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 0.0,
+        "gid": 239,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9727613,
+        "lat": -37.76208647
+      },
+      "id": "vcglr_gaming_venues_2015_2017.239"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.58254,
+          -37.682501
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 82.0,
+        "gid": 240,
+        "exp_q1_2_4": 0.0,
+        "long": 144.58254,
+        "lat": -37.682501
+      },
+      "id": "vcglr_gaming_venues_2015_2017.240"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9534164,
+          -37.816751
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 80.0,
+        "gid": 244,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9534164,
+        "lat": -37.816751
+      },
+      "id": "vcglr_gaming_venues_2015_2017.244"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.037891,
+          -37.85245
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 30.0,
+        "gid": 245,
+        "exp_q1_2_4": 0.0,
+        "long": 145.037891,
+        "lat": -37.85245
+      },
+      "id": "vcglr_gaming_venues_2015_2017.245"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.214541,
+          -37.831051
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 69.0,
+        "gid": 246,
+        "exp_q1_2_4": 0.0,
+        "long": 145.214541,
+        "lat": -37.831051
+      },
+      "id": "vcglr_gaming_venues_2015_2017.246"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0812788,
+          -37.77746948
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 90.0,
+        "gid": 247,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0812788,
+        "lat": -37.77746948
+      },
+      "id": "vcglr_gaming_venues_2015_2017.247"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9911297,
+          -37.91318611
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 40.0,
+        "gid": 249,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9911297,
+        "lat": -37.91318611
+      },
+      "id": "vcglr_gaming_venues_2015_2017.249"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.245368,
+          -37.809049
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 44.0,
+        "gid": 250,
+        "exp_q1_2_4": 0.0,
+        "long": 145.245368,
+        "lat": -37.809049
+      },
+      "id": "vcglr_gaming_venues_2015_2017.250"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0924115,
+          -37.87684168
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 75.0,
+        "gid": 253,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0924115,
+        "lat": -37.87684168
+      },
+      "id": "vcglr_gaming_venues_2015_2017.253"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.042531,
+          -37.91128688
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 45.0,
+        "gid": 255,
+        "exp_q1_2_4": 0.0,
+        "long": 145.042531,
+        "lat": -37.91128688
+      },
+      "id": "vcglr_gaming_venues_2015_2017.255"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.957039,
+          -37.690841
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 70.0,
+        "gid": 256,
+        "exp_q1_2_4": 0.0,
+        "long": 144.957039,
+        "lat": -37.690841
+      },
+      "id": "vcglr_gaming_venues_2015_2017.256"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5924025,
+          -37.68471786
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 90.0,
+        "gid": 257,
+        "exp_q1_2_4": 0.0,
+        "long": 144.5924025,
+        "lat": -37.68471786
+      },
+      "id": "vcglr_gaming_venues_2015_2017.257"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0662534,
+          -37.98956875
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 25.0,
+        "gid": 258,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0662534,
+        "lat": -37.98956875
+      },
+      "id": "vcglr_gaming_venues_2015_2017.258"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9650201,
+          -37.81299177
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 90.0,
+        "gid": 260,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9650201,
+        "lat": -37.81299177
+      },
+      "id": "vcglr_gaming_venues_2015_2017.260"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9877303,
+          -37.9264365
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 48.0,
+        "gid": 262,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9877303,
+        "lat": -37.9264365
+      },
+      "id": "vcglr_gaming_venues_2015_2017.262"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.847169,
+          -37.83511
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 70.0,
+        "gid": 268,
+        "exp_q1_2_4": 0.0,
+        "long": 144.847169,
+        "lat": -37.83511
+      },
+      "id": "vcglr_gaming_venues_2015_2017.268"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1939893,
+          -37.81671439
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 56.0,
+        "gid": 269,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1939893,
+        "lat": -37.81671439
+      },
+      "id": "vcglr_gaming_venues_2015_2017.269"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1377295,
+          -37.91977465
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 44.0,
+        "gid": 274,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1377295,
+        "lat": -37.91977465
+      },
+      "id": "vcglr_gaming_venues_2015_2017.274"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4095292,
+          -37.87401665
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 30.0,
+        "gid": 275,
+        "exp_q1_2_4": 0.0,
+        "long": 145.4095292,
+        "lat": -37.87401665
+      },
+      "id": "vcglr_gaming_venues_2015_2017.275"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.124204,
+          -37.716918
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 50.0,
+        "gid": 276,
+        "exp_q1_2_4": 0.0,
+        "long": 145.124204,
+        "lat": -37.716918
+      },
+      "id": "vcglr_gaming_venues_2015_2017.276"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.92708,
+          -37.766179
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 105.0,
+        "gid": 277,
+        "exp_q1_2_4": 0.0,
+        "long": 144.92708,
+        "lat": -37.766179
+      },
+      "id": "vcglr_gaming_venues_2015_2017.277"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0848266,
+          -38.00532337
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 82.0,
+        "gid": 279,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0848266,
+        "lat": -38.00532337
+      },
+      "id": "vcglr_gaming_venues_2015_2017.279"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9643657,
+          -37.75568699
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 70.0,
+        "gid": 280,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9643657,
+        "lat": -37.75568699
+      },
+      "id": "vcglr_gaming_venues_2015_2017.280"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0480764,
+          -38.22596861
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 23.0,
+        "gid": 281,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0480764,
+        "lat": -38.22596861
+      },
+      "id": "vcglr_gaming_venues_2015_2017.281"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2834585,
+          -38.1114166
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 70.0,
+        "gid": 286,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2834585,
+        "lat": -38.1114166
+      },
+      "id": "vcglr_gaming_venues_2015_2017.286"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1674254,
+          -37.87387739
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 62.0,
+        "gid": 288,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1674254,
+        "lat": -37.87387739
+      },
+      "id": "vcglr_gaming_venues_2015_2017.288"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.185107,
+          -37.9211
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 105.0,
+        "gid": 289,
+        "exp_q1_2_4": 0.0,
+        "long": 145.185107,
+        "lat": -37.9211
+      },
+      "id": "vcglr_gaming_venues_2015_2017.289"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9927226,
+          -37.90453693
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 50.0,
+        "gid": 292,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9927226,
+        "lat": -37.90453693
+      },
+      "id": "vcglr_gaming_venues_2015_2017.292"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9280203,
+          -37.7872965
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 68.0,
+        "gid": 293,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9280203,
+        "lat": -37.7872965
+      },
+      "id": "vcglr_gaming_venues_2015_2017.293"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1681095,
+          -37.97685639
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 50.0,
+        "gid": 294,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1681095,
+        "lat": -37.97685639
+      },
+      "id": "vcglr_gaming_venues_2015_2017.294"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1760505,
+          -37.96558324
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 35.0,
+        "gid": 295,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1760505,
+        "lat": -37.96558324
+      },
+      "id": "vcglr_gaming_venues_2015_2017.295"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9602696,
+          -37.77586861
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 85.0,
+        "gid": 298,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9602696,
+        "lat": -37.77586861
+      },
+      "id": "vcglr_gaming_venues_2015_2017.298"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.088693,
+          -37.899907
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 45.0,
+        "gid": 300,
+        "exp_q1_2_4": 0.0,
+        "long": 145.088693,
+        "lat": -37.899907
+      },
+      "id": "vcglr_gaming_venues_2015_2017.300"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.516686,
+          -38.266423
+        ]
+      },
+      "properties": {
+        "region": "Barwon South-West",
+        "egm_no_e_1": 60.0,
+        "gid": 301,
+        "exp_q1_2_4": 0.0,
+        "long": 144.516686,
+        "lat": -38.266423
+      },
+      "id": "vcglr_gaming_venues_2015_2017.301"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0686607,
+          -37.7581054
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 93.0,
+        "gid": 302,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0686607,
+        "lat": -37.7581054
+      },
+      "id": "vcglr_gaming_venues_2015_2017.302"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3488596,
+          -37.75689675
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 47.0,
+        "gid": 303,
+        "exp_q1_2_4": 0.0,
+        "long": 145.3488596,
+        "lat": -37.75689675
+      },
+      "id": "vcglr_gaming_venues_2015_2017.303"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7281472,
+          -37.58184006
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 43.0,
+        "gid": 304,
+        "exp_q1_2_4": 0.0,
+        "long": 144.7281472,
+        "lat": -37.58184006
+      },
+      "id": "vcglr_gaming_venues_2015_2017.304"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0214461,
+          -37.74649989
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 80.0,
+        "gid": 305,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0214461,
+        "lat": -37.74649989
+      },
+      "id": "vcglr_gaming_venues_2015_2017.305"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.464738,
+          -38.064078
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 70.0,
+        "gid": 307,
+        "exp_q1_2_4": 0.0,
+        "long": 145.464738,
+        "lat": -38.064078
+      },
+      "id": "vcglr_gaming_venues_2015_2017.307"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.433949,
+          -38.075609
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 5.0,
+        "gid": 308,
+        "exp_q1_2_4": 0.0,
+        "long": 145.433949,
+        "lat": -38.075609
+      },
+      "id": "vcglr_gaming_venues_2015_2017.308"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0572499,
+          -37.82622794
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 40.0,
+        "gid": 309,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0572499,
+        "lat": -37.82622794
+      },
+      "id": "vcglr_gaming_venues_2015_2017.309"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9836522,
+          -37.78299211
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 30.0,
+        "gid": 310,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9836522,
+        "lat": -37.78299211
+      },
+      "id": "vcglr_gaming_venues_2015_2017.310"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.938323,
+          -37.734637
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 47.0,
+        "gid": 311,
+        "exp_q1_2_4": 0.0,
+        "long": 144.938323,
+        "lat": -37.734637
+      },
+      "id": "vcglr_gaming_venues_2015_2017.311"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.928462,
+          -37.729612
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 42.0,
+        "gid": 312,
+        "exp_q1_2_4": 0.0,
+        "long": 144.928462,
+        "lat": -37.729612
+      },
+      "id": "vcglr_gaming_venues_2015_2017.312"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9655776,
+          -38.33406911
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 35.0,
+        "gid": 313,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9655776,
+        "lat": -38.33406911
+      },
+      "id": "vcglr_gaming_venues_2015_2017.313"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2398832,
+          -38.463002
+        ]
+      },
+      "properties": {
+        "region": "Gippsland",
+        "egm_no_e_1": 58.0,
+        "gid": 316,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2398832,
+        "lat": -38.463002
+      },
+      "id": "vcglr_gaming_venues_2015_2017.316"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1198903,
+          -38.14493259
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 58.0,
+        "gid": 318,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1198903,
+        "lat": -38.14493259
+      },
+      "id": "vcglr_gaming_venues_2015_2017.318"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2130948,
+          -37.98642515
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 25.0,
+        "gid": 320,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2130948,
+        "lat": -37.98642515
+      },
+      "id": "vcglr_gaming_venues_2015_2017.320"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9669554,
+          -37.80236044
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 69.0,
+        "gid": 321,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9669554,
+        "lat": -37.80236044
+      },
+      "id": "vcglr_gaming_venues_2015_2017.321"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.061596,
+          -37.667736
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 100.0,
+        "gid": 322,
+        "exp_q1_2_4": 0.0,
+        "long": 145.061596,
+        "lat": -37.667736
+      },
+      "id": "vcglr_gaming_venues_2015_2017.322"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.67008,
+          -38.12382061
+        ]
+      },
+      "properties": {
+        "region": "Barwon South-West",
+        "egm_no_e_1": 55.0,
+        "gid": 324,
+        "exp_q1_2_4": 0.0,
+        "long": 144.67008,
+        "lat": -38.12382061
+      },
+      "id": "vcglr_gaming_venues_2015_2017.324"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8891873,
+          -37.79060066
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 30.0,
+        "gid": 327,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8891873,
+        "lat": -37.79060066
+      },
+      "id": "vcglr_gaming_venues_2015_2017.327"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.994317,
+          -37.847347
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 81.0,
+        "gid": 328,
+        "exp_q1_2_4": 0.0,
+        "long": 144.994317,
+        "lat": -37.847347
+      },
+      "id": "vcglr_gaming_venues_2015_2017.328"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0044246,
+          -37.73316646
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 40.0,
+        "gid": 329,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0044246,
+        "lat": -37.73316646
+      },
+      "id": "vcglr_gaming_venues_2015_2017.329"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2341978,
+          -38.00053059
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 79.0,
+        "gid": 330,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2341978,
+        "lat": -38.00053059
+      },
+      "id": "vcglr_gaming_venues_2015_2017.330"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9844435,
+          -37.79966095
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 20.0,
+        "gid": 331,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9844435,
+        "lat": -37.79966095
+      },
+      "id": "vcglr_gaming_venues_2015_2017.331"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6566313,
+          -38.27188195
+        ]
+      },
+      "properties": {
+        "region": "Barwon South-West",
+        "egm_no_e_1": 30.0,
+        "gid": 332,
+        "exp_q1_2_4": 0.0,
+        "long": 144.6566313,
+        "lat": -38.27188195
+      },
+      "id": "vcglr_gaming_venues_2015_2017.332"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.04558,
+          -37.87578741
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 40.0,
+        "gid": 333,
+        "exp_q1_2_4": 0.0,
+        "long": 145.04558,
+        "lat": -37.87578741
+      },
+      "id": "vcglr_gaming_venues_2015_2017.333"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6528586,
+          -37.90169313
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 52.0,
+        "gid": 334,
+        "exp_q1_2_4": 0.0,
+        "long": 144.6528586,
+        "lat": -37.90169313
+      },
+      "id": "vcglr_gaming_venues_2015_2017.334"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9380212,
+          -37.77513836
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 0.0,
+        "gid": 339,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9380212,
+        "lat": -37.77513836
+      },
+      "id": "vcglr_gaming_venues_2015_2017.339"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0057848,
+          -37.71730816
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 68.0,
+        "gid": 340,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0057848,
+        "lat": -37.71730816
+      },
+      "id": "vcglr_gaming_venues_2015_2017.340"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8887473,
+          -37.85808523
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 40.0,
+        "gid": 341,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8887473,
+        "lat": -37.85808523
+      },
+      "id": "vcglr_gaming_venues_2015_2017.341"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.228881,
+          -37.816912
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 70.0,
+        "gid": 342,
+        "exp_q1_2_4": 0.0,
+        "long": 145.228881,
+        "lat": -37.816912
+      },
+      "id": "vcglr_gaming_venues_2015_2017.342"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.043821,
+          -37.830085
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 42.0,
+        "gid": 344,
+        "exp_q1_2_4": 0.0,
+        "long": 145.043821,
+        "lat": -37.830085
+      },
+      "id": "vcglr_gaming_venues_2015_2017.344"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.125262,
+          -38.088492
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 40.0,
+        "gid": 345,
+        "exp_q1_2_4": 0.0,
+        "long": 145.125262,
+        "lat": -38.088492
+      },
+      "id": "vcglr_gaming_venues_2015_2017.345"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0166765,
+          -37.72911073
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 44.0,
+        "gid": 348,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0166765,
+        "lat": -37.72911073
+      },
+      "id": "vcglr_gaming_venues_2015_2017.348"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8985021,
+          -38.37861901
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 40.0,
+        "gid": 349,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8985021,
+        "lat": -38.37861901
+      },
+      "id": "vcglr_gaming_venues_2015_2017.349"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9023068,
+          -38.35673382
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 70.0,
+        "gid": 350,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9023068,
+        "lat": -38.35673382
+      },
+      "id": "vcglr_gaming_venues_2015_2017.350"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.904929,
+          -38.368169
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 75.0,
+        "gid": 351,
+        "exp_q1_2_4": 0.0,
+        "long": 144.904929,
+        "lat": -38.368169
+      },
+      "id": "vcglr_gaming_venues_2015_2017.351"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0576351,
+          -37.88434153
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 103.0,
+        "gid": 352,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0576351,
+        "lat": -37.88434153
+      },
+      "id": "vcglr_gaming_venues_2015_2017.352"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9292921,
+          -37.64150891
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 80.0,
+        "gid": 353,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9292921,
+        "lat": -37.64150891
+      },
+      "id": "vcglr_gaming_venues_2015_2017.353"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.917295,
+          -37.755541
+        ]
+      },
+      "properties": {
+        "region": "Hume",
+        "egm_no_e_1": 60.0,
+        "gid": 357,
+        "exp_q1_2_4": 0.0,
+        "long": 144.917295,
+        "lat": -37.755541
+      },
+      "id": "vcglr_gaming_venues_2015_2017.357"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.729429,
+          -37.579992
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 31.0,
+        "gid": 358,
+        "exp_q1_2_4": 0.0,
+        "long": 144.729429,
+        "lat": -37.579992
+      },
+      "id": "vcglr_gaming_venues_2015_2017.358"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0641899,
+          -37.97263224
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 76.0,
+        "gid": 359,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0641899,
+        "lat": -37.97263224
+      },
+      "id": "vcglr_gaming_venues_2015_2017.359"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0085186,
+          -37.81930359
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 80.0,
+        "gid": 360,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0085186,
+        "lat": -37.81930359
+      },
+      "id": "vcglr_gaming_venues_2015_2017.360"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8204818,
+          -38.37033153
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 30.0,
+        "gid": 362,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8204818,
+        "lat": -38.37033153
+      },
+      "id": "vcglr_gaming_venues_2015_2017.362"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8231099,
+          -38.3717766
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 80.0,
+        "gid": 363,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8231099,
+        "lat": -38.3717766
+      },
+      "id": "vcglr_gaming_venues_2015_2017.363"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.75428774,
+          -37.8944161
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 70.0,
+        "gid": 365,
+        "exp_q1_2_4": 0.0,
+        "long": 144.75428774,
+        "lat": -37.8944161
+      },
+      "id": "vcglr_gaming_venues_2015_2017.365"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0674597,
+          -37.9383944
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 82.0,
+        "gid": 366,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0674597,
+        "lat": -37.9383944
+      },
+      "id": "vcglr_gaming_venues_2015_2017.366"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1723711,
+          -37.9491012
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 76.0,
+        "gid": 367,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1723711,
+        "lat": -37.9491012
+      },
+      "id": "vcglr_gaming_venues_2015_2017.367"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0032996,
+          -37.95120682
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 40.0,
+        "gid": 368,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0032996,
+        "lat": -37.95120682
+      },
+      "id": "vcglr_gaming_venues_2015_2017.368"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1840046,
+          -38.10052865
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 65.0,
+        "gid": 369,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1840046,
+        "lat": -38.10052865
+      },
+      "id": "vcglr_gaming_venues_2015_2017.369"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.127846,
+          -38.102547
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 25.0,
+        "gid": 370,
+        "exp_q1_2_4": 0.0,
+        "long": 145.127846,
+        "lat": -38.102547
+      },
+      "id": "vcglr_gaming_venues_2015_2017.370"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1552013,
+          -38.1123658
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 94.0,
+        "gid": 371,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1552013,
+        "lat": -38.1123658
+      },
+      "id": "vcglr_gaming_venues_2015_2017.371"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8827476,
+          -37.84321317
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 66.0,
+        "gid": 372,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8827476,
+        "lat": -37.84321317
+      },
+      "id": "vcglr_gaming_venues_2015_2017.372"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9655883,
+          -37.81209093
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 48.0,
+        "gid": 376,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9655883,
+        "lat": -37.81209093
+      },
+      "id": "vcglr_gaming_venues_2015_2017.376"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1237466,
+          -37.78491163
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 84.0,
+        "gid": 381,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1237466,
+        "lat": -37.78491163
+      },
+      "id": "vcglr_gaming_venues_2015_2017.381"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.067331,
+          -37.756154
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 65.0,
+        "gid": 382,
+        "exp_q1_2_4": 0.0,
+        "long": 145.067331,
+        "lat": -37.756154
+      },
+      "id": "vcglr_gaming_venues_2015_2017.382"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8880544,
+          -37.71230029
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 96.0,
+        "gid": 383,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8880544,
+        "lat": -37.71230029
+      },
+      "id": "vcglr_gaming_venues_2015_2017.383"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1744873,
+          -38.22432064
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 39.0,
+        "gid": 384,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1744873,
+        "lat": -38.22432064
+      },
+      "id": "vcglr_gaming_venues_2015_2017.384"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.077527,
+          -37.931875
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 40.0,
+        "gid": 385,
+        "exp_q1_2_4": 0.0,
+        "long": 145.077527,
+        "lat": -37.931875
+      },
+      "id": "vcglr_gaming_venues_2015_2017.385"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.146088,
+          -37.946351
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 55.0,
+        "gid": 389,
+        "exp_q1_2_4": 0.0,
+        "long": 145.146088,
+        "lat": -37.946351
+      },
+      "id": "vcglr_gaming_venues_2015_2017.389"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8002906,
+          -37.74642558
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 50.0,
+        "gid": 390,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8002906,
+        "lat": -37.74642558
+      },
+      "id": "vcglr_gaming_venues_2015_2017.390"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.777131,
+          -37.733472
+        ]
+      },
+      "properties": {
+        "region": "Barwon South-West",
+        "egm_no_e_1": 35.0,
+        "gid": 391,
+        "exp_q1_2_4": 0.0,
+        "long": 144.777131,
+        "lat": -37.733472
+      },
+      "id": "vcglr_gaming_venues_2015_2017.391"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9790878,
+          -37.8674151
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 60.0,
+        "gid": 395,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9790878,
+        "lat": -37.8674151
+      },
+      "id": "vcglr_gaming_venues_2015_2017.395"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0431145,
+          -37.93732445
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 83.0,
+        "gid": 396,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0431145,
+        "lat": -37.93732445
+      },
+      "id": "vcglr_gaming_venues_2015_2017.396"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2321544,
+          -37.9268895
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 85.0,
+        "gid": 397,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2321544,
+        "lat": -37.9268895
+      },
+      "id": "vcglr_gaming_venues_2015_2017.397"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.067499,
+          -38.238567
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 85.0,
+        "gid": 401,
+        "exp_q1_2_4": 0.0,
+        "long": 145.067499,
+        "lat": -38.238567
+      },
+      "id": "vcglr_gaming_venues_2015_2017.401"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7431703,
+          -37.69261472
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 50.0,
+        "gid": 403,
+        "exp_q1_2_4": 0.0,
+        "long": 144.7431703,
+        "lat": -37.69261472
+      },
+      "id": "vcglr_gaming_venues_2015_2017.403"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0265449,
+          -37.7253246
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 88.0,
+        "gid": 404,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0265449,
+        "lat": -37.7253246
+      },
+      "id": "vcglr_gaming_venues_2015_2017.404"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7225219,
+          -37.57200527
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 78.0,
+        "gid": 405,
+        "exp_q1_2_4": 0.0,
+        "long": 144.7225219,
+        "lat": -37.57200527
+      },
+      "id": "vcglr_gaming_venues_2015_2017.405"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7211528,
+          -37.57488558
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 38.0,
+        "gid": 406,
+        "exp_q1_2_4": 0.0,
+        "long": 144.7211528,
+        "lat": -37.57488558
+      },
+      "id": "vcglr_gaming_venues_2015_2017.406"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7092221,
+          -37.58612078
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 40.0,
+        "gid": 407,
+        "exp_q1_2_4": 0.0,
+        "long": 144.7092221,
+        "lat": -37.58612078
+      },
+      "id": "vcglr_gaming_venues_2015_2017.407"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8242706,
+          -37.77908022
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 18.0,
+        "gid": 408,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8242706,
+        "lat": -37.77908022
+      },
+      "id": "vcglr_gaming_venues_2015_2017.408"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8375352,
+          -37.78711797
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 60.0,
+        "gid": 409,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8375352,
+        "lat": -37.78711797
+      },
+      "id": "vcglr_gaming_venues_2015_2017.409"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.954518,
+          -37.672797
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 75.0,
+        "gid": 412,
+        "exp_q1_2_4": 0.0,
+        "long": 144.954518,
+        "lat": -37.672797
+      },
+      "id": "vcglr_gaming_venues_2015_2017.412"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5988205,
+          -37.6968205
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 80.0,
+        "gid": 413,
+        "exp_q1_2_4": 0.0,
+        "long": 144.5988205,
+        "lat": -37.6968205
+      },
+      "id": "vcglr_gaming_venues_2015_2017.413"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.975197,
+          -37.79817
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 49.0,
+        "gid": 414,
+        "exp_q1_2_4": 0.0,
+        "long": 144.975197,
+        "lat": -37.79817
+      },
+      "id": "vcglr_gaming_venues_2015_2017.414"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.798435,
+          -37.701646
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 105.0,
+        "gid": 415,
+        "exp_q1_2_4": 0.0,
+        "long": 144.798435,
+        "lat": -37.701646
+      },
+      "id": "vcglr_gaming_venues_2015_2017.415"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1173444,
+          -37.75617549
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 50.0,
+        "gid": 416,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1173444,
+        "lat": -37.75617549
+      },
+      "id": "vcglr_gaming_venues_2015_2017.416"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.5096132,
+          -37.65636765
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 30.0,
+        "gid": 417,
+        "exp_q1_2_4": 0.0,
+        "long": 145.5096132,
+        "lat": -37.65636765
+      },
+      "id": "vcglr_gaming_venues_2015_2017.417"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9443325,
+          -37.83686046
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 29.0,
+        "gid": 418,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9443325,
+        "lat": -37.83686046
+      },
+      "id": "vcglr_gaming_venues_2015_2017.418"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.948756,
+          -37.84749416
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 32.0,
+        "gid": 419,
+        "exp_q1_2_4": 0.0,
+        "long": 144.948756,
+        "lat": -37.84749416
+      },
+      "id": "vcglr_gaming_venues_2015_2017.419"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.088067,
+          -38.009997
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 50.0,
+        "gid": 422,
+        "exp_q1_2_4": 0.0,
+        "long": 145.088067,
+        "lat": -38.009997
+      },
+      "id": "vcglr_gaming_venues_2015_2017.422"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.729662,
+          -37.89841
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 80.0,
+        "gid": 423,
+        "exp_q1_2_4": 0.0,
+        "long": 144.729662,
+        "lat": -37.89841
+      },
+      "id": "vcglr_gaming_venues_2015_2017.423"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9609524,
+          -37.77253506
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 43.0,
+        "gid": 424,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9609524,
+        "lat": -37.77253506
+      },
+      "id": "vcglr_gaming_venues_2015_2017.424"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.165723,
+          -37.835553
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 90.0,
+        "gid": 425,
+        "exp_q1_2_4": 0.0,
+        "long": 145.165723,
+        "lat": -37.835553
+      },
+      "id": "vcglr_gaming_venues_2015_2017.425"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.741945,
+          -37.755949
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 66.0,
+        "gid": 426,
+        "exp_q1_2_4": 0.0,
+        "long": 144.741945,
+        "lat": -37.755949
+      },
+      "id": "vcglr_gaming_venues_2015_2017.426"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2177265,
+          -37.81658357
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 80.0,
+        "gid": 427,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2177265,
+        "lat": -37.81658357
+      },
+      "id": "vcglr_gaming_venues_2015_2017.427"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24132,
+          -38.448217
+        ]
+      },
+      "properties": {
+        "region": "Hume",
+        "egm_no_e_1": 27.0,
+        "gid": 428,
+        "exp_q1_2_4": 0.0,
+        "long": 145.24132,
+        "lat": -38.448217
+      },
+      "id": "vcglr_gaming_venues_2015_2017.428"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1364106,
+          -38.07086248
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 53.0,
+        "gid": 429,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1364106,
+        "lat": -38.07086248
+      },
+      "id": "vcglr_gaming_venues_2015_2017.429"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.004206,
+          -37.88174245
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 32.0,
+        "gid": 430,
+        "exp_q1_2_4": 0.0,
+        "long": 145.004206,
+        "lat": -37.88174245
+      },
+      "id": "vcglr_gaming_venues_2015_2017.430"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.365137,
+          -37.751709
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 80.0,
+        "gid": 432,
+        "exp_q1_2_4": 0.0,
+        "long": 145.365137,
+        "lat": -37.751709
+      },
+      "id": "vcglr_gaming_venues_2015_2017.432"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2139001,
+          -37.98939681
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 30.0,
+        "gid": 433,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2139001,
+        "lat": -37.98939681
+      },
+      "id": "vcglr_gaming_venues_2015_2017.433"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95044,
+          -37.811972
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 56.0,
+        "gid": 435,
+        "exp_q1_2_4": 0.0,
+        "long": 144.95044,
+        "lat": -37.811972
+      },
+      "id": "vcglr_gaming_venues_2015_2017.435"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9266733,
+          -37.77143778
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 50.0,
+        "gid": 437,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9266733,
+        "lat": -37.77143778
+      },
+      "id": "vcglr_gaming_venues_2015_2017.437"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.747508,
+          -37.873422
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 50.0,
+        "gid": 440,
+        "exp_q1_2_4": 0.0,
+        "long": 144.747508,
+        "lat": -37.873422
+      },
+      "id": "vcglr_gaming_venues_2015_2017.440"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0002272,
+          -37.81461867
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 40.0,
+        "gid": 441,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0002272,
+        "lat": -37.81461867
+      },
+      "id": "vcglr_gaming_venues_2015_2017.441"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9394439,
+          -37.84127297
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 57.0,
+        "gid": 442,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9394439,
+        "lat": -37.84127297
+      },
+      "id": "vcglr_gaming_venues_2015_2017.442"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3095865,
+          -37.89386717
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 69.0,
+        "gid": 444,
+        "exp_q1_2_4": 0.0,
+        "long": 145.3095865,
+        "lat": -37.89386717
+      },
+      "id": "vcglr_gaming_venues_2015_2017.444"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.284109,
+          -38.097504
+        ]
+      },
+      "properties": {
+        "region": "Hume",
+        "egm_no_e_1": 52.0,
+        "gid": 446,
+        "exp_q1_2_4": 0.0,
+        "long": 145.284109,
+        "lat": -38.097504
+      },
+      "id": "vcglr_gaming_venues_2015_2017.446"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7061554,
+          -37.8804821
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 75.0,
+        "gid": 447,
+        "exp_q1_2_4": 0.0,
+        "long": 144.7061554,
+        "lat": -37.8804821
+      },
+      "id": "vcglr_gaming_venues_2015_2017.447"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.154767,
+          -37.930688
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 55.0,
+        "gid": 448,
+        "exp_q1_2_4": 0.0,
+        "long": 145.154767,
+        "lat": -37.930688
+      },
+      "id": "vcglr_gaming_venues_2015_2017.448"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.897403,
+          -37.856598
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 60.0,
+        "gid": 449,
+        "exp_q1_2_4": 0.0,
+        "long": 144.897403,
+        "lat": -37.856598
+      },
+      "id": "vcglr_gaming_venues_2015_2017.449"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3750549,
+          -38.21017125
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 46.0,
+        "gid": 451,
+        "exp_q1_2_4": 0.0,
+        "long": 145.3750549,
+        "lat": -38.21017125
+      },
+      "id": "vcglr_gaming_venues_2015_2017.451"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0492292,
+          -37.82442049
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 33.0,
+        "gid": 454,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0492292,
+        "lat": -37.82442049
+      },
+      "id": "vcglr_gaming_venues_2015_2017.454"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2797126,
+          -38.11592977
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 74.0,
+        "gid": 458,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2797126,
+        "lat": -38.11592977
+      },
+      "id": "vcglr_gaming_venues_2015_2017.458"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.057337,
+          -37.964085
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 47.0,
+        "gid": 459,
+        "exp_q1_2_4": 0.0,
+        "long": 145.057337,
+        "lat": -37.964085
+      },
+      "id": "vcglr_gaming_venues_2015_2017.459"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.6252533,
+          -37.7765881
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 30.0,
+        "gid": 461,
+        "exp_q1_2_4": 0.0,
+        "long": 145.6252533,
+        "lat": -37.7765881
+      },
+      "id": "vcglr_gaming_venues_2015_2017.461"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9964787,
+          -37.82534055
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 31.0,
+        "gid": 463,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9964787,
+        "lat": -37.82534055
+      },
+      "id": "vcglr_gaming_venues_2015_2017.463"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1893975,
+          -37.9359231
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 75.0,
+        "gid": 464,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1893975,
+        "lat": -37.9359231
+      },
+      "id": "vcglr_gaming_venues_2015_2017.464"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.077868,
+          -37.77242604
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 90.0,
+        "gid": 465,
+        "exp_q1_2_4": 0.0,
+        "long": 145.077868,
+        "lat": -37.77242604
+      },
+      "id": "vcglr_gaming_venues_2015_2017.465"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9256558,
+          -37.76738255
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 80.0,
+        "gid": 467,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9256558,
+        "lat": -37.76738255
+      },
+      "id": "vcglr_gaming_venues_2015_2017.467"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5908692,
+          -37.48602207
+        ]
+      },
+      "properties": {
+        "region": "Loddon Mallee",
+        "egm_no_e_1": 49.0,
+        "gid": 468,
+        "exp_q1_2_4": 0.0,
+        "long": 144.5908692,
+        "lat": -37.48602207
+      },
+      "id": "vcglr_gaming_venues_2015_2017.468"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9810194,
+          -37.86948768
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 30.0,
+        "gid": 469,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9810194,
+        "lat": -37.86948768
+      },
+      "id": "vcglr_gaming_venues_2015_2017.469"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.159764,
+          -37.904351
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 75.0,
+        "gid": 470,
+        "exp_q1_2_4": 0.0,
+        "long": 145.159764,
+        "lat": -37.904351
+      },
+      "id": "vcglr_gaming_venues_2015_2017.470"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9993185,
+          -37.81867319
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 26.0,
+        "gid": 471,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9993185,
+        "lat": -37.81867319
+      },
+      "id": "vcglr_gaming_venues_2015_2017.471"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1491877,
+          -37.96273654
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 71.0,
+        "gid": 472,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1491877,
+        "lat": -37.96273654
+      },
+      "id": "vcglr_gaming_venues_2015_2017.472"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.233338,
+          -37.86998328
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 97.0,
+        "gid": 475,
+        "exp_q1_2_4": 0.0,
+        "long": 145.233338,
+        "lat": -37.86998328
+      },
+      "id": "vcglr_gaming_venues_2015_2017.475"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2249715,
+          -37.84666361
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 60.0,
+        "gid": 476,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2249715,
+        "lat": -37.84666361
+      },
+      "id": "vcglr_gaming_venues_2015_2017.476"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.779914,
+          -37.699566
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 76.0,
+        "gid": 482,
+        "exp_q1_2_4": 0.0,
+        "long": 144.779914,
+        "lat": -37.699566
+      },
+      "id": "vcglr_gaming_venues_2015_2017.482"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9056759,
+          -37.77007157
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 70.0,
+        "gid": 483,
+        "exp_q1_2_4": 0.0,
+        "long": 144.9056759,
+        "lat": -37.77007157
+      },
+      "id": "vcglr_gaming_venues_2015_2017.483"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.082083,
+          -37.709476
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 83.0,
+        "gid": 484,
+        "exp_q1_2_4": 0.0,
+        "long": 145.082083,
+        "lat": -37.709476
+      },
+      "id": "vcglr_gaming_venues_2015_2017.484"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.162712,
+          -37.880192
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 67.0,
+        "gid": 486,
+        "exp_q1_2_4": 0.0,
+        "long": 145.162712,
+        "lat": -37.880192
+      },
+      "id": "vcglr_gaming_venues_2015_2017.486"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.682516,
+          -37.876299
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 80.0,
+        "gid": 487,
+        "exp_q1_2_4": 0.0,
+        "long": 144.682516,
+        "lat": -37.876299
+      },
+      "id": "vcglr_gaming_venues_2015_2017.487"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.66475,
+          -37.900572
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 60.0,
+        "gid": 488,
+        "exp_q1_2_4": 0.0,
+        "long": 144.66475,
+        "lat": -37.900572
+      },
+      "id": "vcglr_gaming_venues_2015_2017.488"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.049587,
+          -37.752175
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 31.0,
+        "gid": 489,
+        "exp_q1_2_4": 0.0,
+        "long": 145.049587,
+        "lat": -37.752175
+      },
+      "id": "vcglr_gaming_venues_2015_2017.489"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7450786,
+          -37.73199444
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 90.0,
+        "gid": 491,
+        "exp_q1_2_4": 0.0,
+        "long": 144.7450786,
+        "lat": -37.73199444
+      },
+      "id": "vcglr_gaming_venues_2015_2017.491"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.826444,
+          -37.77187523
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 78.0,
+        "gid": 492,
+        "exp_q1_2_4": 0.0,
+        "long": 144.826444,
+        "lat": -37.77187523
+      },
+      "id": "vcglr_gaming_venues_2015_2017.492"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1929713,
+          -38.30725689
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 40.0,
+        "gid": 493,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1929713,
+        "lat": -38.30725689
+      },
+      "id": "vcglr_gaming_venues_2015_2017.493"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8887884,
+          -37.67598874
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 40.0,
+        "gid": 494,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8887884,
+        "lat": -37.67598874
+      },
+      "id": "vcglr_gaming_venues_2015_2017.494"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.780617,
+          -37.844482
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 68.0,
+        "gid": 495,
+        "exp_q1_2_4": 0.0,
+        "long": 144.780617,
+        "lat": -37.844482
+      },
+      "id": "vcglr_gaming_venues_2015_2017.495"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1895575,
+          -37.90627966
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 40.0,
+        "gid": 497,
+        "exp_q1_2_4": 0.0,
+        "long": 145.1895575,
+        "lat": -37.90627966
+      },
+      "id": "vcglr_gaming_venues_2015_2017.497"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.118001,
+          -37.509322
+        ]
+      },
+      "properties": {
+        "region": "Metro North",
+        "egm_no_e_1": 50.0,
+        "gid": 498,
+        "exp_q1_2_4": 0.0,
+        "long": 145.118001,
+        "lat": -37.509322
+      },
+      "id": "vcglr_gaming_venues_2015_2017.498"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8940502,
+          -37.8581931
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 42.0,
+        "gid": 499,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8940502,
+        "lat": -37.8581931
+      },
+      "id": "vcglr_gaming_venues_2015_2017.499"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0846616,
+          -37.75719415
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 70.0,
+        "gid": 505,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0846616,
+        "lat": -37.75719415
+      },
+      "id": "vcglr_gaming_venues_2015_2017.505"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8943723,
+          -37.8176356
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 103.0,
+        "gid": 506,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8943723,
+        "lat": -37.8176356
+      },
+      "id": "vcglr_gaming_venues_2015_2017.506"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8828332,
+          -37.78807179
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 76.0,
+        "gid": 507,
+        "exp_q1_2_4": 0.0,
+        "long": 144.8828332,
+        "lat": -37.78807179
+      },
+      "id": "vcglr_gaming_venues_2015_2017.507"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.869928,
+          -37.819484
+        ]
+      },
+      "properties": {
+        "region": "Metro West",
+        "egm_no_e_1": 28.0,
+        "gid": 508,
+        "exp_q1_2_4": 0.0,
+        "long": 144.869928,
+        "lat": -37.819484
+      },
+      "id": "vcglr_gaming_venues_2015_2017.508"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.360732,
+          -37.795691
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 70.0,
+        "gid": 509,
+        "exp_q1_2_4": 0.0,
+        "long": 145.360732,
+        "lat": -37.795691
+      },
+      "id": "vcglr_gaming_venues_2015_2017.509"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2862756,
+          -37.86293115
+        ]
+      },
+      "properties": {
+        "region": "Metro East",
+        "egm_no_e_1": 80.0,
+        "gid": 510,
+        "exp_q1_2_4": 0.0,
+        "long": 145.2862756,
+        "lat": -37.86293115
+      },
+      "id": "vcglr_gaming_venues_2015_2017.510"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4769382,
+          -38.0710043
+        ]
+      },
+      "properties": {
+        "region": null,
+        "egm_no_e_1": 50.0,
+        "gid": 512,
+        "exp_q1_2_4": 0.0,
+        "long": 145.4769382,
+        "lat": -38.0710043
+      },
+      "id": "vcglr_gaming_venues_2015_2017.512"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0416017,
+          -37.87578885
+        ]
+      },
+      "properties": {
+        "region": "Metro South",
+        "egm_no_e_1": 99.0,
+        "gid": 513,
+        "exp_q1_2_4": 0.0,
+        "long": 145.0416017,
+        "lat": -37.87578885
+      },
+      "id": "vcglr_gaming_venues_2015_2017.513"
+    }
+  ]
+}
