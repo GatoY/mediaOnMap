@@ -32,3 +32,9 @@ h1 {
     position: absolute;
     left: 30px;
 }
+
+.card {
+    -moz-box-shadow: 2px 2px 5px #999999;
+    -webkit-box-shadow: 2px 2px 5px #999999;
+    box-shadow: 2px 2px 5px #999999;
+}

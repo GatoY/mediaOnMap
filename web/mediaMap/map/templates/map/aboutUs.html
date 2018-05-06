@@ -1,6 +1,14 @@
 {% extends 'map/base.html' %}
 {% load static %}
+
+{% block content-css %}
+<link href="{% static 'map/css/index.css' %}" rel='stylesheet' type='text/css'>
+{% endblock content-css %}
+
+
 {% block content %}
+
+<div class="container">
     <h3 style="margin-top: 20px;">
         Authors
     </h3>
@@ -61,4 +69,6 @@
         </div>
 
     </div>
+</div>
+
 {% endblock content %}

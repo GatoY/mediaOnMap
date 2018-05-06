@@ -195,7 +195,7 @@ $(function () {
                 }
             ]
         };
-        var map1 = new google.maps.Map(mapCanvas, mapOptions);
+        var map = new google.maps.Map(mapCanvas, mapOptions);
 
     }
 

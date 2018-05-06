@@ -1,13 +1,21 @@
 {% extends 'map/base.html' %}
 {% load static %}
+
+{% block content-css %}
+<link href="{% static 'map/css/custom.css' %}" rel='stylesheet' type='text/css'>
+{% endblock content-css %}
+
 {% block content %}
-<div id="floating-panel">
-    <button onclick="toggleHeatmap()">Toggle Heatmap</button>
-    <button onclick="changeGradient()">Change gradient</button>
-    <button onclick="changeRadius()">Change radius</button>
-    <button onclick="changeOpacity()">Change opacity</button>
+<div class="container-fluid">
+    <div id="floating-panel">
+        <button onclick="toggleHeatmap()">Toggle Heatmap</button>
+        <button onclick="changeGradient()">Change gradient</button>
+        <button onclick="changeRadius()">Change radius</button>
+        <button onclick="changeOpacity()">Change opacity</button>
+    </div>
+    <div id="map"></div>
 </div>
-<div id="map"></div>
+
 <script>
 
     // This example requires the Visualization library. Include the libraries=visualization
@@ -731,7 +739,7 @@
         ];
     }
 </script>
-<script 
+<script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6Z479QhF3vXmksr0WsN6PtYGkDaYIoxA&libraries=visualization&callback=initMap">
 </script>
 {% endblock content %}
