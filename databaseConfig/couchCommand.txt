@@ -17,5 +17,8 @@ curl -X DELETE "http://localhost:5984/exampledb/charlie?rev=2-c0716f36b7cb2b2d31
 curl -X POST "http://localhost:5984/exampledb/_purge" --header "Content-Type:application/json" --data '{"charlie":["3-320d11c2d78a18ccc0220086c418cc41"]}'
 #compaction
 curl -X POST “http://localhost:5984/my_db/_compact“ --header "Content-Type: application/json"
-
+#put file into database
+curl -X PUT -d @my.json http://admin:secret@127.0.0.1:5984/db_name/doc_id
+curl -X PUT -d '{"name":"bob","hi":"hello"}' http://admin:secret@127.0.0.1:5984/db_name/doc_id
+curl -X GET http://127.0.0.1:5984/_uuids?count=1
 
