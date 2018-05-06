@@ -1,0 +1,67 @@
+{% extends 'map/base.html' %}
+{% load static %}
+
+{% block content-css %}
+<link href="{% static 'map/css/index.css' %}" rel='stylesheet' type='text/css'>
+{% endblock content-css %}
+
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div id="map"></div>
+        <div class="card z-depth-1-half" style="width: 100%; margin-bottom: 20px">
+            <div class="card-body">
+                <h5 class="card-title">COMP90024 Assignment 2</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">description description description description description</p>
+            </div>
+        </div>
+    </div>
+
+    <h3>
+        Scenarios
+    </h3>
+
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-xl-4 mb-3" align="center">
+            <a href="{% url 'map:sentiment' %}">
+                <img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
+                     width="960" height="600">
+                <h5 class="mb-1">Sentiment Analysis</h5>
+            </a>
+            <p class="text-muted">description description description description description description</p>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-4 mb-3" align="center">
+            <a href="{% url 'map:scenario1' %}">
+                <img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
+                     width="960" height="600">
+                <h5 class="mb-1">Scenario 1</h5>
+            </a>
+            <p class="text-muted">description description description description description description</p>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-4 mb-3" align="center">
+            <a href="{% url 'map:scenario2' %}">
+                <img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
+                     width="960" height="600">
+                <h5 class="mb-1">Scenario 2</h5>
+            </a>
+            <p class="text-muted">description description description description description description</p>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-4 mb-3" align="center">
+            <a href="{% url 'map:scenario3' %}">
+                <img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
+                     width="960" height="600">
+                <h5 class="mb-1">Scenario 3</h5>
+            </a>
+            <p class="text-muted">description description description description description description</p>
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
+{% block content-js %}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6Z479QhF3vXmksr0WsN6PtYGkDaYIoxA"></script>
+
+<script src="{% static 'map/js/index.js' %}"></script>
+{% endblock content-js %}
