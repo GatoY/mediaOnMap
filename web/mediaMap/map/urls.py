@@ -7,7 +7,8 @@ urlpatterns = [
     path('api/v1/sentiment',views.sentiment),
 
     path('index', views.index, name='index'),
-    path('sentiment', views.sentiment, name='sentiment'),
+    path('sentiment', views.sentiment, name = 'sentiment'),
+    path('sentimentData', views.sentimentData, name='sentimentData'),
     path('scenario1', views.scenario1, name='scenario1'),
     path('scenario2', views.scenario2, name='scenario2'),
     path('scenario3', views.scenario3, name='scenario3'),
