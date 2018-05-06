@@ -8,7 +8,7 @@ curl -X GET “http://localhost:5984/_all_dbs”
 # insert doc
 curl -X POST "http://localhost:5984/exampledb" --header "Content-Type:application/json" --data '{"type": "account", "holder": "Alice","initialbalance": 1000}'
 #retrive doc
-curl -X GET “http://localhost:5984/exampledb/c43bcff2cdbb577d8ab2933cdc0011f8”
+curl -X GET “http://localhost:5984/exampledb/doc_id”
 #update note rev
 curl -X PUT "http://localhost:5984/exampledb/charlie?rev=1-faff5448bf3051ac4fb8f1cc2b04bc51" --header "Content-Type:application/json" --data '{"type": "account", "holder": "Charlie", "initialbalance": 200}'
 #delete doc   note rev
