@@ -114,7 +114,7 @@ def main():
 			attach_volume(ec2_conn, volumes, reservations)
 		show_instances_detail(ec2_conn)
 	if(instanceToTerm):
-		if(instanceToTerm='a'):
+		if instanceToTerm == 'a':
 			terminate_instances(ec2_conn)
 		else:
 			terminateById(ec2_conn, instanceToTerm)
