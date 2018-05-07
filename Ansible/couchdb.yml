@@ -1,5 +1,5 @@
 ---
-- hosts: dbservers
+- hosts: harvesters
   remote_user: ubuntu
   sudo: yes
   tasks:
