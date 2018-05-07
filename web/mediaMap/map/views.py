@@ -25,6 +25,15 @@ def sentimentData(request):
     return HttpResponse(json.dumps(sentiment_data), content_type='application/json')
 
 
+def sentiment_by_weekdays(request):
+    with open('map/static/map/res/sentiment_by_weekdays.json') as f:
+        data = json.load(f)
+        for key in data:
+            data[key]["percentage"] = data[key]["positive"] / (
+                        data[key]["positive"] + data[key]["negative"] + data[key]["neutral"])
+        return HttpResponse(json.dumps(data), content_type='application/json')
+
+
 def scenario1(request):
     return render(request, 'map/scenario1.html')
 

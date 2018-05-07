@@ -343,226 +343,225 @@
     //     });
     // });
 
-
-    $.getJSON("http://127.0.0.1:8000/affordability_proportions", function (data) {
-            console.log(data["rai_national_total_2016_q3"]);
-
-            var pieChart1 = echarts.init(document.getElementById('pie-chart1')).setOption({
-                title: {
-                    text: 'Rental Affordability Proportion 2016 Q3',
-                },
-                tooltip: {
-                    trigger: 'item',
-                    formatter: "{a} <br/>{b}: {c} ({d}%)"
-                },
-                legend: {
-                    orient: 'vertical',
-                    x: 'right',
-                    y: 'bottom',
-                    data: ['< 90', '90 <= x < 110', '110 <= x < 130', '130 <= x < 150', '>= 150', 'N/A']
-                },
-                series: [
-                    {
-                        name: 'Rental Affordability',
-                        type: 'pie',
-                        radius: ['50%', '70%'],
-                        avoidLabelOverlap: false,
-                        label: {
-                            normal: {
-                                show: false,
-                                position: 'center'
-                            },
-                            emphasis: {
-                                show: true,
-                                textStyle: {
-                                    fontSize: '18',
-                                    fontWeight: 'bold'
-                                }
-                            }
+    $.get("http://127.0.0.1:8000/affordability_proportions").done(function (data) {
+        var pieChart1 = echarts.init(document.getElementById('pie-chart1')).setOption({
+            title: {
+                text: 'Rental Affordability Proportion 2016 Q3',
+            },
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b}: {c} ({d}%)"
+            },
+            legend: {
+                orient: 'vertical',
+                x: 'right',
+                y: 'bottom',
+                data: ['< 90', '90 <= x < 110', '110 <= x < 130', '130 <= x < 150', '>= 150', 'N/A']
+            },
+            series: [
+                {
+                    name: 'Rental Affordability',
+                    type: 'pie',
+                    radius: ['50%', '70%'],
+                    avoidLabelOverlap: false,
+                    label: {
+                        normal: {
+                            show: false,
+                            position: 'center'
                         },
-                        labelLine: {
-                            normal: {
-                                show: false
+                        emphasis: {
+                            show: true,
+                            textStyle: {
+                                fontSize: '18',
+                                fontWeight: 'bold'
                             }
+                        }
+                    },
+                    labelLine: {
+                        normal: {
+                            show: false
+                        }
+                    },
+                    data: [
+                        {value: data["rai_national_total_2016_q3"]["< 90"], name: '< 90'},
+                        {value: data["rai_national_total_2016_q3"]["90 <= x < 110"], name: '90 <= x < 110'},
+                        {value: data["rai_national_total_2016_q3"]["110 <= x < 130"], name: '110 <= x < 130'},
+                        {value: data["rai_national_total_2016_q3"]["130 <= x < 150"], name: '130 <= x < 150'},
+                        {value: data["rai_national_total_2016_q3"][">= 150"], name: '>= 150'},
+                        {value: data["rai_national_total_2016_q3"]["N/A"], name: 'N/A'}
+
+                    ]
+                }
+            ],
+            color:
+                ['#FF3333', '#FF9933', '#FFFF33', '#99FF33', '#00BB00', '#CCCCCC']
+
+        });
+
+        var pieChart2 = echarts.init(document.getElementById('pie-chart2')).setOption({
+            title: {
+                text: 'Rental Affordability Proportion 2016 Q4',
+            },
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b}: {c} ({d}%)"
+            },
+            legend: {
+                orient: 'vertical',
+                x: 'right',
+                y: 'bottom',
+                data: ['< 90', '90 <= x < 110', '110 <= x < 130', '130 <= x < 150', '>= 150', 'N/A']
+            },
+            series: [
+                {
+                    name: 'Rental Affordability 2016 Q1',
+                    type: 'pie',
+                    radius: ['50%', '70%'],
+                    avoidLabelOverlap: false,
+                    label: {
+                        normal: {
+                            show: false,
+                            position: 'center'
                         },
-                        data: [
-                            {value: data["rai_national_total_2016_q3"]["< 90"], name: '< 90'},
-                            {value: data["rai_national_total_2016_q3"]["90 <= x < 110"], name: '90 <= x < 110'},
-                            {value: data["rai_national_total_2016_q3"]["110 <= x < 130"], name: '110 <= x < 130'},
-                            {value: data["rai_national_total_2016_q3"]["130 <= x < 150"], name: '130 <= x < 150'},
-                            {value: data["rai_national_total_2016_q3"][">= 150"], name: '>= 150'},
-                            {value: data["rai_national_total_2016_q3"]["N/A"], name: 'N/A'}
-
-                        ]
-                    }
-                ],
-                color:
-                    ['#FF3333', '#FF9933', '#FFFF33', '#99FF33', '#00BB00', '#CCCCCC']
-
-            });
-
-            var pieChart2 = echarts.init(document.getElementById('pie-chart2')).setOption({
-                title: {
-                    text: 'Rental Affordability Proportion 2016 Q4',
-                },
-                tooltip: {
-                    trigger: 'item',
-                    formatter: "{a} <br/>{b}: {c} ({d}%)"
-                },
-                legend: {
-                    orient: 'vertical',
-                    x: 'right',
-                    y: 'bottom',
-                    data: ['< 90', '90 <= x < 110', '110 <= x < 130', '130 <= x < 150', '>= 150', 'N/A']
-                },
-                series: [
-                    {
-                        name: 'Rental Affordability 2016 Q1',
-                        type: 'pie',
-                        radius: ['50%', '70%'],
-                        avoidLabelOverlap: false,
-                        label: {
-                            normal: {
-                                show: false,
-                                position: 'center'
-                            },
-                            emphasis: {
-                                show: true,
-                                textStyle: {
-                                    fontSize: '18',
-                                    fontWeight: 'bold'
-                                }
+                        emphasis: {
+                            show: true,
+                            textStyle: {
+                                fontSize: '18',
+                                fontWeight: 'bold'
                             }
+                        }
+                    },
+                    labelLine: {
+                        normal: {
+                            show: false
+                        }
+                    },
+                    data: [
+                        {value: data["rai_national_total_2016_q4"]["< 90"], name: '< 90'},
+                        {value: data["rai_national_total_2016_q4"]["90 <= x < 110"], name: '90 <= x < 110'},
+                        {value: data["rai_national_total_2016_q4"]["110 <= x < 130"], name: '110 <= x < 130'},
+                        {value: data["rai_national_total_2016_q4"]["130 <= x < 150"], name: '130 <= x < 150'},
+                        {value: data["rai_national_total_2016_q4"][">= 150"], name: '>= 150'},
+                        {value: data["rai_national_total_2016_q4"]["N/A"], name: 'N/A'}
+                    ]
+                }
+            ],
+            color:
+                ['#FF3333', '#FF9933', '#FFFF33', '#99FF33', '#00BB00', '#CCCCCC']
+
+        });
+
+        var pieChart3 = echarts.init(document.getElementById('pie-chart3')).setOption({
+            title: {
+                text: 'Rental Affordability Proportion 2017 Q1',
+            },
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b}: {c} ({d}%)"
+            },
+            legend: {
+                orient: 'vertical',
+                x: 'right',
+                y: 'bottom',
+                data: ['< 90', '90 <= x < 110', '110 <= x < 130', '130 <= x < 150', '>= 150', 'N/A']
+            },
+            series: [
+                {
+                    name: 'Rental Affordability 2016 Q1',
+                    type: 'pie',
+                    radius: ['50%', '70%'],
+                    avoidLabelOverlap: false,
+                    label: {
+                        normal: {
+                            show: false,
+                            position: 'center'
                         },
-                        labelLine: {
-                            normal: {
-                                show: false
+                        emphasis: {
+                            show: true,
+                            textStyle: {
+                                fontSize: '18',
+                                fontWeight: 'bold'
                             }
+                        }
+                    },
+                    labelLine: {
+                        normal: {
+                            show: false
+                        }
+                    },
+                    data: [
+                        {value: data["rai_national_total_2017_q1"]["< 90"], name: '< 90'},
+                        {value: data["rai_national_total_2017_q1"]["90 <= x < 110"], name: '90 <= x < 110'},
+                        {value: data["rai_national_total_2017_q1"]["110 <= x < 130"], name: '110 <= x < 130'},
+                        {value: data["rai_national_total_2017_q1"]["130 <= x < 150"], name: '130 <= x < 150'},
+                        {value: data["rai_national_total_2017_q1"][">= 150"], name: '>= 150'},
+                        {value: data["rai_national_total_2017_q1"]["N/A"], name: 'N/A'}
+                    ]
+                }
+            ],
+            color:
+                ['#FF3333', '#FF9933', '#FFFF33', '#99FF33', '#00BB00', '#CCCCCC']
+
+        });
+
+        var pieChart4 = echarts.init(document.getElementById('pie-chart4')).setOption({
+            title: {
+                text: 'Rental Affordability Proportion 2017 Q2'
+            },
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b}: {c} ({d}%)"
+            },
+            legend: {
+                orient: 'vertical',
+                x: 'right',
+                y: 'bottom',
+                data: ['< 90', '90 <= x < 110', '110 <= x < 130', '130 <= x < 150', '>= 150', 'N/A']
+            },
+            series: [
+                {
+                    name: 'Rental Affordability 2016 Q1',
+                    type: 'pie',
+                    radius: ['50%', '70%'],
+                    avoidLabelOverlap: false,
+                    label: {
+                        normal: {
+                            show: false,
+                            position: 'center'
                         },
-                        data: [
-                            {value: data["rai_national_total_2016_q4"]["< 90"], name: '< 90'},
-                            {value: data["rai_national_total_2016_q4"]["90 <= x < 110"], name: '90 <= x < 110'},
-                            {value: data["rai_national_total_2016_q4"]["110 <= x < 130"], name: '110 <= x < 130'},
-                            {value: data["rai_national_total_2016_q4"]["130 <= x < 150"], name: '130 <= x < 150'},
-                            {value: data["rai_national_total_2016_q4"][">= 150"], name: '>= 150'},
-                            {value: data["rai_national_total_2016_q4"]["N/A"], name: 'N/A'}
-                        ]
-                    }
-                ],
-                color:
-                    ['#FF3333', '#FF9933', '#FFFF33', '#99FF33', '#00BB00', '#CCCCCC']
-
-            });
-
-            var pieChart3 = echarts.init(document.getElementById('pie-chart3')).setOption({
-                title: {
-                    text: 'Rental Affordability Proportion 2017 Q1',
-                },
-                tooltip: {
-                    trigger: 'item',
-                    formatter: "{a} <br/>{b}: {c} ({d}%)"
-                },
-                legend: {
-                    orient: 'vertical',
-                    x: 'right',
-                    y: 'bottom',
-                    data: ['< 90', '90 <= x < 110', '110 <= x < 130', '130 <= x < 150', '>= 150', 'N/A']
-                },
-                series: [
-                    {
-                        name: 'Rental Affordability 2016 Q1',
-                        type: 'pie',
-                        radius: ['50%', '70%'],
-                        avoidLabelOverlap: false,
-                        label: {
-                            normal: {
-                                show: false,
-                                position: 'center'
-                            },
-                            emphasis: {
-                                show: true,
-                                textStyle: {
-                                    fontSize: '18',
-                                    fontWeight: 'bold'
-                                }
+                        emphasis: {
+                            show: true,
+                            textStyle: {
+                                fontSize: '18',
+                                fontWeight: 'bold'
                             }
-                        },
-                        labelLine: {
-                            normal: {
-                                show: false
-                            }
-                        },
-                        data: [
-                            {value: data["rai_national_total_2017_q1"]["< 90"], name: '< 90'},
-                            {value: data["rai_national_total_2017_q1"]["90 <= x < 110"], name: '90 <= x < 110'},
-                            {value: data["rai_national_total_2017_q1"]["110 <= x < 130"], name: '110 <= x < 130'},
-                            {value: data["rai_national_total_2017_q1"]["130 <= x < 150"], name: '130 <= x < 150'},
-                            {value: data["rai_national_total_2017_q1"][">= 150"], name: '>= 150'},
-                            {value: data["rai_national_total_2017_q1"]["N/A"], name: 'N/A'}
-                        ]
-                    }
-                ],
-                color:
-                    ['#FF3333', '#FF9933', '#FFFF33', '#99FF33', '#00BB00', '#CCCCCC']
+                        }
+                    },
+                    labelLine: {
+                        normal: {
+                            show: false
+                        }
+                    },
+                    data: [
+                        {value: data["rai_national_total_2017_q2"]["< 90"], name: '< 90'},
+                        {value: data["rai_national_total_2017_q2"]["90 <= x < 110"], name: '90 <= x < 110'},
+                        {value: data["rai_national_total_2017_q2"]["110 <= x < 130"], name: '110 <= x < 130'},
+                        {value: data["rai_national_total_2017_q2"]["130 <= x < 150"], name: '130 <= x < 150'},
+                        {value: data["rai_national_total_2017_q2"][">= 150"], name: '>= 150'},
+                        {value: data["rai_national_total_2017_q2"]["N/A"], name: 'N/A'}
+                    ]
+                }
+            ],
+            color:
+                ['#FF3333', '#FF9933', '#FFFF33', '#99FF33', '#00BB00', '#CCCCCC']
 
-            });
-
-            var pieChart4 = echarts.init(document.getElementById('pie-chart4')).setOption({
-                title: {
-                    text: 'Rental Affordability Proportion 2017 Q2'
-                },
-                tooltip: {
-                    trigger: 'item',
-                    formatter: "{a} <br/>{b}: {c} ({d}%)"
-                },
-                legend: {
-                    orient: 'vertical',
-                    x: 'right',
-                    y: 'bottom',
-                    data: ['< 90', '90 <= x < 110', '110 <= x < 130', '130 <= x < 150', '>= 150', 'N/A']
-                },
-                series: [
-                    {
-                        name: 'Rental Affordability 2016 Q1',
-                        type: 'pie',
-                        radius: ['50%', '70%'],
-                        avoidLabelOverlap: false,
-                        label: {
-                            normal: {
-                                show: false,
-                                position: 'center'
-                            },
-                            emphasis: {
-                                show: true,
-                                textStyle: {
-                                    fontSize: '18',
-                                    fontWeight: 'bold'
-                                }
-                            }
-                        },
-                        labelLine: {
-                            normal: {
-                                show: false
-                            }
-                        },
-                        data: [
-                            {value: data["rai_national_total_2017_q2"]["< 90"], name: '< 90'},
-                            {value: data["rai_national_total_2017_q2"]["90 <= x < 110"], name: '90 <= x < 110'},
-                            {value: data["rai_national_total_2017_q2"]["110 <= x < 130"], name: '110 <= x < 130'},
-                            {value: data["rai_national_total_2017_q2"]["130 <= x < 150"], name: '130 <= x < 150'},
-                            {value: data["rai_national_total_2017_q2"][">= 150"], name: '>= 150'},
-                            {value: data["rai_national_total_2017_q2"]["N/A"], name: 'N/A'}
-                        ]
-                    }
-                ],
-                color:
-                    ['#FF3333', '#FF9933', '#FFFF33', '#99FF33', '#00BB00', '#CCCCCC']
-
-            });
+        });
 
 
-        }
-    );
+    });
+
+    // $.getJSON("http://127.0.0.1:8000/affordability_proportions",
+    // );
 
 
 </script>
