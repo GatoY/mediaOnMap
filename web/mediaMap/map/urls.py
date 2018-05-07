@@ -12,6 +12,7 @@ urlpatterns = [
     path('scenario1', views.scenario1, name='scenario1'),
     path('scenario2', views.scenario2, name='scenario2'),
     path('affordability', views.affordability, name='affordability'),
+    path('affordability_proportions', views.affordability_proportions, name='affordability_proportions'),
     path('aboutUs', views.aboutUs, name='aboutUs'),
     path('report', views.report, name='report'),
 ]

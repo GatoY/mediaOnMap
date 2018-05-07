@@ -1,0 +1,3711 @@
+{
+  "features": [
+    {
+      "properties": {
+        "geography_name": "3008",
+        "unique_id": "1316",
+        "rai_national_total_2017_q1": 87.08272859,
+        "rai_national_total_2017_q2": 85.47008547,
+        "rai_national_total_2016_q3": 90.49773756,
+        "rai_national_total_2016_q4": 92.30769231,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3010",
+        "unique_id": "1317",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3446",
+        "unique_id": "1644",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3910",
+        "unique_id": "1919",
+        "rai_national_total_2017_q1": 131.8681319,
+        "rai_national_total_2017_q2": 135.7466063,
+        "rai_national_total_2016_q3": 142.0118343,
+        "rai_national_total_2016_q4": 139.8601399,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3922",
+        "unique_id": "1929",
+        "rai_national_total_2017_q1": 153.8461538,
+        "rai_national_total_2017_q2": 153.8461538,
+        "rai_national_total_2016_q3": 156.4537158,
+        "rai_national_total_2016_q4": 153.8461538,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3923",
+        "unique_id": "1930",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3926",
+        "unique_id": "1932",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": 112.5703565,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3939",
+        "unique_id": "1943",
+        "rai_national_total_2017_q1": 135.7466063,
+        "rai_national_total_2017_q2": 131.8681319,
+        "rai_national_total_2016_q3": 139.8601399,
+        "rai_national_total_2016_q4": 144.2307692,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3977",
+        "unique_id": "1965",
+        "rai_national_total_2017_q1": 123.0769231,
+        "rai_national_total_2017_q2": 121.4574899,
+        "rai_national_total_2016_q3": 128.2051282,
+        "rai_national_total_2016_q4": 124.7401247,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3658",
+        "unique_id": "1758",
+        "rai_national_total_2017_q1": 151.3240858,
+        "rai_national_total_2017_q2": 170.9401709,
+        "rai_national_total_2016_q3": 153.8461538,
+        "rai_national_total_2016_q4": 159.1511936,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3659",
+        "unique_id": "1759",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3660",
+        "unique_id": "1760",
+        "rai_national_total_2017_q1": 184.6153846,
+        "rai_national_total_2017_q2": 192.3076923,
+        "rai_national_total_2016_q3": 177.5147929,
+        "rai_national_total_2016_q4": 177.5147929,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3022",
+        "unique_id": "1327",
+        "rai_national_total_2017_q1": 144.2307692,
+        "rai_national_total_2017_q2": 139.8601399,
+        "rai_national_total_2016_q3": 144.2307692,
+        "rai_national_total_2016_q4": 144.2307692,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3033",
+        "unique_id": "1338",
+        "rai_national_total_2017_q1": 115.3846154,
+        "rai_national_total_2017_q2": 115.3846154,
+        "rai_national_total_2016_q3": 116.8451801,
+        "rai_national_total_2016_q4": 118.3431953,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3034",
+        "unique_id": "1339",
+        "rai_national_total_2017_q1": 115.3846154,
+        "rai_national_total_2017_q2": 118.3431953,
+        "rai_national_total_2016_q3": 120.6636501,
+        "rai_national_total_2016_q4": 121.4574899,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3036",
+        "unique_id": "1340",
+        "rai_national_total_2017_q1": 115.3846154,
+        "rai_national_total_2017_q2": 123.9029427,
+        "rai_national_total_2016_q3": 97.1659919,
+        "rai_national_total_2016_q4": 111.2140871,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3054",
+        "unique_id": "1357",
+        "rai_national_total_2017_q1": 82.41758242,
+        "rai_national_total_2017_q2": 80.97165992,
+        "rai_national_total_2016_q3": 90.49773756,
+        "rai_national_total_2016_q4": 87.08272859,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3052",
+        "unique_id": "1355",
+        "rai_national_total_2017_q1": 107.3345259,
+        "rai_national_total_2017_q2": 109.8901099,
+        "rai_national_total_2016_q3": 116.8451801,
+        "rai_national_total_2016_q4": 115.3846154,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3000",
+        "unique_id": "1310",
+        "rai_national_total_2017_q1": 98.19967267,
+        "rai_national_total_2017_q2": 92.30769231,
+        "rai_national_total_2016_q3": 102.5641026,
+        "rai_national_total_2016_q4": 100.3344482,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3002",
+        "unique_id": "1311",
+        "rai_national_total_2017_q1": 95.6556397,
+        "rai_national_total_2017_q2": 93.24009324,
+        "rai_national_total_2016_q3": 99.25558313,
+        "rai_national_total_2016_q4": 99.25558313,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3005",
+        "unique_id": "1314",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3006",
+        "unique_id": "1315",
+        "rai_national_total_2017_q1": 85.47008547,
+        "rai_national_total_2017_q2": 85.47008547,
+        "rai_national_total_2016_q3": 83.91608392,
+        "rai_national_total_2016_q4": 87.08272859,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3003",
+        "unique_id": "1312",
+        "rai_national_total_2017_q1": 107.3345259,
+        "rai_national_total_2017_q2": 102.5641026,
+        "rai_national_total_2016_q3": 102.5641026,
+        "rai_national_total_2016_q4": 102.5641026,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3004",
+        "unique_id": "1313",
+        "rai_national_total_2017_q1": 87.91208791,
+        "rai_national_total_2017_q2": 91.84845006,
+        "rai_national_total_2016_q3": 93.24009324,
+        "rai_national_total_2016_q4": 95.16256939,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3011",
+        "unique_id": "1318",
+        "rai_national_total_2017_q1": 123.0769231,
+        "rai_national_total_2017_q2": 121.4574899,
+        "rai_national_total_2016_q3": 128.2051282,
+        "rai_national_total_2016_q4": 128.2051282,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3013",
+        "unique_id": "1320",
+        "rai_national_total_2017_q1": 96.15384615,
+        "rai_national_total_2017_q2": 96.15384615,
+        "rai_national_total_2016_q3": 102.5641026,
+        "rai_national_total_2016_q4": 102.5641026,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3012",
+        "unique_id": "1319",
+        "rai_national_total_2017_q1": 121.4574899,
+        "rai_national_total_2017_q2": 121.4574899,
+        "rai_national_total_2016_q3": 128.2051282,
+        "rai_national_total_2016_q4": 128.2051282,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3015",
+        "unique_id": "1321",
+        "rai_national_total_2017_q1": 102.5641026,
+        "rai_national_total_2017_q2": 98.19967267,
+        "rai_national_total_2016_q3": 104.3024772,
+        "rai_national_total_2016_q4": 99.25558313,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3016",
+        "unique_id": "1322",
+        "rai_national_total_2017_q1": 94.19152276,
+        "rai_national_total_2017_q2": 88.75739645,
+        "rai_national_total_2016_q3": 100.3344482,
+        "rai_national_total_2016_q4": 94.19152276,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3018",
+        "unique_id": "1323",
+        "rai_national_total_2017_q1": 121.4574899,
+        "rai_national_total_2017_q2": 115.3846154,
+        "rai_national_total_2016_q3": 126.4488936,
+        "rai_national_total_2016_q4": 121.4574899,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3019",
+        "unique_id": "1324",
+        "rai_national_total_2017_q1": 131.8681319,
+        "rai_national_total_2017_q2": 124.7401247,
+        "rai_national_total_2016_q3": 144.2307692,
+        "rai_national_total_2016_q4": 131.8681319,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3025",
+        "unique_id": "1330",
+        "rai_national_total_2017_q1": 112.5703565,
+        "rai_national_total_2017_q2": 102.5641026,
+        "rai_national_total_2016_q3": 115.3846154,
+        "rai_national_total_2016_q4": 111.2140871,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3020",
+        "unique_id": "1325",
+        "rai_national_total_2017_q1": 136.7521368,
+        "rai_national_total_2017_q2": 135.7466063,
+        "rai_national_total_2016_q3": 139.8601399,
+        "rai_national_total_2016_q4": 139.8601399,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3021",
+        "unique_id": "1326",
+        "rai_national_total_2017_q1": 139.8601399,
+        "rai_national_total_2017_q2": 135.7466063,
+        "rai_national_total_2016_q3": 142.4501425,
+        "rai_national_total_2016_q4": 144.2307692,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3023",
+        "unique_id": "1328",
+        "rai_national_total_2017_q1": 121.4574899,
+        "rai_national_total_2017_q2": 121.4574899,
+        "rai_national_total_2016_q3": 124.7401247,
+        "rai_national_total_2016_q4": 124.7401247,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3024",
+        "unique_id": "1329",
+        "rai_national_total_2017_q1": 139.8601399,
+        "rai_national_total_2017_q2": 131.8681319,
+        "rai_national_total_2016_q3": 139.8601399,
+        "rai_national_total_2016_q4": 139.8601399,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3026",
+        "unique_id": "1331",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3027",
+        "unique_id": "1332",
+        "rai_national_total_2017_q1": 109.8901099,
+        "rai_national_total_2017_q2": 109.8901099,
+        "rai_national_total_2016_q3": 113.960114,
+        "rai_national_total_2016_q4": 109.8901099,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3028",
+        "unique_id": "1333",
+        "rai_national_total_2017_q1": 139.8601399,
+        "rai_national_total_2017_q2": 135.7466063,
+        "rai_national_total_2016_q3": 143.1127013,
+        "rai_national_total_2016_q4": 139.8601399,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3053",
+        "unique_id": "1356",
+        "rai_national_total_2017_q1": 119.8801199,
+        "rai_national_total_2017_q2": 107.3345259,
+        "rai_national_total_2016_q3": 131.8681319,
+        "rai_national_total_2016_q4": 116.8451801,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3084",
+        "unique_id": "1384",
+        "rai_national_total_2017_q1": 109.8901099,
+        "rai_national_total_2017_q2": 109.8901099,
+        "rai_national_total_2016_q3": 116.8451801,
+        "rai_national_total_2016_q4": 115.3846154,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3037",
+        "unique_id": "1341",
+        "rai_national_total_2017_q1": 129.1016676,
+        "rai_national_total_2017_q2": 128.2051282,
+        "rai_national_total_2016_q3": 128.2051282,
+        "rai_national_total_2016_q4": 126.4488936,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3029",
+        "unique_id": "1334",
+        "rai_national_total_2017_q1": 131.8681319,
+        "rai_national_total_2017_q2": 128.2051282,
+        "rai_national_total_2016_q3": 135.7466063,
+        "rai_national_total_2016_q4": 131.8681319,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3030",
+        "unique_id": "1335",
+        "rai_national_total_2017_q1": 124.7401247,
+        "rai_national_total_2017_q2": 121.4574899,
+        "rai_national_total_2016_q3": 126.4488936,
+        "rai_national_total_2016_q4": 124.7401247,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3038",
+        "unique_id": "1342",
+        "rai_national_total_2017_q1": 116.8451801,
+        "rai_national_total_2017_q2": 112.5703565,
+        "rai_national_total_2016_q3": 121.4574899,
+        "rai_national_total_2016_q4": 117.589417,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3201",
+        "unique_id": "1489",
+        "rai_national_total_2017_q1": 131.8681319,
+        "rai_national_total_2017_q2": 131.8681319,
+        "rai_national_total_2016_q3": 130.0108342,
+        "rai_national_total_2016_q4": 128.2051282,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3031",
+        "unique_id": "1336",
+        "rai_national_total_2017_q1": 102.5641026,
+        "rai_national_total_2017_q2": 109.8901099,
+        "rai_national_total_2016_q3": 109.8901099,
+        "rai_national_total_2016_q4": 104.8951049,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3032",
+        "unique_id": "1337",
+        "rai_national_total_2017_q1": 115.3846154,
+        "rai_national_total_2017_q2": 115.3846154,
+        "rai_national_total_2016_q3": 118.3431953,
+        "rai_national_total_2016_q4": 115.3846154,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3039",
+        "unique_id": "1343",
+        "rai_national_total_2017_q1": 106.7140952,
+        "rai_national_total_2017_q2": 115.3846154,
+        "rai_national_total_2016_q3": 112.5703565,
+        "rai_national_total_2016_q4": 116.8451801,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3040",
+        "unique_id": "1344",
+        "rai_national_total_2017_q1": 115.3846154,
+        "rai_national_total_2017_q2": 121.4574899,
+        "rai_national_total_2016_q3": 124.7401247,
+        "rai_national_total_2016_q4": 119.8801199,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3066",
+        "unique_id": "1369",
+        "rai_national_total_2017_q1": 96.15384615,
+        "rai_national_total_2017_q2": 88.75739645,
+        "rai_national_total_2016_q3": 92.30769231,
+        "rai_national_total_2016_q4": 91.39375476,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3041",
+        "unique_id": "1345",
+        "rai_national_total_2017_q1": 115.3846154,
+        "rai_national_total_2017_q2": 109.8901099,
+        "rai_national_total_2016_q3": 116.1103048,
+        "rai_national_total_2016_q4": 116.8451801,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3042",
+        "unique_id": "1346",
+        "rai_national_total_2017_q1": 119.8801199,
+        "rai_national_total_2017_q2": 115.3846154,
+        "rai_national_total_2016_q3": 118.3431953,
+        "rai_national_total_2016_q4": 121.4574899,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3162",
+        "unique_id": "1452",
+        "rai_national_total_2017_q1": 95.16256939,
+        "rai_national_total_2017_q2": 99.25558313,
+        "rai_national_total_2016_q3": 100.3344482,
+        "rai_national_total_2016_q4": 102.5641026,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3043",
+        "unique_id": "1347",
+        "rai_national_total_2017_q1": 127.3209549,
+        "rai_national_total_2017_q2": 124.7401247,
+        "rai_national_total_2016_q3": 128.2051282,
+        "rai_national_total_2016_q4": 131.8681319,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3202",
+        "unique_id": "1490",
+        "rai_national_total_2017_q1": 115.5290267,
+        "rai_national_total_2017_q2": 102.5641026,
+        "rai_national_total_2016_q3": 108.5972851,
+        "rai_national_total_2016_q4": 108.5972851,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3044",
+        "unique_id": "1348",
+        "rai_national_total_2017_q1": 116.8451801,
+        "rai_national_total_2017_q2": 115.3846154,
+        "rai_national_total_2016_q3": 121.4574899,
+        "rai_national_total_2016_q4": 121.4574899,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3045",
+        "unique_id": "1349",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3218",
+        "unique_id": "1501",
+        "rai_national_total_2017_q1": 139.8601399,
+        "rai_national_total_2017_q2": 139.8601399,
+        "rai_national_total_2016_q3": 148.8833747,
+        "rai_national_total_2016_q4": 144.2307692,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3057",
+        "unique_id": "1360",
+        "rai_national_total_2017_q1": 102.5641026,
+        "rai_national_total_2017_q2": 107.3345259,
+        "rai_national_total_2016_q3": 121.4574899,
+        "rai_national_total_2016_q4": 115.3846154,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3047",
+        "unique_id": "1351",
+        "rai_national_total_2017_q1": 139.8601399,
+        "rai_national_total_2017_q2": 135.7466063,
+        "rai_national_total_2016_q3": 144.2307692,
+        "rai_national_total_2016_q4": 139.8601399,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3046",
+        "unique_id": "1350",
+        "rai_national_total_2017_q1": 128.2051282,
+        "rai_national_total_2017_q2": 124.7401247,
+        "rai_national_total_2016_q3": 130.9328969,
+        "rai_national_total_2016_q4": 131.8681319,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3078",
+        "unique_id": "1379",
+        "rai_national_total_2017_q1": 114.6679408,
+        "rai_national_total_2017_q2": 121.4574899,
+        "rai_national_total_2016_q3": 135.7466063,
+        "rai_national_total_2016_q4": 118.3431953,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3079",
+        "unique_id": "1380",
+        "rai_national_total_2017_q1": 99.25558313,
+        "rai_national_total_2017_q2": 106.1007958,
+        "rai_national_total_2016_q3": 102.5641026,
+        "rai_national_total_2016_q4": 104.3024772,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3048",
+        "unique_id": "1352",
+        "rai_national_total_2017_q1": 135.7466063,
+        "rai_national_total_2017_q2": 131.8681319,
+        "rai_national_total_2016_q3": 139.8601399,
+        "rai_national_total_2016_q4": 138.2886776,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3051",
+        "unique_id": "1354",
+        "rai_national_total_2017_q1": 124.7401247,
+        "rai_national_total_2017_q2": 109.8901099,
+        "rai_national_total_2016_q3": 124.9089206,
+        "rai_national_total_2016_q4": 112.5703565,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3049",
+        "unique_id": "1353",
+        "rai_national_total_2017_q1": 130.0108342,
+        "rai_national_total_2017_q2": 124.7401247,
+        "rai_national_total_2016_q3": 130.0108342,
+        "rai_national_total_2016_q4": 123.0769231,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3076",
+        "unique_id": "1378",
+        "rai_national_total_2017_q1": 131.8681319,
+        "rai_national_total_2017_q2": 131.8681319,
+        "rai_national_total_2016_q3": 139.8601399,
+        "rai_national_total_2016_q4": 133.7792642,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3055",
+        "unique_id": "1358",
+        "rai_national_total_2017_q1": 128.2051282,
+        "rai_national_total_2017_q2": 128.2051282,
+        "rai_national_total_2016_q3": 139.8601399,
+        "rai_national_total_2016_q4": 128.2051282,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3190",
+        "unique_id": "1478",
+        "rai_national_total_2017_q1": 107.3345259,
+        "rai_national_total_2017_q2": 102.5641026,
+        "rai_national_total_2016_q3": 109.8901099,
+        "rai_national_total_2016_q4": 106.1007958,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3056",
+        "unique_id": "1359",
+        "rai_national_total_2017_q1": 102.5641026,
+        "rai_national_total_2017_q2": 104.8951049,
+        "rai_national_total_2016_q3": 104.8951049,
+        "rai_national_total_2016_q4": 102.5641026,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3058",
+        "unique_id": "1361",
+        "rai_national_total_2017_q1": 108.5972851,
+        "rai_national_total_2017_q2": 109.2398726,
+        "rai_national_total_2016_q3": 115.3846154,
+        "rai_national_total_2016_q4": 109.8901099,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3087",
+        "unique_id": "1387",
+        "rai_national_total_2017_q1": 116.8451801,
+        "rai_national_total_2017_q2": 109.8901099,
+        "rai_national_total_2016_q3": 124.7401247,
+        "rai_national_total_2016_q4": 124.7401247,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3103",
+        "unique_id": "1400",
+        "rai_national_total_2017_q1": 107.3345259,
+        "rai_national_total_2017_q2": 96.15384615,
+        "rai_national_total_2016_q3": 94.19152276,
+        "rai_national_total_2016_q4": 95.16256939,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3059",
+        "unique_id": "1362",
+        "rai_national_total_2017_q1": 111.2140871,
+        "rai_national_total_2017_q2": 115.3846154,
+        "rai_national_total_2016_q3": 115.3846154,
+        "rai_national_total_2016_q4": 115.3846154,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3060",
+        "unique_id": "1363",
+        "rai_national_total_2017_q1": 124.7401247,
+        "rai_national_total_2017_q2": 121.4574899,
+        "rai_national_total_2016_q3": 125.0408988,
+        "rai_national_total_2016_q4": 124.7401247,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3088",
+        "unique_id": "1388",
+        "rai_national_total_2017_q1": 109.8901099,
+        "rai_national_total_2017_q2": 112.5703565,
+        "rai_national_total_2016_q3": 121.4574899,
+        "rai_national_total_2016_q4": 121.4574899,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3061",
+        "unique_id": "1364",
+        "rai_national_total_2017_q1": 159.1511936,
+        "rai_national_total_2017_q2": 161.9433198,
+        "rai_national_total_2016_q3": 144.2307692,
+        "rai_national_total_2016_q4": 167.8321678,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3188",
+        "unique_id": "1476",
+        "rai_national_total_2017_q1": 85.47008547,
+        "rai_national_total_2017_q2": 92.30769231,
+        "rai_national_total_2016_q3": 92.30769231,
+        "rai_national_total_2016_q4": 86.67388949,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3062",
+        "unique_id": "1365",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3063",
+        "unique_id": "1366",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3064",
+        "unique_id": "1367",
+        "rai_national_total_2017_q1": 130.0108342,
+        "rai_national_total_2017_q2": 128.2051282,
+        "rai_national_total_2016_q3": 131.8681319,
+        "rai_national_total_2016_q4": 131.8681319,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3065",
+        "unique_id": "1368",
+        "rai_national_total_2017_q1": 88.75739645,
+        "rai_national_total_2017_q2": 87.08272859,
+        "rai_national_total_2016_q3": 97.1659919,
+        "rai_national_total_2016_q4": 92.30769231,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3067",
+        "unique_id": "1370",
+        "rai_national_total_2017_q1": 102.5641026,
+        "rai_national_total_2017_q2": 102.5641026,
+        "rai_national_total_2016_q3": 103.7165082,
+        "rai_national_total_2016_q4": 108.5972851,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3068",
+        "unique_id": "1371",
+        "rai_national_total_2017_q1": 88.33271991,
+        "rai_national_total_2017_q2": 90.05628518,
+        "rai_national_total_2016_q3": 91.93993258,
+        "rai_national_total_2016_q4": 87.91208791,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3189",
+        "unique_id": "1477",
+        "rai_national_total_2017_q1": 109.8901099,
+        "rai_national_total_2017_q2": 97.1659919,
+        "rai_national_total_2016_q3": 107.3345259,
+        "rai_national_total_2016_q4": 105.4945055,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3184",
+        "unique_id": "1472",
+        "rai_national_total_2017_q1": 109.8901099,
+        "rai_national_total_2017_q2": 109.8901099,
+        "rai_national_total_2016_q3": 109.8901099,
+        "rai_national_total_2016_q4": 112.5703565,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3070",
+        "unique_id": "1372",
+        "rai_national_total_2017_q1": 96.15384615,
+        "rai_national_total_2017_q2": 102.5641026,
+        "rai_national_total_2016_q3": 107.3345259,
+        "rai_national_total_2016_q4": 94.19152276,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3126",
+        "unique_id": "1417",
+        "rai_national_total_2017_q1": 69.40427993,
+        "rai_national_total_2017_q2": 80.26755853,
+        "rai_national_total_2016_q3": 85.47008547,
+        "rai_national_total_2016_q4": 87.08272859,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3107",
+        "unique_id": "1404",
+        "rai_national_total_2017_q1": 98.19967267,
+        "rai_national_total_2017_q2": 92.30769231,
+        "rai_national_total_2016_q3": 102.5641026,
+        "rai_national_total_2016_q4": 100.3344482,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3071",
+        "unique_id": "1373",
+        "rai_national_total_2017_q1": 116.8451801,
+        "rai_national_total_2017_q2": 116.8451801,
+        "rai_national_total_2016_q3": 131.8681319,
+        "rai_national_total_2016_q4": 124.7401247,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3143",
+        "unique_id": "1434",
+        "rai_national_total_2017_q1": 109.8901099,
+        "rai_national_total_2017_q2": 100.3344482,
+        "rai_national_total_2016_q3": 106.1007958,
+        "rai_national_total_2016_q4": 115.3846154,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3072",
+        "unique_id": "1374",
+        "rai_national_total_2017_q1": 115.3846154,
+        "rai_national_total_2017_q2": 115.3846154,
+        "rai_national_total_2016_q3": 119.8801199,
+        "rai_national_total_2016_q4": 118.3431953,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3073",
+        "unique_id": "1375",
+        "rai_national_total_2017_q1": 131.8681319,
+        "rai_national_total_2017_q2": 128.2051282,
+        "rai_national_total_2016_q3": 135.7466063,
+        "rai_national_total_2016_q4": 131.8681319,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3074",
+        "unique_id": "1376",
+        "rai_national_total_2017_q1": 135.7466063,
+        "rai_national_total_2017_q2": 131.8681319,
+        "rai_national_total_2016_q3": 139.8601399,
+        "rai_national_total_2016_q4": 135.7466063,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3075",
+        "unique_id": "1377",
+        "rai_national_total_2017_q1": 131.8681319,
+        "rai_national_total_2017_q2": 135.7466063,
+        "rai_national_total_2016_q3": 135.7466063,
+        "rai_national_total_2016_q4": 135.7466063,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3081",
+        "unique_id": "1381",
+        "rai_national_total_2017_q1": 121.4574899,
+        "rai_national_total_2017_q2": 124.7401247,
+        "rai_national_total_2016_q3": 131.8681319,
+        "rai_national_total_2016_q4": 128.2051282,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3082",
+        "unique_id": "1382",
+        "rai_national_total_2017_q1": 130.0108342,
+        "rai_national_total_2017_q2": 129.1016676,
+        "rai_national_total_2016_q3": 131.8681319,
+        "rai_national_total_2016_q4": 131.8681319,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3083",
+        "unique_id": "1383",
+        "rai_national_total_2017_q1": 131.8681319,
+        "rai_national_total_2017_q2": 123.0769231,
+        "rai_national_total_2016_q3": 131.8681319,
+        "rai_national_total_2016_q4": 131.8681319,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3085",
+        "unique_id": "1385",
+        "rai_national_total_2017_q1": 124.7401247,
+        "rai_national_total_2017_q2": 123.9029427,
+        "rai_national_total_2016_q3": 119.8801199,
+        "rai_national_total_2016_q4": 121.4574899,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3185",
+        "unique_id": "1473",
+        "rai_national_total_2017_q1": 104.8951049,
+        "rai_national_total_2017_q2": 109.8901099,
+        "rai_national_total_2016_q3": 119.8801199,
+        "rai_national_total_2016_q4": 115.3846154,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3086",
+        "unique_id": "1386",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3108",
+        "unique_id": "1405",
+        "rai_national_total_2017_q1": 102.5641026,
+        "rai_national_total_2017_q2": 99.25558313,
+        "rai_national_total_2016_q3": 112.5703565,
+        "rai_national_total_2016_q4": 104.8951049,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3109",
+        "unique_id": "1406",
+        "rai_national_total_2017_q1": 96.15384615,
+        "rai_national_total_2017_q2": 102.5641026,
+        "rai_national_total_2016_q3": 102.5641026,
+        "rai_national_total_2016_q4": 93.24009324,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3111",
+        "unique_id": "1407",
+        "rai_national_total_2017_q1": 102.5641026,
+        "rai_national_total_2017_q2": 102.5641026,
+        "rai_national_total_2016_q3": 104.8951049,
+        "rai_national_total_2016_q4": 102.5641026,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3113",
+        "unique_id": "1408",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": 98.19967267,
+        "rai_national_total_2016_q3": 68.6302545,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3094",
+        "unique_id": "1393",
+        "rai_national_total_2017_q1": 115.3846154,
+        "rai_national_total_2017_q2": 109.8901099,
+        "rai_national_total_2016_q3": 118.3431953,
+        "rai_national_total_2016_q4": 115.3846154,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3095",
+        "unique_id": "1394",
+        "rai_national_total_2017_q1": 95.16256939,
+        "rai_national_total_2017_q2": 92.30769231,
+        "rai_national_total_2016_q3": 102.5641026,
+        "rai_national_total_2016_q4": 102.5641026,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3089",
+        "unique_id": "1389",
+        "rai_national_total_2017_q1": 104.8951049,
+        "rai_national_total_2017_q2": 107.3345259,
+        "rai_national_total_2016_q3": 118.3431953,
+        "rai_national_total_2016_q4": 102.5641026,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3090",
+        "unique_id": "1390",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3091",
+        "unique_id": "1391",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3093",
+        "unique_id": "1392",
+        "rai_national_total_2017_q1": 124.7401247,
+        "rai_national_total_2017_q2": 113.960114,
+        "rai_national_total_2016_q3": 124.7401247,
+        "rai_national_total_2016_q4": 134.7557552,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3096",
+        "unique_id": "1395",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3097",
+        "unique_id": "1396",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3099",
+        "unique_id": "1397",
+        "rai_national_total_2017_q1": 128.2051282,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3101",
+        "unique_id": "1398",
+        "rai_national_total_2017_q1": 97.1659919,
+        "rai_national_total_2017_q2": 98.19967267,
+        "rai_national_total_2016_q3": 93.24009324,
+        "rai_national_total_2016_q4": 92.30769231,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3102",
+        "unique_id": "1399",
+        "rai_national_total_2017_q1": 92.30769231,
+        "rai_national_total_2017_q2": 92.30769231,
+        "rai_national_total_2016_q3": 102.5641026,
+        "rai_national_total_2016_q4": 79.57559682,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3104",
+        "unique_id": "1401",
+        "rai_national_total_2017_q1": 76.92307692,
+        "rai_national_total_2017_q2": 88.75739645,
+        "rai_national_total_2016_q3": 82.05128205,
+        "rai_national_total_2016_q4": 83.16008316,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3105",
+        "unique_id": "1402",
+        "rai_national_total_2017_q1": 102.5641026,
+        "rai_national_total_2017_q2": 94.19152276,
+        "rai_national_total_2016_q3": 109.8901099,
+        "rai_national_total_2016_q4": 102.5641026,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3106",
+        "unique_id": "1403",
+        "rai_national_total_2017_q1": 85.47008547,
+        "rai_national_total_2017_q2": 93.24009324,
+        "rai_national_total_2016_q3": 85.47008547,
+        "rai_national_total_2016_q4": 88.75739645,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3114",
+        "unique_id": "1409",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3115",
+        "unique_id": "1410",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3116",
+        "unique_id": "1411",
+        "rai_national_total_2017_q1": 109.8901099,
+        "rai_national_total_2017_q2": 115.3846154,
+        "rai_national_total_2016_q3": 100.8827238,
+        "rai_national_total_2016_q4": 107.3345259,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3121",
+        "unique_id": "1412",
+        "rai_national_total_2017_q1": 90.49773756,
+        "rai_national_total_2017_q2": 92.30769231,
+        "rai_national_total_2016_q3": 94.67455621,
+        "rai_national_total_2016_q4": 95.16256939,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3122",
+        "unique_id": "1413",
+        "rai_national_total_2017_q1": 130.0108342,
+        "rai_national_total_2017_q2": 113.960114,
+        "rai_national_total_2016_q3": 123.0769231,
+        "rai_national_total_2016_q4": 116.8451801,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3123",
+        "unique_id": "1414",
+        "rai_national_total_2017_q1": 112.5703565,
+        "rai_national_total_2017_q2": 109.8901099,
+        "rai_national_total_2016_q3": 109.8901099,
+        "rai_national_total_2016_q4": 109.8901099,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3124",
+        "unique_id": "1415",
+        "rai_national_total_2017_q1": 97.1659919,
+        "rai_national_total_2017_q2": 96.65726943,
+        "rai_national_total_2016_q3": 94.19152276,
+        "rai_national_total_2016_q4": 94.19152276,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3127",
+        "unique_id": "1418",
+        "rai_national_total_2017_q1": 102.5641026,
+        "rai_national_total_2017_q2": 98.72480461,
+        "rai_national_total_2016_q3": 103.7165082,
+        "rai_national_total_2016_q4": 102.5641026,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3125",
+        "unique_id": "1416",
+        "rai_national_total_2017_q1": 184.6153846,
+        "rai_national_total_2017_q2": 107.3345259,
+        "rai_national_total_2016_q3": 115.3846154,
+        "rai_national_total_2016_q4": 135.7466063,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3132",
+        "unique_id": "1423",
+        "rai_national_total_2017_q1": 118.3431953,
+        "rai_national_total_2017_q2": 115.3846154,
+        "rai_national_total_2016_q3": 119.1066998,
+        "rai_national_total_2016_q4": 115.3846154,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3133",
+        "unique_id": "1424",
+        "rai_national_total_2017_q1": 100.3344482,
+        "rai_national_total_2017_q2": 102.5641026,
+        "rai_national_total_2016_q3": 109.8901099,
+        "rai_national_total_2016_q4": 107.3345259,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3134",
+        "unique_id": "1425",
+        "rai_national_total_2017_q1": 119.8801199,
+        "rai_national_total_2017_q2": 121.4574899,
+        "rai_national_total_2016_q3": 121.4574899,
+        "rai_national_total_2016_q4": 124.7401247,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3135",
+        "unique_id": "1426",
+        "rai_national_total_2017_q1": 121.4574899,
+        "rai_national_total_2017_q2": 121.4574899,
+        "rai_national_total_2016_q3": 121.4574899,
+        "rai_national_total_2016_q4": 121.4574899,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3136",
+        "unique_id": "1427",
+        "rai_national_total_2017_q1": 119.8801199,
+        "rai_national_total_2017_q2": 119.8801199,
+        "rai_national_total_2016_q3": 123.0769231,
+        "rai_national_total_2016_q4": 121.4574899,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3128",
+        "unique_id": "1419",
+        "rai_national_total_2017_q1": 128.2051282,
+        "rai_national_total_2017_q2": 118.3431953,
+        "rai_national_total_2016_q3": 116.1103048,
+        "rai_national_total_2016_q4": 118.3431953,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3153",
+        "unique_id": "1444",
+        "rai_national_total_2017_q1": 124.7401247,
+        "rai_national_total_2017_q2": 124.7401247,
+        "rai_national_total_2016_q3": 131.3446297,
+        "rai_national_total_2016_q4": 131.8681319,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3204",
+        "unique_id": "1491",
+        "rai_national_total_2017_q1": 100.3344482,
+        "rai_national_total_2017_q2": 97.1659919,
+        "rai_national_total_2016_q3": 102.5641026,
+        "rai_national_total_2016_q4": 102.5641026,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3129",
+        "unique_id": "1420",
+        "rai_national_total_2017_q1": 102.5641026,
+        "rai_national_total_2017_q2": 104.8951049,
+        "rai_national_total_2016_q3": 107.3345259,
+        "rai_national_total_2016_q4": 108.3016852,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3130",
+        "unique_id": "1421",
+        "rai_national_total_2017_q1": 113.960114,
+        "rai_national_total_2017_q2": 111.2140871,
+        "rai_national_total_2016_q3": 115.3846154,
+        "rai_national_total_2016_q4": 115.3846154,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3131",
+        "unique_id": "1422",
+        "rai_national_total_2017_q1": 115.3846154,
+        "rai_national_total_2017_q2": 115.3846154,
+        "rai_national_total_2016_q3": 116.8451801,
+        "rai_national_total_2016_q4": 118.3431953,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3137",
+        "unique_id": "1428",
+        "rai_national_total_2017_q1": 121.4574899,
+        "rai_national_total_2017_q2": 121.4574899,
+        "rai_national_total_2016_q3": 118.3431953,
+        "rai_national_total_2016_q4": 123.0769231,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3138",
+        "unique_id": "1429",
+        "rai_national_total_2017_q1": 117.589417,
+        "rai_national_total_2017_q2": 116.8451801,
+        "rai_national_total_2016_q3": 119.1066998,
+        "rai_national_total_2016_q4": 121.4574899,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3139",
+        "unique_id": "1430",
+        "rai_national_total_2017_q1": 128.2051282,
+        "rai_national_total_2017_q2": 135.7466063,
+        "rai_national_total_2016_q3": 135.7466063,
+        "rai_national_total_2016_q4": 126.4488936,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3140",
+        "unique_id": "1431",
+        "rai_national_total_2017_q1": 128.2051282,
+        "rai_national_total_2017_q2": 123.0769231,
+        "rai_national_total_2016_q3": 130.0108342,
+        "rai_national_total_2016_q4": 128.2051282,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3141",
+        "unique_id": "1432",
+        "rai_national_total_2017_q1": 102.5641026,
+        "rai_national_total_2017_q2": 99.25558313,
+        "rai_national_total_2016_q3": 104.8951049,
+        "rai_national_total_2016_q4": 102.5641026,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3142",
+        "unique_id": "1433",
+        "rai_national_total_2017_q1": 93.24009324,
+        "rai_national_total_2017_q2": 93.71339321,
+        "rai_national_total_2016_q3": 102.5641026,
+        "rai_national_total_2016_q4": 97.68009768,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3144",
+        "unique_id": "1435",
+        "rai_national_total_2017_q1": 100.3344482,
+        "rai_national_total_2017_q2": 109.2398726,
+        "rai_national_total_2016_q3": 102.5641026,
+        "rai_national_total_2016_q4": 92.30769231,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3149",
+        "unique_id": "1440",
+        "rai_national_total_2017_q1": 93.24009324,
+        "rai_national_total_2017_q2": 94.67455621,
+        "rai_national_total_2016_q3": 104.8951049,
+        "rai_national_total_2016_q4": 102.5641026,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3150",
+        "unique_id": "1441",
+        "rai_national_total_2017_q1": 96.15384615,
+        "rai_national_total_2017_q2": 96.15384615,
+        "rai_national_total_2016_q3": 96.15384615,
+        "rai_national_total_2016_q4": 96.15384615,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3145",
+        "unique_id": "1436",
+        "rai_national_total_2017_q1": 133.7792642,
+        "rai_national_total_2017_q2": 109.8901099,
+        "rai_national_total_2016_q3": 121.4574899,
+        "rai_national_total_2016_q4": 116.8451801,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3146",
+        "unique_id": "1437",
+        "rai_national_total_2017_q1": 102.5641026,
+        "rai_national_total_2017_q2": 104.8951049,
+        "rai_national_total_2016_q3": 109.8901099,
+        "rai_national_total_2016_q4": 104.8951049,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3151",
+        "unique_id": "1442",
+        "rai_national_total_2017_q1": 109.8901099,
+        "rai_national_total_2017_q2": 102.5641026,
+        "rai_national_total_2016_q3": 107.3345259,
+        "rai_national_total_2016_q4": 109.8901099,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3152",
+        "unique_id": "1443",
+        "rai_national_total_2017_q1": 108.5972851,
+        "rai_national_total_2017_q2": 104.8951049,
+        "rai_national_total_2016_q3": 114.6679408,
+        "rai_national_total_2016_q4": 104.8951049,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3147",
+        "unique_id": "1438",
+        "rai_national_total_2017_q1": 92.30769231,
+        "rai_national_total_2017_q2": 92.30769231,
+        "rai_national_total_2016_q3": 96.65726943,
+        "rai_national_total_2016_q4": 92.30769231,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3148",
+        "unique_id": "1439",
+        "rai_national_total_2017_q1": 94.19152276,
+        "rai_national_total_2017_q2": 109.8901099,
+        "rai_national_total_2016_q3": 109.8901099,
+        "rai_national_total_2016_q4": 102.5641026,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3154",
+        "unique_id": "1445",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": 132.8168235,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3161",
+        "unique_id": "1451",
+        "rai_national_total_2017_q1": 102.5641026,
+        "rai_national_total_2017_q2": 104.8951049,
+        "rai_national_total_2016_q3": 109.8901099,
+        "rai_national_total_2016_q4": 102.5641026,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3155",
+        "unique_id": "1446",
+        "rai_national_total_2017_q1": 126.4488936,
+        "rai_national_total_2017_q2": 126.4488936,
+        "rai_national_total_2016_q3": 129.1016676,
+        "rai_national_total_2016_q4": 128.2051282,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3156",
+        "unique_id": "1447",
+        "rai_national_total_2017_q1": 115.3846154,
+        "rai_national_total_2017_q2": 116.8451801,
+        "rai_national_total_2016_q3": 123.9029427,
+        "rai_national_total_2016_q4": 121.4574899,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3158",
+        "unique_id": "1448",
+        "rai_national_total_2017_q1": 116.1103048,
+        "rai_national_total_2017_q2": 109.8901099,
+        "rai_national_total_2016_q3": 118.3431953,
+        "rai_national_total_2016_q4": 109.8901099,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3159",
+        "unique_id": "1449",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3160",
+        "unique_id": "1450",
+        "rai_national_total_2017_q1": 116.8451801,
+        "rai_national_total_2017_q2": 115.3846154,
+        "rai_national_total_2016_q3": 121.4574899,
+        "rai_national_total_2016_q4": 107.3345259,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3163",
+        "unique_id": "1453",
+        "rai_national_total_2017_q1": 112.5703565,
+        "rai_national_total_2017_q2": 116.8451801,
+        "rai_national_total_2016_q3": 123.0769231,
+        "rai_national_total_2016_q4": 118.3431953,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3165",
+        "unique_id": "1454",
+        "rai_national_total_2017_q1": 96.15384615,
+        "rai_national_total_2017_q2": 92.30769231,
+        "rai_national_total_2016_q3": 100.3344482,
+        "rai_national_total_2016_q4": 93.24009324,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3166",
+        "unique_id": "1455",
+        "rai_national_total_2017_q1": 107.3345259,
+        "rai_national_total_2017_q2": 109.8901099,
+        "rai_national_total_2016_q3": 116.8451801,
+        "rai_national_total_2016_q4": 115.3846154,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3167",
+        "unique_id": "1456",
+        "rai_national_total_2017_q1": 111.2140871,
+        "rai_national_total_2017_q2": 107.3345259,
+        "rai_national_total_2016_q3": 113.960114,
+        "rai_national_total_2016_q4": 107.3345259,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3168",
+        "unique_id": "1457",
+        "rai_national_total_2017_q1": 126.4488936,
+        "rai_national_total_2017_q2": 118.3431953,
+        "rai_national_total_2016_q3": 128.2051282,
+        "rai_national_total_2016_q4": 124.7401247,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3169",
+        "unique_id": "1458",
+        "rai_national_total_2017_q1": 121.4574899,
+        "rai_national_total_2017_q2": 121.4574899,
+        "rai_national_total_2016_q3": 124.7401247,
+        "rai_national_total_2016_q4": 121.4574899,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3170",
+        "unique_id": "1459",
+        "rai_national_total_2017_q1": 107.3345259,
+        "rai_national_total_2017_q2": 109.2398726,
+        "rai_national_total_2016_q3": 107.3345259,
+        "rai_national_total_2016_q4": 109.2398726,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3171",
+        "unique_id": "1460",
+        "rai_national_total_2017_q1": 124.7401247,
+        "rai_national_total_2017_q2": 131.8681319,
+        "rai_national_total_2016_q3": 128.2051282,
+        "rai_national_total_2016_q4": 130.0108342,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3173",
+        "unique_id": "1462",
+        "rai_national_total_2017_q1": 104.8951049,
+        "rai_national_total_2017_q2": 107.3345259,
+        "rai_national_total_2016_q3": 107.3345259,
+        "rai_national_total_2016_q4": 104.8951049,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3172",
+        "unique_id": "1461",
+        "rai_national_total_2017_q1": 118.3431953,
+        "rai_national_total_2017_q2": 121.4574899,
+        "rai_national_total_2016_q3": 124.7401247,
+        "rai_national_total_2016_q4": 121.4574899,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3181",
+        "unique_id": "1469",
+        "rai_national_total_2017_q1": 118.3431953,
+        "rai_national_total_2017_q2": 104.8951049,
+        "rai_national_total_2016_q3": 115.3846154,
+        "rai_national_total_2016_q4": 104.8951049,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3180",
+        "unique_id": "1468",
+        "rai_national_total_2017_q1": 112.5703565,
+        "rai_national_total_2017_q2": 111.2140871,
+        "rai_national_total_2016_q3": 115.3846154,
+        "rai_national_total_2016_q4": 114.6679408,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3187",
+        "unique_id": "1475",
+        "rai_national_total_2017_q1": 71.00591716,
+        "rai_national_total_2017_q2": 65.46644845,
+        "rai_national_total_2016_q3": 71.00591716,
+        "rai_national_total_2016_q4": 66.64815329,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3174",
+        "unique_id": "1463",
+        "rai_national_total_2017_q1": 139.8601399,
+        "rai_national_total_2017_q2": 135.7466063,
+        "rai_national_total_2016_q3": 139.8601399,
+        "rai_national_total_2016_q4": 142.0118343,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3175",
+        "unique_id": "1464",
+        "rai_national_total_2017_q1": 148.8833747,
+        "rai_national_total_2017_q2": 148.8833747,
+        "rai_national_total_2016_q3": 153.8461538,
+        "rai_national_total_2016_q4": 147.9289941,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3177",
+        "unique_id": "1465",
+        "rai_national_total_2017_q1": 146.5201465,
+        "rai_national_total_2017_q2": 139.8601399,
+        "rai_national_total_2016_q3": 153.8461538,
+        "rai_national_total_2016_q4": 148.8833747,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3178",
+        "unique_id": "1466",
+        "rai_national_total_2017_q1": 102.5641026,
+        "rai_national_total_2017_q2": 106.1007958,
+        "rai_national_total_2016_q3": 104.8951049,
+        "rai_national_total_2016_q4": 104.8951049,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3179",
+        "unique_id": "1467",
+        "rai_national_total_2017_q1": 113.2609722,
+        "rai_national_total_2017_q2": 109.2398726,
+        "rai_national_total_2016_q3": 118.3431953,
+        "rai_national_total_2016_q4": 116.8451801,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3803",
+        "unique_id": "1854",
+        "rai_national_total_2017_q1": 131.8681319,
+        "rai_national_total_2017_q2": 127.3209549,
+        "rai_national_total_2016_q3": 133.7792642,
+        "rai_national_total_2016_q4": 135.7466063,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3804",
+        "unique_id": "1855",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3182",
+        "unique_id": "1470",
+        "rai_national_total_2017_q1": 112.5703565,
+        "rai_national_total_2017_q2": 109.8901099,
+        "rai_national_total_2016_q3": 115.3846154,
+        "rai_national_total_2016_q4": 115.3846154,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3183",
+        "unique_id": "1471",
+        "rai_national_total_2017_q1": 115.3846154,
+        "rai_national_total_2017_q2": 116.8451801,
+        "rai_national_total_2016_q3": 116.8451801,
+        "rai_national_total_2016_q4": 115.3846154,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3186",
+        "unique_id": "1474",
+        "rai_national_total_2017_q1": 71.00591716,
+        "rai_national_total_2017_q2": 74.44168734,
+        "rai_national_total_2016_q3": 83.91608392,
+        "rai_national_total_2016_q4": 79.57559682,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3911",
+        "unique_id": "1920",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": 123.0769231,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3191",
+        "unique_id": "1479",
+        "rai_national_total_2017_q1": 95.6556397,
+        "rai_national_total_2017_q2": 102.5641026,
+        "rai_national_total_2016_q3": 106.7140952,
+        "rai_national_total_2016_q4": 100.3344482,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3192",
+        "unique_id": "1480",
+        "rai_national_total_2017_q1": 102.5641026,
+        "rai_national_total_2017_q2": 104.3024772,
+        "rai_national_total_2016_q3": 107.3345259,
+        "rai_national_total_2016_q4": 104.8951049,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3193",
+        "unique_id": "1481",
+        "rai_national_total_2017_q1": 71.00591716,
+        "rai_national_total_2017_q2": 78.22685789,
+        "rai_national_total_2016_q3": 71.00591716,
+        "rai_national_total_2016_q4": 72.11538462,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3194",
+        "unique_id": "1482",
+        "rai_national_total_2017_q1": 118.3431953,
+        "rai_national_total_2017_q2": 118.3431953,
+        "rai_national_total_2016_q3": 119.1066998,
+        "rai_national_total_2016_q4": 118.3431953,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3195",
+        "unique_id": "1483",
+        "rai_national_total_2017_q1": 102.5641026,
+        "rai_national_total_2017_q2": 108.5972851,
+        "rai_national_total_2016_q3": 109.2398726,
+        "rai_national_total_2016_q4": 103.7165082,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3197",
+        "unique_id": "1485",
+        "rai_national_total_2017_q1": 109.8901099,
+        "rai_national_total_2017_q2": 107.3345259,
+        "rai_national_total_2016_q3": 109.2398726,
+        "rai_national_total_2016_q4": 115.3846154,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3196",
+        "unique_id": "1484",
+        "rai_national_total_2017_q1": 115.3846154,
+        "rai_national_total_2017_q2": 115.3846154,
+        "rai_national_total_2016_q3": 121.4574899,
+        "rai_national_total_2016_q4": 121.4574899,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3200",
+        "unique_id": "1488",
+        "rai_national_total_2017_q1": 148.8833747,
+        "rai_national_total_2017_q2": 144.2307692,
+        "rai_national_total_2016_q3": 159.1511936,
+        "rai_national_total_2016_q4": 153.8461538,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3198",
+        "unique_id": "1486",
+        "rai_national_total_2017_q1": 128.2051282,
+        "rai_national_total_2017_q2": 126.4488936,
+        "rai_national_total_2016_q3": 135.7466063,
+        "rai_national_total_2016_q4": 131.8681319,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3199",
+        "unique_id": "1487",
+        "rai_national_total_2017_q1": 135.7466063,
+        "rai_national_total_2017_q2": 133.7792642,
+        "rai_national_total_2016_q3": 139.8601399,
+        "rai_national_total_2016_q4": 139.8601399,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3205",
+        "unique_id": "1492",
+        "rai_national_total_2017_q1": 90.49773756,
+        "rai_national_total_2017_q2": 86.26887132,
+        "rai_national_total_2016_q3": 92.30769231,
+        "rai_national_total_2016_q4": 92.30769231,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3206",
+        "unique_id": "1493",
+        "rai_national_total_2017_q1": 67.13286713,
+        "rai_national_total_2017_q2": 65.00541712,
+        "rai_national_total_2016_q3": 67.62468301,
+        "rai_national_total_2016_q4": 70.19596373,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3219",
+        "unique_id": "1502",
+        "rai_national_total_2017_q1": 148.8833747,
+        "rai_national_total_2017_q2": 148.8833747,
+        "rai_national_total_2016_q3": 156.4537158,
+        "rai_national_total_2016_q4": 153.8461538,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3207",
+        "unique_id": "1494",
+        "rai_national_total_2017_q1": 79.23407065,
+        "rai_national_total_2017_q2": 79.57559682,
+        "rai_national_total_2016_q3": 81.68822328,
+        "rai_national_total_2016_q4": 83.91608392,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3211",
+        "unique_id": "1495",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3212",
+        "unique_id": "1496",
+        "rai_national_total_2017_q1": 131.8681319,
+        "rai_national_total_2017_q2": 128.2051282,
+        "rai_national_total_2016_q3": 135.7466063,
+        "rai_national_total_2016_q4": 131.8681319,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3214",
+        "unique_id": "1497",
+        "rai_national_total_2017_q1": 177.5147929,
+        "rai_national_total_2017_q2": 170.9401709,
+        "rai_national_total_2016_q3": 184.6153846,
+        "rai_national_total_2016_q4": 184.6153846,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3215",
+        "unique_id": "1498",
+        "rai_national_total_2017_q1": 144.2307692,
+        "rai_national_total_2017_q2": 139.8601399,
+        "rai_national_total_2016_q3": 152.574698,
+        "rai_national_total_2016_q4": 144.2307692,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3216",
+        "unique_id": "1499",
+        "rai_national_total_2017_q1": 159.1511936,
+        "rai_national_total_2017_q2": 135.7466063,
+        "rai_national_total_2016_q3": 142.2306507,
+        "rai_national_total_2016_q4": 135.7466063,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3220",
+        "unique_id": "1503",
+        "rai_national_total_2017_q1": 131.8681319,
+        "rai_national_total_2017_q2": 131.8681319,
+        "rai_national_total_2016_q3": 131.8681319,
+        "rai_national_total_2016_q4": 132.8168235,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3221",
+        "unique_id": "1504",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3222",
+        "unique_id": "1505",
+        "rai_national_total_2017_q1": 131.8681319,
+        "rai_national_total_2017_q2": 130.9328969,
+        "rai_national_total_2016_q3": 135.7466063,
+        "rai_national_total_2016_q4": 131.8681319,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3223",
+        "unique_id": "1506",
+        "rai_national_total_2017_q1": 153.8461538,
+        "rai_national_total_2017_q2": 148.8833747,
+        "rai_national_total_2016_q3": 159.1511936,
+        "rai_national_total_2016_q4": 159.1511936,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3224",
+        "unique_id": "1507",
+        "rai_national_total_2017_q1": 131.8681319,
+        "rai_national_total_2017_q2": 124.7401247,
+        "rai_national_total_2016_q3": 124.7401247,
+        "rai_national_total_2016_q4": 128.2051282,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3225",
+        "unique_id": "1508",
+        "rai_national_total_2017_q1": 121.4574899,
+        "rai_national_total_2017_q2": 123.9029427,
+        "rai_national_total_2016_q3": 128.2051282,
+        "rai_national_total_2016_q4": 121.4574899,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3226",
+        "unique_id": "1509",
+        "rai_national_total_2017_q1": 121.4574899,
+        "rai_national_total_2017_q2": 118.3431953,
+        "rai_national_total_2016_q3": 124.7401247,
+        "rai_national_total_2016_q4": 123.0769231,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3227",
+        "unique_id": "1510",
+        "rai_national_total_2017_q1": 109.8901099,
+        "rai_national_total_2017_q2": 107.3345259,
+        "rai_national_total_2016_q3": 124.7401247,
+        "rai_national_total_2016_q4": 123.0769231,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3228",
+        "unique_id": "1511",
+        "rai_national_total_2017_q1": 98.19967267,
+        "rai_national_total_2017_q2": 101.9974501,
+        "rai_national_total_2016_q3": 102.5641026,
+        "rai_national_total_2016_q4": 98.19967267,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3335",
+        "unique_id": "1581",
+        "rai_national_total_2017_q1": 107.3345259,
+        "rai_national_total_2017_q2": 111.2140871,
+        "rai_national_total_2016_q3": 115.3846154,
+        "rai_national_total_2016_q4": 113.960114,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3337",
+        "unique_id": "1582",
+        "rai_national_total_2017_q1": 148.8833747,
+        "rai_national_total_2017_q2": 151.3240858,
+        "rai_national_total_2016_q3": 159.1511936,
+        "rai_national_total_2016_q4": 153.8461538,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3338",
+        "unique_id": "1583",
+        "rai_national_total_2017_q1": 144.2307692,
+        "rai_national_total_2017_q2": 144.2307692,
+        "rai_national_total_2016_q3": 144.2307692,
+        "rai_national_total_2016_q4": 146.8698366,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3340",
+        "unique_id": "1584",
+        "rai_national_total_2017_q1": 144.2307692,
+        "rai_national_total_2017_q2": 139.8601399,
+        "rai_national_total_2016_q3": 144.2307692,
+        "rai_national_total_2016_q4": 144.2307692,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3341",
+        "unique_id": "1585",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3342",
+        "unique_id": "1586",
+        "rai_national_total_2017_q1": 131.8681319,
+        "rai_national_total_2017_q2": 146.5201465,
+        "rai_national_total_2016_q3": 164.8351648,
+        "rai_national_total_2016_q4": 148.8833747,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3427",
+        "unique_id": "1630",
+        "rai_national_total_2017_q1": 139.8601399,
+        "rai_national_total_2017_q2": 131.8681319,
+        "rai_national_total_2016_q3": 131.8681319,
+        "rai_national_total_2016_q4": 131.8681319,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3428",
+        "unique_id": "1631",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3429",
+        "unique_id": "1632",
+        "rai_national_total_2017_q1": 132.8168235,
+        "rai_national_total_2017_q2": 131.8681319,
+        "rai_national_total_2016_q3": 135.7466063,
+        "rai_national_total_2016_q4": 135.7466063,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3430",
+        "unique_id": "1633",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3431",
+        "unique_id": "1634",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": 128.2051282,
+        "rai_national_total_2016_q4": 131.8681319,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3440",
+        "unique_id": "1640",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3438",
+        "unique_id": "1639",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": 100.3344482,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3433",
+        "unique_id": "1635",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3444",
+        "unique_id": "1643",
+        "rai_national_total_2017_q1": 121.4574899,
+        "rai_national_total_2017_q2": 128.2051282,
+        "rai_national_total_2016_q3": 133.7792642,
+        "rai_national_total_2016_q4": 131.8681319,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3434",
+        "unique_id": "1636",
+        "rai_national_total_2017_q1": 131.8681319,
+        "rai_national_total_2017_q2": 126.4488936,
+        "rai_national_total_2016_q3": 131.8681319,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3435",
+        "unique_id": "1637",
+        "rai_national_total_2017_q1": 129.1016676,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3437",
+        "unique_id": "1638",
+        "rai_national_total_2017_q1": 118.3431953,
+        "rai_national_total_2017_q2": 118.3431953,
+        "rai_national_total_2016_q3": 112.5703565,
+        "rai_national_total_2016_q4": 118.3431953,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3441",
+        "unique_id": "1641",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3442",
+        "unique_id": "1642",
+        "rai_national_total_2017_q1": 118.3431953,
+        "rai_national_total_2017_q2": 129.1016676,
+        "rai_national_total_2016_q3": 123.9029427,
+        "rai_national_total_2016_q4": 113.960114,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3458",
+        "unique_id": "1650",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3461",
+        "unique_id": "1652",
+        "rai_national_total_2017_q1": 160.5351171,
+        "rai_national_total_2017_q2": 148.8833747,
+        "rai_national_total_2016_q3": 137.7726751,
+        "rai_national_total_2016_q4": 133.7792642,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3521",
+        "unique_id": "1684",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3711",
+        "unique_id": "1789",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3712",
+        "unique_id": "1790",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3713",
+        "unique_id": "1791",
+        "rai_national_total_2017_q1": 196.3993453,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3714",
+        "unique_id": "1792",
+        "rai_national_total_2017_q1": 184.6153846,
+        "rai_national_total_2017_q2": 188.3830455,
+        "rai_national_total_2016_q3": 209.7902098,
+        "rai_national_total_2016_q4": 175.8241758,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3717",
+        "unique_id": "1794",
+        "rai_national_total_2017_q1": 164.8351648,
+        "rai_national_total_2017_q2": 164.8351648,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3719",
+        "unique_id": "1795",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3723",
+        "unique_id": "1798",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3778",
+        "unique_id": "1835",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3755",
+        "unique_id": "1820",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3756",
+        "unique_id": "1821",
+        "rai_national_total_2017_q1": 139.8601399,
+        "rai_national_total_2017_q2": 135.7466063,
+        "rai_national_total_2016_q3": 139.8601399,
+        "rai_national_total_2016_q4": 139.8601399,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3757",
+        "unique_id": "1822",
+        "rai_national_total_2017_q1": 135.7466063,
+        "rai_national_total_2017_q2": 126.4488936,
+        "rai_national_total_2016_q3": 129.1016676,
+        "rai_national_total_2016_q4": 121.4574899,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3793",
+        "unique_id": "1847",
+        "rai_national_total_2017_q1": 109.8901099,
+        "rai_national_total_2017_q2": 116.8451801,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": 117.589417,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3765",
+        "unique_id": "1829",
+        "rai_national_total_2017_q1": 112.5703565,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": 130.0108342,
+        "rai_national_total_2016_q4": 124.7401247,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3767",
+        "unique_id": "1831",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3770",
+        "unique_id": "1832",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3775",
+        "unique_id": "1833",
+        "rai_national_total_2017_q1": 115.3846154,
+        "rai_national_total_2017_q2": 121.4574899,
+        "rai_national_total_2016_q3": 118.3431953,
+        "rai_national_total_2016_q4": 123.0769231,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3777",
+        "unique_id": "1834",
+        "rai_national_total_2017_q1": 133.7792642,
+        "rai_national_total_2017_q2": 128.2051282,
+        "rai_national_total_2016_q3": 129.1016676,
+        "rai_national_total_2016_q4": 130.0108342,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3750",
+        "unique_id": "1815",
+        "rai_national_total_2017_q1": 131.8681319,
+        "rai_national_total_2017_q2": 128.2051282,
+        "rai_national_total_2016_q3": 131.8681319,
+        "rai_national_total_2016_q4": 131.8681319,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3751",
+        "unique_id": "1816",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3752",
+        "unique_id": "1817",
+        "rai_national_total_2017_q1": 124.7401247,
+        "rai_national_total_2017_q2": 124.7401247,
+        "rai_national_total_2016_q3": 128.2051282,
+        "rai_national_total_2016_q4": 124.7401247,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3753",
+        "unique_id": "1818",
+        "rai_national_total_2017_q1": 121.4574899,
+        "rai_national_total_2017_q2": 125.588697,
+        "rai_national_total_2016_q3": 156.4537158,
+        "rai_national_total_2016_q4": 123.0769231,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3754",
+        "unique_id": "1819",
+        "rai_national_total_2017_q1": 130.0108342,
+        "rai_national_total_2017_q2": 128.2051282,
+        "rai_national_total_2016_q3": 131.8681319,
+        "rai_national_total_2016_q4": 128.2051282,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3758",
+        "unique_id": "1823",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3792",
+        "unique_id": "1846",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3759",
+        "unique_id": "1824",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3760",
+        "unique_id": "1825",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3795",
+        "unique_id": "1848",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3761",
+        "unique_id": "1826",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3763",
+        "unique_id": "1827",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3821",
+        "unique_id": "1869",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3764",
+        "unique_id": "1828",
+        "rai_national_total_2017_q1": 148.8833747,
+        "rai_national_total_2017_q2": 139.8601399,
+        "rai_national_total_2016_q3": 153.8461538,
+        "rai_national_total_2016_q4": 148.8833747,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3766",
+        "unique_id": "1830",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3779",
+        "unique_id": "1836",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3781",
+        "unique_id": "1837",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": 131.8681319,
+        "rai_national_total_2016_q3": 128.2051282,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3782",
+        "unique_id": "1838",
+        "rai_national_total_2017_q1": 123.0769231,
+        "rai_national_total_2017_q2": 121.4574899,
+        "rai_national_total_2016_q3": 124.7401247,
+        "rai_national_total_2016_q4": 121.4574899,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3783",
+        "unique_id": "1839",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3785",
+        "unique_id": "1840",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3786",
+        "unique_id": "1841",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3787",
+        "unique_id": "1842",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3788",
+        "unique_id": "1843",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3802",
+        "unique_id": "1853",
+        "rai_national_total_2017_q1": 123.0769231,
+        "rai_national_total_2017_q2": 124.7401247,
+        "rai_national_total_2016_q3": 123.0769231,
+        "rai_national_total_2016_q4": 124.7401247,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3789",
+        "unique_id": "1844",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3791",
+        "unique_id": "1845",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3796",
+        "unique_id": "1849",
+        "rai_national_total_2017_q1": 130.0108342,
+        "rai_national_total_2017_q2": 121.4574899,
+        "rai_national_total_2016_q3": 137.7726751,
+        "rai_national_total_2016_q4": 123.0769231,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3797",
+        "unique_id": "1850",
+        "rai_national_total_2017_q1": 144.2307692,
+        "rai_national_total_2017_q2": 153.8461538,
+        "rai_national_total_2016_q3": 146.5201465,
+        "rai_national_total_2016_q4": 153.8461538,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3799",
+        "unique_id": "1851",
+        "rai_national_total_2017_q1": 148.8833747,
+        "rai_national_total_2017_q2": 153.8461538,
+        "rai_national_total_2016_q3": 159.4123,
+        "rai_national_total_2016_q4": 164.8351648,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3800",
+        "unique_id": "1852",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3805",
+        "unique_id": "1856",
+        "rai_national_total_2017_q1": 128.2051282,
+        "rai_national_total_2017_q2": 124.7401247,
+        "rai_national_total_2016_q3": 128.2051282,
+        "rai_national_total_2016_q4": 124.7401247,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3806",
+        "unique_id": "1857",
+        "rai_national_total_2017_q1": 115.3846154,
+        "rai_national_total_2017_q2": 115.3846154,
+        "rai_national_total_2016_q3": 118.3431953,
+        "rai_national_total_2016_q4": 118.3431953,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3807",
+        "unique_id": "1858",
+        "rai_national_total_2017_q1": 109.8901099,
+        "rai_national_total_2017_q2": 104.8951049,
+        "rai_national_total_2016_q3": 126.4488936,
+        "rai_national_total_2016_q4": 116.1103048,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3808",
+        "unique_id": "1859",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3809",
+        "unique_id": "1860",
+        "rai_national_total_2017_q1": 118.3431953,
+        "rai_national_total_2017_q2": 123.0769231,
+        "rai_national_total_2016_q3": 121.4574899,
+        "rai_national_total_2016_q4": 118.3431953,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3810",
+        "unique_id": "1861",
+        "rai_national_total_2017_q1": 135.7466063,
+        "rai_national_total_2017_q2": 131.8681319,
+        "rai_national_total_2016_q3": 135.7466063,
+        "rai_national_total_2016_q4": 135.7466063,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3812",
+        "unique_id": "1862",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3813",
+        "unique_id": "1863",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3814",
+        "unique_id": "1864",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3815",
+        "unique_id": "1865",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3816",
+        "unique_id": "1866",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": 159.1511936,
+        "rai_national_total_2016_q4": 144.2307692,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3818",
+        "unique_id": "1867",
+        "rai_national_total_2017_q1": 143.1127013,
+        "rai_national_total_2017_q2": 139.8601399,
+        "rai_national_total_2016_q3": 153.8461538,
+        "rai_national_total_2016_q4": 148.8833747,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3913",
+        "unique_id": "1922",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": 139.8601399,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3915",
+        "unique_id": "1923",
+        "rai_national_total_2017_q1": 142.0118343,
+        "rai_national_total_2017_q2": 144.2307692,
+        "rai_national_total_2016_q3": 148.8833747,
+        "rai_national_total_2016_q4": 144.2307692,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3820",
+        "unique_id": "1868",
+        "rai_national_total_2017_q1": 148.8833747,
+        "rai_national_total_2017_q2": 148.8833747,
+        "rai_national_total_2016_q3": 148.8833747,
+        "rai_national_total_2016_q4": 153.8461538,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3943",
+        "unique_id": "1947",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": 100.3344482,
+        "rai_national_total_2016_q3": 94.67455621,
+        "rai_national_total_2016_q4": 98.72480461,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3944",
+        "unique_id": "1948",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": 80.26755853,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3833",
+        "unique_id": "1876",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3940",
+        "unique_id": "1944",
+        "rai_national_total_2017_q1": 131.8681319,
+        "rai_national_total_2017_q2": 135.7466063,
+        "rai_national_total_2016_q3": 148.8833747,
+        "rai_national_total_2016_q4": 148.8833747,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3941",
+        "unique_id": "1945",
+        "rai_national_total_2017_q1": 124.7401247,
+        "rai_national_total_2017_q2": 131.8681319,
+        "rai_national_total_2016_q3": 135.7466063,
+        "rai_national_total_2016_q4": 131.8681319,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3942",
+        "unique_id": "1946",
+        "rai_national_total_2017_q1": 115.3846154,
+        "rai_national_total_2017_q2": 107.3345259,
+        "rai_national_total_2016_q3": 123.0769231,
+        "rai_national_total_2016_q4": 118.3431953,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3912",
+        "unique_id": "1921",
+        "rai_national_total_2017_q1": 121.4574899,
+        "rai_national_total_2017_q2": 123.0769231,
+        "rai_national_total_2016_q3": 125.588697,
+        "rai_national_total_2016_q4": 128.2051282,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3916",
+        "unique_id": "1924",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3918",
+        "unique_id": "1925",
+        "rai_national_total_2017_q1": 133.7792642,
+        "rai_national_total_2017_q2": 124.7401247,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": 133.7792642,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3919",
+        "unique_id": "1926",
+        "rai_national_total_2017_q1": 128.2051282,
+        "rai_national_total_2017_q2": 128.2051282,
+        "rai_national_total_2016_q3": 148.8833747,
+        "rai_national_total_2016_q4": 148.8833747,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3920",
+        "unique_id": "1927",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3921",
+        "unique_id": "1928",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3927",
+        "unique_id": "1933",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3928",
+        "unique_id": "1934",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3929",
+        "unique_id": "1935",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": 61.13092206,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3930",
+        "unique_id": "1936",
+        "rai_national_total_2017_q1": 82.41758242,
+        "rai_national_total_2017_q2": 93.24009324,
+        "rai_national_total_2016_q3": 83.91608392,
+        "rai_national_total_2016_q4": 83.91608392,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3931",
+        "unique_id": "1937",
+        "rai_national_total_2017_q1": 102.5641026,
+        "rai_national_total_2017_q2": 112.5703565,
+        "rai_national_total_2016_q3": 116.8451801,
+        "rai_national_total_2016_q4": 112.5703565,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3933",
+        "unique_id": "1938",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3934",
+        "unique_id": "1939",
+        "rai_national_total_2017_q1": 93.24009324,
+        "rai_national_total_2017_q2": 95.16256939,
+        "rai_national_total_2016_q3": 102.5641026,
+        "rai_national_total_2016_q4": 98.72480461,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3936",
+        "unique_id": "1940",
+        "rai_national_total_2017_q1": 115.3846154,
+        "rai_national_total_2017_q2": 115.3846154,
+        "rai_national_total_2016_q3": 123.9029427,
+        "rai_national_total_2016_q4": 115.3846154,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3937",
+        "unique_id": "1941",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3938",
+        "unique_id": "1942",
+        "rai_national_total_2017_q1": 128.2051282,
+        "rai_national_total_2017_q2": 104.8951049,
+        "rai_national_total_2016_q3": 107.3345259,
+        "rai_national_total_2016_q4": 121.4574899,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3945",
+        "unique_id": "1949",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3976",
+        "unique_id": "1964",
+        "rai_national_total_2017_q1": 135.7466063,
+        "rai_national_total_2017_q2": 132.8168235,
+        "rai_national_total_2016_q3": 139.8601399,
+        "rai_national_total_2016_q4": 135.7466063,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3950",
+        "unique_id": "1950",
+        "rai_national_total_2017_q1": 192.3076923,
+        "rai_national_total_2017_q2": 170.9401709,
+        "rai_national_total_2016_q3": 192.3076923,
+        "rai_national_total_2016_q4": 180.9954751,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3978",
+        "unique_id": "1966",
+        "rai_national_total_2017_q1": 115.3846154,
+        "rai_national_total_2017_q2": 116.8451801,
+        "rai_national_total_2016_q3": 119.8801199,
+        "rai_national_total_2016_q4": 115.3846154,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3979",
+        "unique_id": "1967",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3980",
+        "unique_id": "1968",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": 128.2051282,
+        "rai_national_total_2016_q4": null,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3981",
+        "unique_id": "1969",
+        "rai_national_total_2017_q1": 148.8833747,
+        "rai_national_total_2017_q2": 131.8681319,
+        "rai_national_total_2016_q3": 148.8833747,
+        "rai_national_total_2016_q4": 153.8461538,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3984",
+        "unique_id": "1970",
+        "rai_national_total_2017_q1": 164.8351648,
+        "rai_national_total_2017_q2": 159.1511936,
+        "rai_national_total_2016_q3": 164.8351648,
+        "rai_national_total_2016_q4": 153.8461538,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3951",
+        "unique_id": "1951",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3953",
+        "unique_id": "1952",
+        "rai_national_total_2017_q1": 170.9401709,
+        "rai_national_total_2017_q2": 177.5147929,
+        "rai_national_total_2016_q3": 164.8351648,
+        "rai_national_total_2016_q4": 170.9401709,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3956",
+        "unique_id": "1954",
+        "rai_national_total_2017_q1": 170.9401709,
+        "rai_national_total_2017_q2": 184.6153846,
+        "rai_national_total_2016_q3": 179.2382375,
+        "rai_national_total_2016_q4": 192.3076923,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3975",
+        "unique_id": "1963",
+        "rai_national_total_2017_q1": 115.3846154,
+        "rai_national_total_2017_q2": 112.5703565,
+        "rai_national_total_2016_q3": 118.3431953,
+        "rai_national_total_2016_q4": 113.960114,
+        "city": "Greater Melbourne"
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3987",
+        "unique_id": "1971",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3988",
+        "unique_id": "1972",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3991",
+        "unique_id": "1973",
+        "rai_national_total_2017_q1": null,
+        "rai_national_total_2017_q2": null,
+        "rai_national_total_2016_q3": null,
+        "rai_national_total_2016_q4": null,
+        "city": "Rest of Vic."
+      }
+    },
+    {
+      "properties": {
+        "geography_name": "3995",
+        "unique_id": "1975",
+        "rai_national_total_2017_q1": 177.5147929,
+        "rai_national_total_2017_q2": 177.5147929,
+        "rai_national_total_2016_q3": 177.5147929,
+        "rai_national_total_2016_q4": 180.9954751,
+        "city": "Rest of Vic."
+      }
+    }
+  ]
+}
