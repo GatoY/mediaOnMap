@@ -3,8 +3,8 @@
 
 sudo su
 
-export slave_node1=115.146.85.220
-export slave_node2=115.146.85.235
+export slave_node1=115.146.85.235
+export slave_node2=115.146.85.237
 export uname=admin
 export passwd=admin
 
