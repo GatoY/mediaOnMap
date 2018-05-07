@@ -8,6 +8,7 @@ from tweepy import API
 from textblob import TextBlob
 from getSuburb import CoordinateToSA2
 
+# Read config from file
 def readConfigFromFile():
 	try:
 		with open('config.json', 'r') as jsonFile:
@@ -18,11 +19,13 @@ def readConfigFromFile():
 		print('Config file error.')
 		sys.exit(0)
 
+# Connect to DB
 def connectDB(db_server, db_name):
 	server = couchdb.Server(db_server)
 	db = server[db_name]
 	return db
 
+# Insert tweet to db
 def insertTweet(db, tweet):
 	try:
 		if tweet['id_str'] not in db:
@@ -30,10 +33,12 @@ def insertTweet(db, tweet):
 	except:
 		print('Insert tweet error.')
 
+# Sentiment Analysis using TextBlob
 def sentimentAnalysis(text):
 	polarity = TextBlob(text).sentiment.polarity
 	return polarity
 
+# Search  Twitters
 def searchTwitters(api, geocode, db, sa2):
 	max_id = sys.maxsize
 
