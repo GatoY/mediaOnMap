@@ -1,6 +1,6 @@
 import json
 
-with open("sentimentByHours.json") as f:
+with open("sentimentByWeekdays.json") as f:
     dict_f = json.load(f)
     sum_value = 0
     for line in dict_f["rows"]:
