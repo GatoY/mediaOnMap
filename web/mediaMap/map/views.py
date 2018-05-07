@@ -7,8 +7,9 @@ from django.http import HttpResponse
 # from couchdb import Server
 # from couchdb.client import ResourceNotFound
 
-server = couchdb.Server('http://root:Couchdbmima@127.0.0.1:5984')
-restResource = server['resource']
+server = couchdb.Server('http://admin:admin@127.0.0.1:5984')
+restResource = server['test']
+
 
 def index(request):
     return render(request, 'map/index.html')
@@ -17,9 +18,11 @@ def index(request):
 def sentiment(request):
     return render(request, 'map/sentiment.html')
 
+
 def sentimentData(request):
     sentiment_data = restResource["f331f3a656450464d3c8c9cbb800c5b1"]
     return HttpResponse(json.dumps(sentiment_data), content_type='application/json')
+
 
 def scenario1(request):
     return render(request, 'map/scenario1.html')

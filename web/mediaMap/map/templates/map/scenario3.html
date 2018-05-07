@@ -1,5 +1,598 @@
 {% extends 'map/base.html' %}
 {% load static %}
+
+{% block content-css %}
+<link href="{% static 'map/css/custom.css' %}" rel='stylesheet' type='text/css'>
+{% endblock content-css %}
+
 {% block content %}
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="col-md-12" id="map"></div>
+        <div id="info-box">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 id="suburb-name" class="card-title">Suburb Name</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Rental Affordability: </h6>
+                        <p id="sentiment" class="card-text">N/A</p>
+                    </div>
+                </div>
+
+                <!--<div class="dropdown" style="margin-top: 40px">-->
+                <!--<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"-->
+                <!--data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+                <!--Dropdown button-->
+                <!--</button>-->
+                <!--<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">-->
+                <!--&lt;!&ndash;<a class="dropdown-item" href="#">Action</a>&ndash;&gt;-->
+                <!--&lt;!&ndash;<a class="dropdown-item" href="#">Another action</a>&ndash;&gt;-->
+                <!--&lt;!&ndash;<a class="dropdown-item" href="#">Something else here</a>&ndash;&gt;-->
+                <!---->
+                <!--</div>-->
+                <!--</div>-->
+                <form style="margin-top: 40px">
+                    <select id="quarter-select" class="custom-select custom-select-lg mb-3">
+                        <option value="4" selected>2017 Q2</option>
+                        <option value="3">2017 Q1</option>
+                        <option value="2">2016 Q4</option>
+                        <option value="1">2016 Q3</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="container" style="margin-bottom: 80px">
+    <div class="row" style="margin-bottom: 40px">
+        <div class="col-md-6" id="pie-chart1" style="width:100%;height:400px;"></div>
+        <div class="col-md-6" id="pie-chart2" style="width:100%;height:400px;"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-6" id="pie-chart3" style="width:100%;height:400px;"></div>
+        <div class="col-md-6" id="pie-chart4" style="width:100%;height:400px;"></div>
+    </div>
+</div>
 
 {% endblock content %}
+
+{% block content-js %}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6Z479QhF3vXmksr0WsN6PtYGkDaYIoxA"></script>
+<script src="{% static 'map/js/echarts.js' %}"></script>
+
+<script>
+
+    var map;
+
+    $(".navbar-brand").text("Rental Affordability");
+
+    $("#quarter-select").change(function () {
+        var quarterProperty = "rai_national_total_2017_q2";
+        var value = $(this).children('option:selected').val();
+        switch (value) {
+            case "1":
+                quarterProperty = "rai_national_total_2016_q3";
+                break;
+            case "2":
+                quarterProperty = "rai_national_total_2016_q4";
+                break;
+            case "3":
+                quarterProperty = "rai_national_total_2017_q1";
+                break;
+            case "4":
+                quarterProperty = "rai_national_total_2017_q2";
+                break;
+            default:
+                quarterProperty = "rai_national_total_2017_q2";
+        }
+
+        if (map !== undefined) {
+            mapSetStyle(quarterProperty);
+            mapAddListener(quarterProperty);
+        }
+    });
+
+
+    function mapSetStyle(quarter) {
+
+        map.data.setStyle(function (feature) {
+            var outlineWeight = 0.5, zIndex = 1;
+            if (feature.getProperty('state') === 'hover') {
+                outlineWeight = zIndex = 2;
+            }
+
+            var color;
+            var affordability = feature.getProperty(quarter);
+            // var NewColor = lightenDarkenColor("#F06D06", 20);
+            if (affordability == null) {
+                color = "#666666";
+            } else if (affordability < 90) {
+                color = "#FF3333";
+            } else if (affordability < 110) {
+                color = "#FF9933";
+            } else if (affordability < 130) {
+                color = "#FFFF33";
+            } else if (affordability < 150) {
+                color = "#99FF33";
+            } else {
+                color = "#00BB00";
+            }
+
+            return ({
+                // fillColor: feature.getProperty('color'),
+                fillColor: color,
+                fillOpacity: 0.65,
+                strokeWeight: outlineWeight,
+                zIndex: zIndex,
+                strokeColor: '#FFFFFF',
+                strokeOpacity: 0.9
+            });
+        });
+    }
+
+    function mapAddListener(quarter) {
+        map.data.addListener('mouseover', function (event) {
+            event.feature.setProperty('state', 'hover');
+
+            $("#suburb-name").text(event.feature.getProperty('geography_name'));
+            // $("#suburb-name").text(event.feature.getProperty('vic_loca_2'));
+            $("#sentiment").text(event.feature.getProperty(quarter) === null ?
+                'N/A' : event.feature.getProperty(quarter));
+            event.feature.setProperty('state', 'hover');
+
+        });
+    }
+
+
+    function initMap() {
+        var location = {lat: -37.8136, lng: 144.99758596};
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+            center: location,
+            zoom: 10,
+            panControl: false,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            styles: [
+                {
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#f5f5f5"
+                        }
+                    ]
+                },
+                {
+                    "elementType": "labels.icon",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#616161"
+                        }
+                    ]
+                },
+                {
+                    "elementType": "labels.text.stroke",
+                    "stylers": [
+                        {
+                            "color": "#f5f5f5"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "administrative.land_parcel",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#bdbdbd"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#eeeeee"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#757575"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi.park",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#e5e5e5"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi.park",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#9e9e9e"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#ffffff"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.arterial",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#757575"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#dadada"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#616161"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.local",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#9e9e9e"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit.line",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#e5e5e5"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit.station",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#eeeeee"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#c9c9c9"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#9e9e9e"
+                        }
+                    ]
+                }
+            ]
+
+        };
+        map = new google.maps.Map(mapCanvas, mapOptions);
+
+        // map.data.loadGeoJson("{% static 'map/img/Melb_ad.geojson' %}");
+        map.data.loadGeoJson("{% static 'map/img/affordability20162017.geojson' %}");
+
+        mapSetStyle("rai_national_total_2017_q2");
+
+        mapAddListener("rai_national_total_2017_q2");
+        map.data.addListener('mouseout', function (event) {
+            event.feature.setProperty('state', 'normal');
+        })
+    }
+
+    google.maps.event.addDomListener(window, 'load', initMap);
+
+    // TODO asynchronized loading
+    // var myChart = echarts.init(document.getElementById('main'));
+    // $.get('data.json').done(function (data) {
+    //     myChart.setOption({
+    //         title: {
+    //             text: '异步数据加载示例'
+    //         },
+    //         tooltip: {},
+    //         legend: {
+    //             data: ['销量']
+    //         },
+    //         xAxis: {
+    //             data: ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"]
+    //         },
+    //         yAxis: {},
+    //         series: [{
+    //             name: '销量',
+    //             type: 'bar',
+    //             data: [5, 20, 36, 10, 10, 20]
+    //         }]
+    //     });
+    // });
+
+
+    // function getSceneMapData() {
+    //     var jsondata = {};
+    //     $.getJSON("{% static 'map/img/affordability20162017.geojson' %}", "", function (data, status) {
+    //         console.log("是不是成功读到数据" + status);
+    //         if (status === 'success') {
+    //             jsondata = data;
+    //             console.log(jsondata);
+    //             return jsondata;
+    //         } else {
+    //             console.log("没有读取到本地文件：" + status);
+    //             return false;
+    //         }
+    //     })
+    // }
+    //
+    // getSceneMapData();
+
+
+    var pieChart1 = echarts.init(document.getElementById('pie-chart1')).setOption({
+        title: {
+            text: 'Rental Affordability Proportion 2016 Q3',
+            textStyle: {
+                align: "center"
+            }
+        },
+        tooltip: {
+            trigger: 'item',
+            formatter: "{a} <br/>{b}: {c} ({d}%)"
+        },
+        legend: {
+            orient: 'vertical',
+            x: 'right',
+            y: 'bottom',
+            data: ['< 90', '90 ≤ x < 110', '110 ≤ x < 130', '130 ≤ x < 150', '≥ 150']
+        },
+        series: [
+            {
+                name: 'Rental Affordability',
+                type: 'pie',
+                radius: ['50%', '70%'],
+                avoidLabelOverlap: false,
+                label: {
+                    normal: {
+                        show: false,
+                        position: 'center'
+                    },
+                    emphasis: {
+                        show: true,
+                        textStyle: {
+                            fontSize: '30',
+                            fontWeight: 'bold'
+                        }
+                    }
+                },
+                labelLine: {
+                    normal: {
+                        show: false
+                    }
+                },
+                data: [
+                    {value: 335, name: '< 90'},
+                    {value: 310, name: '90 ≤ x < 110'},
+                    {value: 234, name: '110 ≤ x < 130'},
+                    {value: 135, name: '130 ≤ x < 150'},
+                    {value: 1548, name: '≥ 150'}
+                ]
+            }
+        ],
+        color:
+            ['#FF3333', '#FF9933', '#FFFF33', '#99FF33', '#33FF33']
+
+    });
+
+    var pieChart2 = echarts.init(document.getElementById('pie-chart2')).setOption({
+        title: {
+            text: 'Rental Affordability Proportion 2016 Q4',
+            textStyle: {
+                align: "center"
+            }
+        },
+        tooltip: {
+            trigger: 'item',
+            formatter: "{a} <br/>{b}: {c} ({d}%)"
+        },
+        legend: {
+            orient: 'vertical',
+            x: 'right',
+            y: 'bottom',
+            data: ['< 90', '90 ≤ x < 110', '110 ≤ x < 130', '130 ≤ x < 150', '≥ 150']
+        },
+        series: [
+            {
+                name: 'Rental Affordability 2016 Q1',
+                type: 'pie',
+                radius: ['50%', '70%'],
+                avoidLabelOverlap: false,
+                label: {
+                    normal: {
+                        show: false,
+                        position: 'center'
+                    },
+                    emphasis: {
+                        show: true,
+                        textStyle: {
+                            fontSize: '30',
+                            fontWeight: 'bold'
+                        }
+                    }
+                },
+                labelLine: {
+                    normal: {
+                        show: false
+                    }
+                },
+                data: [
+                    {value: 335, name: '< 90'},
+                    {value: 310, name: '90 ≤ x < 110'},
+                    {value: 234, name: '110 ≤ x < 130'},
+                    {value: 135, name: '130 ≤ x < 150'},
+                    {value: 1548, name: '≥ 150'}
+                ]
+            }
+        ],
+        color:
+            ['#FF3333', '#FF9933', '#FFFF33', '#99FF33', '#33FF33']
+
+    });
+
+    var pieChart3 = echarts.init(document.getElementById('pie-chart3')).setOption({
+        title: {
+            text: 'Rental Affordability Proportion 2017 Q1',
+            textStyle: {
+                align: "center"
+            }
+        },
+        tooltip: {
+            trigger: 'item',
+            formatter: "{a} <br/>{b}: {c} ({d}%)"
+        },
+        legend: {
+            orient: 'vertical',
+            x: 'right',
+            y: 'bottom',
+            data: ['< 90', '90 ≤ x < 110', '110 ≤ x < 130', '130 ≤ x < 150', '≥ 150']
+        },
+        series: [
+            {
+                name: 'Rental Affordability 2016 Q1',
+                type: 'pie',
+                radius: ['50%', '70%'],
+                avoidLabelOverlap: false,
+                label: {
+                    normal: {
+                        show: false,
+                        position: 'center'
+                    },
+                    emphasis: {
+                        show: true,
+                        textStyle: {
+                            fontSize: '30',
+                            fontWeight: 'bold'
+                        }
+                    }
+                },
+                labelLine: {
+                    normal: {
+                        show: false
+                    }
+                },
+                data: [
+                    {value: 335, name: '< 90'},
+                    {value: 310, name: '90 ≤ x < 110'},
+                    {value: 234, name: '110 ≤ x < 130'},
+                    {value: 135, name: '130 ≤ x < 150'},
+                    {value: 1548, name: '≥ 150'}
+                ]
+            }
+        ],
+        color:
+            ['#FF3333', '#FF9933', '#FFFF33', '#99FF33', '#33FF33']
+
+    });
+
+    var pieChart4 = echarts.init(document.getElementById('pie-chart4')).setOption({
+        title: {
+            text: 'Rental Affordability Proportion 2017 Q2',
+            textStyle: {
+                align: "center"
+            }
+        },
+        tooltip: {
+            trigger: 'item',
+            formatter: "{a} <br/>{b}: {c} ({d}%)"
+        },
+        legend: {
+            orient: 'vertical',
+            x: 'right',
+            y: 'bottom',
+            data: ['< 90', '90 ≤ x < 110', '110 ≤ x < 130', '130 ≤ x < 150', '≥ 150']
+        },
+        series: [
+            {
+                name: 'Rental Affordability 2016 Q1',
+                type: 'pie',
+                radius: ['50%', '70%'],
+                avoidLabelOverlap: false,
+                label: {
+                    normal: {
+                        show: false,
+                        position: 'center'
+                    },
+                    emphasis: {
+                        show: true,
+                        textStyle: {
+                            fontSize: '30',
+                            fontWeight: 'bold'
+                        }
+                    }
+                },
+                labelLine: {
+                    normal: {
+                        show: false
+                    }
+                },
+                data: [
+                    {value: 335, name: '< 90'},
+                    {value: 310, name: '90 ≤ x < 110'},
+                    {value: 234, name: '110 ≤ x < 130'},
+                    {value: 135, name: '130 ≤ x < 150'},
+                    {value: 1548, name: '≥ 150'}
+                ]
+            }
+        ],
+        color:
+            ['#FF3333', '#FF9933', '#FFFF33', '#99FF33', '#33FF33']
+
+    });
+
+</script>
+
+{% endblock content-js %}

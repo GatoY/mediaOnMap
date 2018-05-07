@@ -43,6 +43,8 @@
 <script src="{% static 'map/js/echarts.js' %}"></script>
 
 <script>
+    $(".navbar-brand").text("Sentiment Analysis");
+
     function initMap() {
         var location = {lat: -37.8136, lng: 144.99758596};
         var mapCanvas = document.getElementById('map');
@@ -215,28 +217,16 @@
         };
         var map = new google.maps.Map(mapCanvas, mapOptions);
 
-        // map.data.loadGeoJson("{% static 'map/img/Melb_ad.geojson' %}");
-        map.data.loadGeoJson("{% static 'map/img/affordability20162017.geojson' %}");
+        map.data.loadGeoJson("{% static 'map/img/Melb_ad.geojson' %}");
+        // map.data.loadGeoJson("{% static 'map/img/affordability20162017.geojson' %}");
         map.data.setStyle(function (feature) {
             var outlineWeight = 0.5, zIndex = 1;
             if (feature.getProperty('state') === 'hover') {
                 outlineWeight = zIndex = 2;
             }
 
-            var color;
-            var heihei = feature.getProperty('rai_national_total_2017_q1');
-            // var NewColor = lightenDarkenColor("#F06D06", 20);
-            if (heihei == null) {
-                color = "#666666";
-            } else if (heihei > 100) {
-                color = lightenDarkenColor("#F06D06", 40);
-            } else {
-                color = lightenDarkenColor("#F06D06", -40);
-            }
-
             return ({
-                // fillColor: feature.getProperty('color'),
-                fillColor: color,
+                fillColor: feature.getProperty('color'),
                 fillOpacity: 0.6,
                 strokeWeight: outlineWeight,
                 zIndex: zIndex,
@@ -248,9 +238,9 @@
             event.feature.setProperty('state', 'hover');
 
             console.log(event.feature.getProperty('pos'));
-            $("#suburb-name").text(event.feature.getProperty('geography_name'));
-            // $("#suburb-name").text(event.feature.getProperty('vic_loca_2'));
-            $("#sentiment").text(event.feature.getProperty('rai_national_total_2017_q1'));
+            // $("#suburb-name").text(event.feature.getProperty('geography_name'));
+            $("#suburb-name").text(event.feature.getProperty('vic_loca_2'));
+            $("#sentiment").text(event.feature.getProperty('score'));
             event.feature.setProperty('state', 'hover');
 
         });
@@ -261,46 +251,6 @@
     }
 
     google.maps.event.addDomListener(window, 'load', initMap);
-
-
-    function lightenDarkenColor(col, amt) {
-
-        var usePound = false;
-
-        if (col[0] === "#") {
-            col = col.slice(1);
-            usePound = true;
-        }
-
-        var num = parseInt(col, 16);
-
-        var r = (num >> 16) + amt;
-        if (r > 255) {
-            r = 255;
-        } else if (r < 0) {
-            r = 0;
-        }
-        var b = ((num >> 8) & 0x00FF) + amt;
-
-        if (b > 255) {
-            b = 255;
-        }
-        else if (b < 0) {
-            b = 0;
-        }
-
-        var g = (num & 0x0000FF) + amt;
-
-        if (g > 255) {
-            g = 255;
-        }
-        else if (g < 0) {
-            g = 0;
-        }
-
-        return (usePound ? "#" : "") + (g | (b << 8) | (r << 16)).toString(16);
-
-    }
 
 
     // var chart1 = echarts.init(document.getElementById('chart1'), 'light').setOption({

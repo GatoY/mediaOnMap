@@ -52,7 +52,7 @@
             <a href="{% url 'map:scenario3' %}">
                 <img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
                      width="960" height="600">
-                <h5 class="mb-1">Scenario 3</h5>
+                <h5 class="mb-1">Rental Affordability</h5>
             </a>
             <p class="text-muted">description description description description description description</p>
         </div>
@@ -62,6 +62,8 @@
 
 {% block content-js %}
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6Z479QhF3vXmksr0WsN6PtYGkDaYIoxA"></script>
-
+<script>
+    $(".navbar-brand").text("Twitter Analysis");
+</script>
 <script src="{% static 'map/js/index.js' %}"></script>
 {% endblock content-js %}
