@@ -125,13 +125,15 @@
         map.data.addListener('mouseover', function (event) {
             event.feature.setProperty('state', 'hover');
 
-            $("#suburb-name").text(event.feature.getProperty('geography_name'));
-            // $("#suburb-name").text(event.feature.getProperty('vic_loca_2'));
+            $("#suburb-name").text(event.feature.getProperty('geography_name') == null ?
+                'N/A' : event.feature.getProperty('geography_name'));
             $("#sentiment").text(event.feature.getProperty(quarter) === null ?
                 'N/A' : event.feature.getProperty(quarter));
             event.feature.setProperty('state', 'hover');
-
         });
+        map.data.addListener('mouseout', function (event) {
+            event.feature.setProperty('state', 'normal');
+        })
     }
 
 
@@ -311,11 +313,9 @@
         map.data.loadGeoJson("{% static 'map/img/affordability20162017.geojson' %}");
 
         mapSetStyle("rai_national_total_2017_q2");
-
         mapAddListener("rai_national_total_2017_q2");
-        map.data.addListener('mouseout', function (event) {
-            event.feature.setProperty('state', 'normal');
-        })
+
+
     }
 
     google.maps.event.addDomListener(window, 'load', initMap);
@@ -365,9 +365,6 @@
     var pieChart1 = echarts.init(document.getElementById('pie-chart1')).setOption({
         title: {
             text: 'Rental Affordability Proportion 2016 Q3',
-            textStyle: {
-                align: "center"
-            }
         },
         tooltip: {
             trigger: 'item',
@@ -420,9 +417,6 @@
     var pieChart2 = echarts.init(document.getElementById('pie-chart2')).setOption({
         title: {
             text: 'Rental Affordability Proportion 2016 Q4',
-            textStyle: {
-                align: "center"
-            }
         },
         tooltip: {
             trigger: 'item',
@@ -475,9 +469,6 @@
     var pieChart3 = echarts.init(document.getElementById('pie-chart3')).setOption({
         title: {
             text: 'Rental Affordability Proportion 2017 Q1',
-            textStyle: {
-                align: "center"
-            }
         },
         tooltip: {
             trigger: 'item',
@@ -530,9 +521,6 @@
     var pieChart4 = echarts.init(document.getElementById('pie-chart4')).setOption({
         title: {
             text: 'Rental Affordability Proportion 2017 Q2',
-            textStyle: {
-                align: "center"
-            }
         },
         tooltip: {
             trigger: 'item',
