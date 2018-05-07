@@ -32,8 +32,8 @@ def scenario2(request):
     return render(request, 'map/scenario2.html')
 
 
-def scenario3(request):
-    return render(request, 'map/scenario3.html')
+def affordability(request):
+    return render(request, 'map/affordability.html')
 
 
 def aboutUs(request):
