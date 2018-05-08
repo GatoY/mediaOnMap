@@ -1,0 +1,180 @@
+{% extends 'map/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container" style="margin-bottom: 80px; margin-top: 0px;">
+    <div class="row" style="margin-bottom: 40px">
+        <img src="{% static 'map/img/avengers_banner.jpg' %}" style="width: 100%" alt="Responsive image">
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div id="avenger-bar-chart" style="width:100%;height:800px;margin-bottom: 40px"></div>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <div id="avenger-pie-chart" style="width:100%;height:400px;margin-bottom: 40px"></div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+{% endblock content %}
+
+{% block content-js %}
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6Z479QhF3vXmksr0WsN6PtYGkDaYIoxA"></script>
+<script src="{% static 'map/js/echarts.js' %}"></script>
+<script>
+    $.get("http://127.0.0.1:8000/api/v1/avengers_data").done(function (data) {
+        var heroList = [];
+        var posList = [];
+        var negList = [];
+        var neuList = [];
+        $.each(data, function (key, value) {
+            heroList.push(key);
+            posList.push(value["positive"]);
+            negList.push(value["negative"]);
+            neuList.push(value["neutral"]);
+        });
+        var aName = heroList.pop();
+        var aPos = posList.pop();
+        var aNeg = negList.pop();
+        var aNeu = neuList.pop();
+
+        var chart1 = echarts.init(document.getElementById('avenger-bar-chart')).setOption({
+                tooltip: {
+                    trigger: 'axis',
+                    axisPointer: {            // 坐标轴指示器，坐标轴触发有效
+                        type: 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+                    }
+                },
+                title: {text: "Melburnians' Attitudes towards Super Heroes in Avengers: Infinity War"},
+                legend: {
+                    data: ['positive', 'negative', 'neutral'],
+                    x: 'right'
+                },
+                grid: {
+                    top: '10%',
+                    left: '2%',
+                    right: '12%',
+                    bottom: '3%',
+                    containLabel: true
+                },
+                xAxis: {
+                    name: 'Number of Tweets',
+                    type: 'value'
+                },
+                yAxis: {
+                    name: 'superhero',
+                    type: 'category',
+                    data: heroList
+                },
+                series: [
+                    {
+                        name: 'positive',
+                        type: 'bar',
+                        stack: '总量',
+                        label: {
+                            normal: {
+                                show: true,
+                                position: 'insideRight'
+                            }
+                        },
+                        data: posList
+                    },
+                    {
+                        name: 'negative',
+                        type: 'bar',
+                        stack: '总量',
+                        label: {
+                            normal: {
+                                show: true,
+                                position: 'insideRight'
+                            }
+                        },
+                        data: negList
+                    },
+                    {
+                        name: 'neutral',
+                        type: 'bar',
+                        stack: '总量',
+                        label: {
+                            normal: {
+                                show: true,
+                                position: 'insideRight'
+                            }
+                        },
+                        data: neuList
+                    }
+                ]
+            }
+        );
+
+
+        var pieChart = echarts.init(document.getElementById('avenger-pie-chart')).setOption({
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b}: {c} ({d}%)"
+            },
+            title: {
+                text: "Melburnians' Attitudes towards The Avengers: Infinity War",
+                x: 'center'
+            },
+            legend: {
+                orient: 'vertical',
+                data: ["positive", "negative", "neutral"],
+                x: 'right',
+                y: 'bottom'
+            },
+            series: [
+                {
+                    name: 'sentiment',
+                    type: 'pie',
+                    radius: ['50%', '70%'],
+                    avoidLabelOverlap: false,
+                    label: {
+                        normal: {
+                            show: false,
+                            position: 'center'
+                        },
+                        emphasis: {
+                            show: true,
+                            textStyle: {
+                                fontSize: '30',
+                                fontWeight: 'bold'
+                            }
+                        }
+                    },
+                    labelLine: {
+                        normal: {
+                            show: false
+                        }
+                    },
+                    data: [
+                        {value: aPos, name: 'positive'},
+                        {value: aNeg, name: 'negative'},
+                        {value: aNeu, name: 'neutral'}
+                    ]
+                }
+            ]
+        });
+    });
+
+
+    // var chart2 = echarts.init(document.getElementById('chart2')).setOption({
+    //     xAxis: {
+    //         type: 'category',
+    //         data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+    //     },
+    //     yAxis: {
+    //         type: 'value'
+    //     },
+    //     series: [{
+    //         data: [820, 932, 901, 934, 1290, 1330, 1320],
+    //         type: 'line'
+    //     }]
+    // });
+
+
+</script>
+
+{% endblock content-js %}
