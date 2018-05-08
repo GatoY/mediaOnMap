@@ -2,7 +2,6 @@ import json
 
 with open('../static/map/img/sentimentByWeekdays.json') as f:
     data = json.load(f)
-    print(data)
     result = {"Mon": {"positive": 0, "negative": 0, "neutral": 0},
               "Tue": {"positive": 0, "negative": 0, "neutral": 0},
               "Wed": {"positive": 0, "negative": 0, "neutral": 0},
@@ -14,5 +13,12 @@ with open('../static/map/img/sentimentByWeekdays.json') as f:
     entries = data["rows"]
     for entry in entries:
         result[entry["key"][0]][entry["key"][1]] += entry["value"]
+
+    for key in result:
+        percentage = result[key]["positive"] / (
+                result[key]["positive"] + result[key]["negative"] + result[key]["neutral"])
+        result[key]["percentage"] = round(percentage, 4)
+
+
     with open('../static/map/res/sentiment_by_weekdays.json', 'w') as outFile:
         json.dump(result, outFile)
