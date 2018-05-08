@@ -1,0 +1,146 @@
+{
+  "0": {
+    "positive": 842,
+    "negative": 340,
+    "neutral": 857,
+    "percentage": 0.4129
+  },
+  "1": {
+    "positive": 449,
+    "negative": 195,
+    "neutral": 445,
+    "percentage": 0.4123
+  },
+  "2": {
+    "positive": 254,
+    "negative": 113,
+    "neutral": 299,
+    "percentage": 0.3814
+  },
+  "3": {
+    "positive": 168,
+    "negative": 85,
+    "neutral": 205,
+    "percentage": 0.3668
+  },
+  "4": {
+    "positive": 200,
+    "negative": 76,
+    "neutral": 213,
+    "percentage": 0.409
+  },
+  "5": {
+    "positive": 252,
+    "negative": 85,
+    "neutral": 265,
+    "percentage": 0.4186
+  },
+  "6": {
+    "positive": 575,
+    "negative": 251,
+    "neutral": 598,
+    "percentage": 0.4038
+  },
+  "7": {
+    "positive": 1241,
+    "negative": 468,
+    "neutral": 1247,
+    "percentage": 0.4198
+  },
+  "8": {
+    "positive": 1578,
+    "negative": 604,
+    "neutral": 1452,
+    "percentage": 0.4342
+  },
+  "9": {
+    "positive": 1667,
+    "negative": 627,
+    "neutral": 1618,
+    "percentage": 0.4261
+  },
+  "10": {
+    "positive": 1573,
+    "negative": 601,
+    "neutral": 1682,
+    "percentage": 0.4079
+  },
+  "11": {
+    "positive": 1603,
+    "negative": 593,
+    "neutral": 1589,
+    "percentage": 0.4235
+  },
+  "12": {
+    "positive": 1598,
+    "negative": 643,
+    "neutral": 1625,
+    "percentage": 0.4133
+  },
+  "13": {
+    "positive": 1575,
+    "negative": 615,
+    "neutral": 1586,
+    "percentage": 0.4171
+  },
+  "14": {
+    "positive": 1533,
+    "negative": 565,
+    "neutral": 1506,
+    "percentage": 0.4254
+  },
+  "15": {
+    "positive": 1502,
+    "negative": 604,
+    "neutral": 1618,
+    "percentage": 0.4033
+  },
+  "16": {
+    "positive": 1661,
+    "negative": 617,
+    "neutral": 1758,
+    "percentage": 0.4115
+  },
+  "17": {
+    "positive": 1819,
+    "negative": 697,
+    "neutral": 1885,
+    "percentage": 0.4133
+  },
+  "18": {
+    "positive": 2019,
+    "negative": 784,
+    "neutral": 2121,
+    "percentage": 0.41
+  },
+  "19": {
+    "positive": 2068,
+    "negative": 808,
+    "neutral": 1984,
+    "percentage": 0.4255
+  },
+  "20": {
+    "positive": 2497,
+    "negative": 990,
+    "neutral": 2553,
+    "percentage": 0.4134
+  },
+  "21": {
+    "positive": 2302,
+    "negative": 950,
+    "neutral": 2462,
+    "percentage": 0.4029
+  },
+  "22": {
+    "positive": 1931,
+    "negative": 875,
+    "neutral": 2034,
+    "percentage": 0.399
+  },
+  "23": {
+    "positive": 1264,
+    "negative": 574,
+    "neutral": 1342,
+    "percentage": 0.3975
+  }
+}
