@@ -1,5 +1,5 @@
 ---
-- hosts: harvesters
+- hosts: all
   remote_user: ubuntu
   sudo: yes
   tasks:
