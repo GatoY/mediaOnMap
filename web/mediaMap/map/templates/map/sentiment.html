@@ -255,7 +255,7 @@
 
     google.maps.event.addDomListener(window, 'load', initMap);
 
-    $.get("http://127.0.0.1:8000/sentiment_by_hours").done(function (json) {
+    $.get("http://127.0.0.1:8000/api/v1/sentiment_by_hours").done(function (json) {
         var hourList = [];
         var xList = [];
         $.each(json, function (key, value) {
@@ -280,7 +280,7 @@
         });
     });
 
-    $.get("http://127.0.0.1:8000/sentiment_by_weekdays").done(function (json) {
+    $.get("http://127.0.0.1:8000/api/v1/sentiment_by_weekdays").done(function (json) {
         var dayList = [];
         var posCount = 0;
         var negCount = 0;

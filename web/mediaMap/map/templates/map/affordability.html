@@ -343,7 +343,7 @@
     //     });
     // });
 
-    $.get("http://127.0.0.1:8000/affordability_proportions").done(function (data) {
+    $.get("http://127.0.0.1:8000/api/v1/affordability_proportions").done(function (data) {
         var pieChart1 = echarts.init(document.getElementById('pie-chart1')).setOption({
             title: {
                 text: 'Rental Affordability Proportion 2016 Q3',
