@@ -12,5 +12,7 @@ with open('../static/map/img/theAvengers.json') as f:
     for key in result:
         result[key]["total"] = result[key]["positive"] + result[key]["negative"] + result[key]["neutral"]
 
+
+
     with open('../static/map/res/avengers.json', 'w') as outFile:
         json.dump(result, outFile)
