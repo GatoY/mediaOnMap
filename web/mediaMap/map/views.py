@@ -37,8 +37,10 @@ def sentiment_by_weekdays(request):
         return HttpResponse(json.dumps(data), content_type='application/json')
 
 
-def scenario1(request):
-    return render(request, 'map/scenario1.html')
+# def scenario1(request):
+#     return render(request, 'map/scenario1.html')
+def avengers(request):
+    return render(request, 'map/avengers.html')
 
 
 def scenario2(request):

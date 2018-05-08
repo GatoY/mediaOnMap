@@ -19,6 +19,5 @@ with open('../static/map/img/sentimentByWeekdays.json') as f:
                 result[key]["positive"] + result[key]["negative"] + result[key]["neutral"])
         result[key]["percentage"] = round(percentage, 4)
 
-
     with open('../static/map/res/sentiment_by_weekdays.json', 'w') as outFile:
         json.dump(result, outFile)

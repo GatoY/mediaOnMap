@@ -1,5 +1,4 @@
 {% load static %}
-<!DOCTYPE html>
 <html lang="en-us">
 
 <head>
@@ -18,7 +17,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" id="brand" href="#">Tweeter Analysis</a>
+    <a class="navbar-brand" id="brand" href="#">Melbourne Social Media Analytics</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -33,7 +32,7 @@
                 <a class="nav-link" href="{% url 'map:sentiment' %}">Sentiment</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% url 'map:scenario1' %}">Scenario1</a>
+                <a class="nav-link" href="{% url 'map:avengers' %}">Avengers</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{% url 'map:scenario2' %}">Scenario2</a>
@@ -57,13 +56,8 @@
     </div>
 </nav>
 
-
 {% block content %}{% endblock %}
 
-
-<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"-->
-<!--integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"-->
-<!--crossorigin="anonymous"></script>-->
 <script src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
