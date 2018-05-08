@@ -5,36 +5,48 @@
   tasks:
     - name: "update apt-get"
       apt: update_cache=yes upgrade=yes
+
     - name: "apt nginx"
       apt: name=nginx
+
     - name: "apt git"
       apt: name=git
+
     - name: "apt python3"
       apt: name=python3
+
     - name: "apt pip3"
       apt: name=python3-pip
+
     - name: "install virtualenv"
       command: pip3 install virtualenv
+
     - name: "make virtualenv"
       command: virtualenv --python=python3 /home/ubuntu/env
+
     - name: "git clone"
       command: git clone https://github.com/GatoY/google-map-django-couchdb-jquery
+
     - name: "copy nginx config file to sites-available"
       copy:
         src: default
         dest: /etc/nginx/sites-available/
         force: yes
+
     - name: "copy nginx config file to sites-enabled"
       copy:
         src: default
         dest: /etc/nginx/sites-enabled/
         force: yes
+
     - name: "cp webExecute.sh"
       copy:
         src: webPrepare.sh
         dest: /home/ubuntu/webPrepare.sh
+
     - name: "initiate server"
       command: sh /home/ubuntu/webPrepare.sh
+      
     - name: "cp webExecute.sh"
       copy:
         src: /Users/Jason/desktop/workflow/ansible/webExecute.sh
