@@ -8,7 +8,6 @@ from shapely.geometry import Point, shape
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
 SA2_SHP = DIR_PATH + '/sa2/SA2_2016_AUST.shp'
 
-
 class CoordinateToSA2():
     def __init__(self):
         self.suburbs = self.readShpInfo()

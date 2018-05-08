@@ -65,7 +65,6 @@ def searchTwitters(api, geocode, db, sa2):
 						sa2_name = None
 						if tweet['coordinates'] and tweet['coordinates']['coordinates']:
 							sa2_code, sa2_name = sa2.sa2_maincode(tweet['coordinates']['coordinates'])
-							print('sa2_name = %s' % (sa2_name))
 
 						tweet['sa2_code'] = sa2_code
 						tweet['sa2_name'] = sa2_name
