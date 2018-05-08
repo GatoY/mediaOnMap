@@ -5,11 +5,12 @@ import couchdb
 import json
 from django.http import HttpResponse
 
+
 # from couchdb import Server
 # from couchdb.client import ResourceNotFound
 
-server = couchdb.Server('http://root:Couchdbmima@127.0.0.1:5984')
-restResource = server['map']
+# server = couchdb.Server('http://root:Couchdbmima@127.0.0.1:5984')
+# restResource = server['map']
 
 
 def index(request):
@@ -19,16 +20,20 @@ def index(request):
 def sentiment(request):
     return render(request, 'map/sentiment.html')
 
+
 # RESTful api
 def sentimentData(request):
-    sentiment_data = restResource["f331f3a656450464d3c8c9cbb800828e"]
-    return HttpResponse(json.dumps(sentiment_data), content_type='application/json')
+    with open('map/static/map/res/Melb_ad.geojson') as f:
+        sentiment_data = json.load(f)
+        return HttpResponse(json.dumps(sentiment_data), content_type='application/json')
+
 
 # RESTful api
 def sentiment_by_hours(request):
     with open('map/static/map/res/sentiment_by_hours.json') as f:
         data = json.load(f)
         return HttpResponse(json.dumps(data), content_type='application/json')
+
 
 # RESTful api
 def sentiment_by_weekdays(request):
