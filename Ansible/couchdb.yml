@@ -1,8 +1,18 @@
 ---
-- hosts: harvesters
+- hosts: all
   remote_user: ubuntu
   sudo: yes
   tasks:
+    - name: "cp prepare.sh"
+      copy:
+        src: prepare.sh
+        dest: /home/ubuntu/prepare.sh
+
+    - name: "cp install.sh"
+      copy:
+        src: prepare.sh
+        dest: /home/ubuntu/prepare.sh
+
     - name: "initiate server"
       command: sh /home/ubuntu/prepare.sh
       
