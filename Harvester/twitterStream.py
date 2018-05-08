@@ -9,6 +9,7 @@ from tweepy.streaming import StreamListener
 from textblob import TextBlob
 from getSuburb import CoordinateToSA2
 
+# Read config from file
 def readConfigFromFile():
 	try:
 		with open('config.json', 'r') as jsonFile:
@@ -19,11 +20,13 @@ def readConfigFromFile():
 		print('Config file error.')
 		sys.exit(0)
 
+# Connect to bd
 def connectDB(db_server, db_name):
 	server = couchdb.Server(db_server)
 	db = server[db_name]
 	return db
 
+# Insert tweet to db
 def insertTweet(db, tweet):
 	try:
 		if tweet['id_str'] not in db:
@@ -31,10 +34,12 @@ def insertTweet(db, tweet):
 	except:
 		print('Insert tweet error.')
 
+# Sentiment Analysis using TextBlob
 def sentimentAnalysis(text):
 	polarity = TextBlob(text).sentiment.polarity
 	return polarity
 
+# My Stream Listener Class to deal with callback
 class MyStreamListener(StreamListener):
 	def __init__(self, db, sa2):
 		self.db = db

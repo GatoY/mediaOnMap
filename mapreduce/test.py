@@ -1,8 +1,15 @@
 import json
+import xlrd
 
-with open("sentimentByHours.json") as f:
+with open("sentimentBySuburb.json") as f:
     dict_f = json.load(f)
-    sum_value = 0
-    for line in dict_f["rows"]:
-        sum_value += line['value']
-    print(sum_value) # 77875
+    print(dict_f)
+
+def open_excel(file= 'suburb_postcode.xlsx'):
+    try:
+        data = xlrd.open_workbook(file)
+        return data
+    except Exception as e:
+        print(str(e))
+
+

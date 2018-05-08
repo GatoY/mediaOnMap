@@ -5,10 +5,10 @@ import sys
 import couchdb
 from tweepy import OAuthHandler
 from tweepy import API
-from tweepy import Cursor
 from textblob import TextBlob
 from getSuburb import CoordinateToSA2
 
+# Read config from file
 def readConfigFromFile():
 	try:
 		with open('config.json', 'r') as jsonFile:
@@ -19,11 +19,13 @@ def readConfigFromFile():
 		print('Config file error.')
 		sys.exit(0)
 
+# Connect to DB
 def connectDB(db_server, db_name):
 	server = couchdb.Server(db_server)
 	db = server[db_name]
 	return db
 
+# Insert tweet to db
 def insertTweet(db, tweet):
 	try:
 		if tweet['id_str'] not in db:
@@ -31,10 +33,12 @@ def insertTweet(db, tweet):
 	except:
 		print('Insert tweet error.')
 
+# Sentiment Analysis using TextBlob
 def sentimentAnalysis(text):
 	polarity = TextBlob(text).sentiment.polarity
 	return polarity
 
+# Search  Twitters
 def searchTwitters(api, geocode, db, sa2):
 	max_id = sys.maxsize
 
@@ -51,7 +55,7 @@ def searchTwitters(api, geocode, db, sa2):
 				for myTweet in tweets:
 					tweet = myTweet._json
 
-					if tweet['coordinates'] or tweet['geo'] or tweet['place']:
+					if tweet:
 						text = tweet['text']
 
 						polarity = sentimentAnalysis(text)
@@ -59,8 +63,9 @@ def searchTwitters(api, geocode, db, sa2):
 
 						sa2_code = None
 						sa2_name = None
-						if tweet['coordinates']:
+						if tweet['coordinates'] and tweet['coordinates']['coordinates']:
 							sa2_code, sa2_name = sa2.sa2_maincode(tweet['coordinates']['coordinates'])
+							print('sa2_name = %s' % (sa2_name))
 
 						tweet['sa2_code'] = sa2_code
 						tweet['sa2_name'] = sa2_name
