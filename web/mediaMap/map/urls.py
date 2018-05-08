@@ -11,6 +11,7 @@ urlpatterns = [
     path('api/v1/sentimentData', views.sentimentData, name='sentimentData'),
     path('api/v1/sentiment_by_weekdays', views.sentiment_by_weekdays, name='sentiment_by_weekdays'),
     path('api/v1/sentiment_by_hours', views.sentiment_by_hours, name='sentiment_by_hours'),
+    path('api/v1/word_cloud', views.word_cloud, name='word_cloud'),
     path('scenario2', views.scenario2, name='scenario2'),
     path('affordability', views.affordability, name='affordability'),
     path('api/v1/affordability_proportions', views.affordability_proportions, name='affordability_proportions'),

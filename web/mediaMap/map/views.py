@@ -42,6 +42,12 @@ def sentiment_by_weekdays(request):
         return HttpResponse(json.dumps(data), content_type='application/json')
 
 
+def word_cloud(request):
+    with open('map/static/map/res/hot_topics_large.json') as f:
+        data = json.load(f)
+        return HttpResponse(json.dumps(data), content_type='application/json')
+
+
 def avengers(request):
     return render(request, 'map/avengers.html')
 
