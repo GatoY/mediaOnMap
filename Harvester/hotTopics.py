@@ -89,7 +89,7 @@ def wirte_to_file(common, pos_common, neg_common):
 
 def main():
 	db_server = 'http://localhost:5984/'
-	db_name = 'twitter1'
+	db_name = 'twitter'
 	db = connectDB(db_server, db_name)
 
 	topic_box, pos_topic_box, neg_topic_box = get_topics(db)
