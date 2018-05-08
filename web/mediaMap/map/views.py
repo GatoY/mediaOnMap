@@ -22,10 +22,6 @@ def sentiment(request):
 
 
 # RESTful api
-# def sentimentData(request):
-#     with open('map/static/map/res/Melb_ad.geojson') as f:
-#         sentiment_data = json.load(f)
-#         return HttpResponse(json.dumps(sentiment_data), content_type='application/json')
 def sentiment_by_suburbs(request):
     with open('map/static/map/res/melbourne_suburbs.geojson') as f:
         data = json.load(f)
