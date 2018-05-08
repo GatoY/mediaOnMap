@@ -33,21 +33,21 @@
     </div>
     <div style="margin-top: 40px">
         <div align="center">
-            <h4>Top 20 Topics</h4>
+            <h4>Top 50 Topics</h4>
         </div>
         <div id="word-cloud-all"></div>
     </div>
 
     <div style="margin-top: 40px">
         <div align="center">
-            <h4>Top 20 Negative Topics</h4>
+            <h4>Top 50 Negative Topics</h4>
         </div>
         <div id="word-cloud-neg"></div>
     </div>
 
     <div style="margin-top: 40px">
         <div align="center">
-            <h4>Top 20 Positive Topics</h4>
+            <h4>Top 50 Positive Topics</h4>
         </div>
         <div id="word-cloud-pos"></div>
     </div>
@@ -236,37 +236,71 @@
         };
         var map = new google.maps.Map(mapCanvas, mapOptions);
 
-        map.data.loadGeoJson("{% static 'map/res/Melb_ad.geojson' %}");
-        // map.data.loadGeoJson("{% static 'map/img/affordability20162017.geojson' %}");
-        map.data.setStyle(function (feature) {
-            var outlineWeight = 0.5, zIndex = 1;
-            if (feature.getProperty('state') === 'hover') {
-                outlineWeight = zIndex = 2;
-            }
 
-            return ({
-                fillColor: feature.getProperty('color'),
-                fillOpacity: 0.6,
-                strokeWeight: outlineWeight,
-                zIndex: zIndex,
-                strokeColor: '#FFFFFF',
-                strokeOpacity: 0.9
+        // $.get("http://127.0.0.1:8000/api/v1/sentiment_by_suburbs").done(function (geojson) {
+            map.data.loadGeoJson("{% static 'map/res/melbourne_suburbs.geojson' %}");
+            map.data.setStyle(function (feature) {
+                var outlineWeight = 0.5, zIndex = 1;
+                if (feature.getProperty('state') === 'hover') {
+                    outlineWeight = zIndex = 2;
+                }
+
+                return ({
+                    fillColor: feature.getProperty('color'),
+                    fillOpacity: 0.6,
+                    strokeWeight: outlineWeight,
+                    zIndex: zIndex,
+                    strokeColor: '#FFFFFF',
+                    strokeOpacity: 0.9
+                });
             });
-        });
-        map.data.addListener('mouseover', function (event) {
-            event.feature.setProperty('state', 'hover');
+            map.data.addListener('mouseover', function (event) {
+                event.feature.setProperty('state', 'hover');
 
-            console.log(event.feature.getProperty('pos'));
-            // $("#suburb-name").text(event.feature.getProperty('geography_name'));
-            $("#suburb-name").text(event.feature.getProperty('vic_loca_2'));
-            $("#sentiment").text(event.feature.getProperty('score'));
-            event.feature.setProperty('state', 'hover');
+                console.log(event.feature.getProperty('pos'));
+                // $("#suburb-name").text(event.feature.getProperty('geography_name'));
+                $("#suburb-name").text(event.feature.getProperty('suburb_name'));
+                $("#sentiment").text(event.feature.getProperty('score'));
+                event.feature.setProperty('state', 'hover');
 
-        });
-        map.data.addListener('mouseout', function (event) {
-            event.feature.setProperty('state', 'normal');
-        })
+            });
+            map.data.addListener('mouseout', function (event) {
+                event.feature.setProperty('state', 'normal');
+            });
 
+        // });
+
+
+        // map.data.loadGeoJson("{% static 'map/res/Melb_ad.geojson' %}");
+        // // map.data.loadGeoJson("{% static 'map/img/affordability20162017.geojson' %}");
+        // map.data.setStyle(function (feature) {
+        //     var outlineWeight = 0.5, zIndex = 1;
+        //     if (feature.getProperty('state') === 'hover') {
+        //         outlineWeight = zIndex = 2;
+        //     }
+        //
+        //     return ({
+        //         fillColor: feature.getProperty('color'),
+        //         fillOpacity: 0.6,
+        //         strokeWeight: outlineWeight,
+        //         zIndex: zIndex,
+        //         strokeColor: '#FFFFFF',
+        //         strokeOpacity: 0.9
+        //     });
+        // });
+        // map.data.addListener('mouseover', function (event) {
+        //     event.feature.setProperty('state', 'hover');
+        //
+        //     console.log(event.feature.getProperty('pos'));
+        //     // $("#suburb-name").text(event.feature.getProperty('geography_name'));
+        //     $("#suburb-name").text(event.feature.getProperty('vic_loca_2'));
+        //     $("#sentiment").text(event.feature.getProperty('score'));
+        //     event.feature.setProperty('state', 'hover');
+        //
+        // });
+        // map.data.addListener('mouseout', function (event) {
+        //     event.feature.setProperty('state', 'normal');
+        // })
     }
 
     google.maps.event.addDomListener(window, 'load', initMap);

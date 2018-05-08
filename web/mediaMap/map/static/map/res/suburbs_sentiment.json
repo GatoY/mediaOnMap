@@ -1,0 +1,1444 @@
+{
+  "3067": {
+    "suburb_name": "Abbotsford",
+    "positive": 11,
+    "negative": 1,
+    "neutral": 15,
+    "score": 0.4074
+  },
+  "3042": {
+    "suburb_name": "Airport West",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.5
+  },
+  "3004": {
+    "suburb_name": "Albert Park",
+    "positive": 60,
+    "negative": 9,
+    "neutral": 55,
+    "score": 0.4839
+  },
+  "3666": {
+    "suburb_name": "Alexandra",
+    "positive": 2,
+    "negative": 0,
+    "neutral": 0,
+    "score": 1.0
+  },
+  "3350": {
+    "suburb_name": "Alfredton",
+    "positive": 0,
+    "negative": 1,
+    "neutral": 2,
+    "score": 0.0
+  },
+  "3070": {
+    "suburb_name": "Alphington - Fairfield",
+    "positive": 12,
+    "negative": 9,
+    "neutral": 11,
+    "score": 0.375
+  },
+  "3858": {
+    "suburb_name": "Alps - West",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 2,
+    "score": 0.3333
+  },
+  "3018": {
+    "suburb_name": "Altona",
+    "positive": 1,
+    "negative": 1,
+    "neutral": 1,
+    "score": 0.3333
+  },
+  "3028": {
+    "suburb_name": "Altona Meadows",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.5
+  },
+  "3012": {
+    "suburb_name": "Altona North",
+    "positive": 3,
+    "negative": 1,
+    "neutral": 2,
+    "score": 0.5
+  },
+  "3377": {
+    "suburb_name": "Ararat",
+    "positive": 0,
+    "negative": 0,
+    "neutral": 2,
+    "score": 0.0
+  },
+  "3271": {
+    "suburb_name": "Ararat Region",
+    "positive": 0,
+    "negative": 2,
+    "neutral": 7,
+    "score": 0.0
+  },
+  "3143": {
+    "suburb_name": "Armadale",
+    "positive": 38,
+    "negative": 10,
+    "neutral": 42,
+    "score": 0.4222
+  },
+  "3032": {
+    "suburb_name": "Ascot Vale",
+    "positive": 1,
+    "negative": 2,
+    "neutral": 5,
+    "score": 0.125
+  },
+  "3125": {
+    "suburb_name": "Ashwood - Chadstone",
+    "positive": 1,
+    "negative": 2,
+    "neutral": 36,
+    "score": 0.0256
+  },
+  "3352": {
+    "suburb_name": "Avoca",
+    "positive": 0,
+    "negative": 1,
+    "neutral": 5,
+    "score": 0.0
+  },
+  "3340": {
+    "suburb_name": "Bacchus Marsh",
+    "positive": 2,
+    "negative": 1,
+    "neutral": 3,
+    "score": 0.3333
+  },
+  "3875": {
+    "suburb_name": "Bairnsdale",
+    "positive": 0,
+    "negative": 0,
+    "neutral": 2,
+    "score": 0.0
+  },
+  "3355": {
+    "suburb_name": "Ballarat",
+    "positive": 3,
+    "negative": 2,
+    "neutral": 6,
+    "score": 0.2727
+  },
+  "3356": {
+    "suburb_name": "Ballarat - South",
+    "positive": 4,
+    "negative": 0,
+    "neutral": 8,
+    "score": 0.3333
+  },
+  "3103": {
+    "suburb_name": "Balwyn",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.5
+  },
+  "3221": {
+    "suburb_name": "Bannockburn",
+    "positive": 10,
+    "negative": 1,
+    "neutral": 2,
+    "score": 0.7692
+  },
+  "3152": {
+    "suburb_name": "Bayswater",
+    "positive": 1,
+    "negative": 1,
+    "neutral": 5,
+    "score": 0.1429
+  },
+  "3807": {
+    "suburb_name": "Beaconsfield - Officer",
+    "positive": 15,
+    "negative": 0,
+    "neutral": 8,
+    "score": 0.6522
+  },
+  "3325": {
+    "suburb_name": "Beaufort",
+    "positive": 0,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.0
+  },
+  "3192": {
+    "suburb_name": "Beaumaris",
+    "positive": 6,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.8571
+  },
+  "3156": {
+    "suburb_name": "Belgrave - Selby",
+    "positive": 3,
+    "negative": 1,
+    "neutral": 2,
+    "score": 0.5
+  },
+  "3216": {
+    "suburb_name": "Belmont",
+    "positive": 14,
+    "negative": 3,
+    "neutral": 10,
+    "score": 0.5185
+  },
+  "3672": {
+    "suburb_name": "Benalla",
+    "positive": 0,
+    "negative": 1,
+    "neutral": 0,
+    "score": 0.0
+  },
+  "3669": {
+    "suburb_name": "Benalla Region",
+    "positive": 4,
+    "negative": 2,
+    "neutral": 10,
+    "score": 0.25
+  },
+  "3550": {
+    "suburb_name": "Bendigo",
+    "positive": 6,
+    "negative": 5,
+    "neutral": 2,
+    "score": 0.4615
+  },
+  "3444": {
+    "suburb_name": "Bendigo Region - South",
+    "positive": 3,
+    "negative": 0,
+    "neutral": 8,
+    "score": 0.2727
+  },
+  "3187": {
+    "suburb_name": "Bentleigh - McKinnon",
+    "positive": 8,
+    "negative": 4,
+    "neutral": 9,
+    "score": 0.381
+  },
+  "3806": {
+    "suburb_name": "Berwick - North",
+    "positive": 3,
+    "negative": 0,
+    "neutral": 2,
+    "score": 0.6
+  },
+  "3805": {
+    "suburb_name": "Berwick - South",
+    "positive": 0,
+    "negative": 0,
+    "neutral": 2,
+    "score": 0.0
+  },
+  "3130": {
+    "suburb_name": "Blackburn",
+    "positive": 1,
+    "negative": 1,
+    "neutral": 3,
+    "score": 0.2
+  },
+  "3128": {
+    "suburb_name": "Box Hill",
+    "positive": 4,
+    "negative": 3,
+    "neutral": 8,
+    "score": 0.2667
+  },
+  "3104": {
+    "suburb_name": "Box Hill North",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 0,
+    "score": 1.0
+  },
+  "3195": {
+    "suburb_name": "Braeside",
+    "positive": 4,
+    "negative": 2,
+    "neutral": 1,
+    "score": 0.5714
+  },
+  "3691": {
+    "suburb_name": "Bright - Mount Beauty",
+    "positive": 21,
+    "negative": 5,
+    "neutral": 19,
+    "score": 0.4667
+  },
+  "3186": {
+    "suburb_name": "Brighton (Vic.)",
+    "positive": 10,
+    "negative": 2,
+    "neutral": 8,
+    "score": 0.5
+  },
+  "3047": {
+    "suburb_name": "Broadmeadows",
+    "positive": 4,
+    "negative": 0,
+    "neutral": 3,
+    "score": 0.5714
+  },
+  "3055": {
+    "suburb_name": "Brunswick",
+    "positive": 39,
+    "negative": 14,
+    "neutral": 46,
+    "score": 0.3939
+  },
+  "3054": {
+    "suburb_name": "Brunswick East",
+    "positive": 4,
+    "negative": 2,
+    "neutral": 6,
+    "score": 0.3333
+  },
+  "3052": {
+    "suburb_name": "Brunswick West",
+    "positive": 2,
+    "negative": 1,
+    "neutral": 0,
+    "score": 0.6667
+  },
+  "3105": {
+    "suburb_name": "Bulleen",
+    "positive": 0,
+    "negative": 1,
+    "neutral": 2,
+    "score": 0.0
+  },
+  "3083": {
+    "suburb_name": "Bundoora - East",
+    "positive": 3,
+    "negative": 1,
+    "neutral": 1,
+    "score": 0.6
+  },
+  "3357": {
+    "suburb_name": "Buninyong",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 0,
+    "score": 1.0
+  },
+  "3810": {
+    "suburb_name": "Bunyip - Garfield",
+    "positive": 4,
+    "negative": 3,
+    "neutral": 19,
+    "score": 0.1538
+  },
+  "3151": {
+    "suburb_name": "Burwood East",
+    "positive": 7,
+    "negative": 0,
+    "neutral": 11,
+    "score": 0.3889
+  },
+  "3023": {
+    "suburb_name": "Cairnlea",
+    "positive": 1,
+    "negative": 1,
+    "neutral": 1,
+    "score": 0.3333
+  },
+  "3124": {
+    "suburb_name": "Camberwell",
+    "positive": 1,
+    "negative": 3,
+    "neutral": 4,
+    "score": 0.125
+  },
+  "3000": {
+    "suburb_name": "Carlton",
+    "positive": 16,
+    "negative": 8,
+    "neutral": 24,
+    "score": 0.3333
+  },
+  "3163": {
+    "suburb_name": "Carnegie",
+    "positive": 6,
+    "negative": 1,
+    "neutral": 10,
+    "score": 0.3529
+  },
+  "3175": {
+    "suburb_name": "Carrum - Patterson Lakes",
+    "positive": 5,
+    "negative": 1,
+    "neutral": 4,
+    "score": 0.5
+  },
+  "3201": {
+    "suburb_name": "Carrum Downs",
+    "positive": 3,
+    "negative": 2,
+    "neutral": 7,
+    "score": 0.25
+  },
+  "3450": {
+    "suburb_name": "Castlemaine",
+    "positive": 13,
+    "negative": 2,
+    "neutral": 16,
+    "score": 0.4194
+  },
+  "3364": {
+    "suburb_name": "Castlemaine Region",
+    "positive": 8,
+    "negative": 3,
+    "neutral": 7,
+    "score": 0.4444
+  },
+  "3145": {
+    "suburb_name": "Caulfield - North",
+    "positive": 11,
+    "negative": 5,
+    "neutral": 14,
+    "score": 0.3667
+  },
+  "3162": {
+    "suburb_name": "Caulfield - South",
+    "positive": 4,
+    "negative": 1,
+    "neutral": 3,
+    "score": 0.5
+  },
+  "3196": {
+    "suburb_name": "Chelsea - Bonbeach",
+    "positive": 2,
+    "negative": 1,
+    "neutral": 1,
+    "score": 0.5
+  },
+  "3189": {
+    "suburb_name": "Cheltenham - Highett (East)",
+    "positive": 2,
+    "negative": 1,
+    "neutral": 1,
+    "score": 0.5
+  },
+  "3188": {
+    "suburb_name": "Cheltenham - Highett (West)",
+    "positive": 7,
+    "negative": 4,
+    "neutral": 4,
+    "score": 0.4667
+  },
+  "3116": {
+    "suburb_name": "Chirnside Park",
+    "positive": 8,
+    "negative": 1,
+    "neutral": 10,
+    "score": 0.4211
+  },
+  "3840": {
+    "suburb_name": "Churchill",
+    "positive": 0,
+    "negative": 2,
+    "neutral": 1,
+    "score": 0.0
+  },
+  "3167": {
+    "suburb_name": "Clarinda - Oakleigh South",
+    "positive": 2,
+    "negative": 1,
+    "neutral": 6,
+    "score": 0.2222
+  },
+  "3222": {
+    "suburb_name": "Clifton Springs",
+    "positive": 1,
+    "negative": 1,
+    "neutral": 4,
+    "score": 0.1667
+  },
+  "3044": {
+    "suburb_name": "Coburg",
+    "positive": 3,
+    "negative": 5,
+    "neutral": 1,
+    "score": 0.3333
+  },
+  "3250": {
+    "suburb_name": "Colac",
+    "positive": 2,
+    "negative": 0,
+    "neutral": 0,
+    "score": 1.0
+  },
+  "3235": {
+    "suburb_name": "Colac Region",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 2,
+    "score": 0.3333
+  },
+  "3066": {
+    "suburb_name": "Collingwood",
+    "positive": 43,
+    "negative": 10,
+    "neutral": 36,
+    "score": 0.4831
+  },
+  "3237": {
+    "suburb_name": "Corangamite - South",
+    "positive": 17,
+    "negative": 3,
+    "neutral": 20,
+    "score": 0.425
+  },
+  "3214": {
+    "suburb_name": "Corio - Norlane",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 4,
+    "score": 0.2
+  },
+  "3977": {
+    "suburb_name": "Cranbourne",
+    "positive": 3,
+    "negative": 2,
+    "neutral": 3,
+    "score": 0.375
+  },
+  "3363": {
+    "suburb_name": "Creswick - Clunes",
+    "positive": 5,
+    "negative": 0,
+    "neutral": 6,
+    "score": 0.4545
+  },
+  "3115": {
+    "suburb_name": "Croydon Hills - Warranwood",
+    "positive": 0,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.0
+  },
+  "3174": {
+    "suburb_name": "Dandenong North",
+    "positive": 4,
+    "negative": 2,
+    "neutral": 1,
+    "score": 0.5714
+  },
+  "3461": {
+    "suburb_name": "Daylesford",
+    "positive": 13,
+    "negative": 3,
+    "neutral": 21,
+    "score": 0.3514
+  },
+  "3169": {
+    "suburb_name": "Dingley Village",
+    "positive": 9,
+    "negative": 2,
+    "neutral": 1,
+    "score": 0.75
+  },
+  "3005": {
+    "suburb_name": "Docklands",
+    "positive": 34,
+    "negative": 11,
+    "neutral": 64,
+    "score": 0.3119
+  },
+  "3107": {
+    "suburb_name": "Doncaster",
+    "positive": 2,
+    "negative": 2,
+    "neutral": 2,
+    "score": 0.3333
+  },
+  "3109": {
+    "suburb_name": "Donvale - Park Orchards",
+    "positive": 2,
+    "negative": 0,
+    "neutral": 3,
+    "score": 0.4
+  },
+  "3177": {
+    "suburb_name": "Doveton",
+    "positive": 3,
+    "negative": 0,
+    "neutral": 0,
+    "score": 1.0
+  },
+  "3936": {
+    "suburb_name": "Dromana",
+    "positive": 1,
+    "negative": 1,
+    "neutral": 5,
+    "score": 0.1429
+  },
+  "3816": {
+    "suburb_name": "Drouin",
+    "positive": 1,
+    "negative": 1,
+    "neutral": 1,
+    "score": 0.3333
+  },
+  "3564": {
+    "suburb_name": "Echuca",
+    "positive": 6,
+    "negative": 0,
+    "neutral": 0,
+    "score": 1.0
+  },
+  "3185": {
+    "suburb_name": "Elsternwick",
+    "positive": 5,
+    "negative": 2,
+    "neutral": 6,
+    "score": 0.3846
+  },
+  "3095": {
+    "suburb_name": "Eltham",
+    "positive": 5,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.8333
+  },
+  "3184": {
+    "suburb_name": "Elwood",
+    "positive": 8,
+    "negative": 5,
+    "neutral": 10,
+    "score": 0.3478
+  },
+  "3139": {
+    "suburb_name": "Emerald - Cockatoo",
+    "positive": 5,
+    "negative": 1,
+    "neutral": 5,
+    "score": 0.4545
+  },
+  "3040": {
+    "suburb_name": "Essendon - Aberfeldie",
+    "positive": 5,
+    "negative": 3,
+    "neutral": 6,
+    "score": 0.3571
+  },
+  "3610": {
+    "suburb_name": "Euroa",
+    "positive": 0,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.0
+  },
+  "3060": {
+    "suburb_name": "Fawkner",
+    "positive": 0,
+    "negative": 1,
+    "neutral": 2,
+    "score": 0.0
+  },
+  "3065": {
+    "suburb_name": "Fitzroy",
+    "positive": 44,
+    "negative": 14,
+    "neutral": 72,
+    "score": 0.3385
+  },
+  "3068": {
+    "suburb_name": "Fitzroy North",
+    "positive": 2,
+    "negative": 1,
+    "neutral": 3,
+    "score": 0.3333
+  },
+  "3031": {
+    "suburb_name": "Flemington",
+    "positive": 7,
+    "negative": 3,
+    "neutral": 4,
+    "score": 0.5
+  },
+  "3915": {
+    "suburb_name": "Flinders",
+    "positive": 1,
+    "negative": 3,
+    "neutral": 16,
+    "score": 0.05
+  },
+  "3011": {
+    "suburb_name": "Footscray",
+    "positive": 5,
+    "negative": 1,
+    "neutral": 2,
+    "score": 0.625
+  },
+  "3131": {
+    "suburb_name": "Forest Hill",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 3,
+    "score": 0.25
+  },
+  "3871": {
+    "suburb_name": "Foster",
+    "positive": 1,
+    "negative": 2,
+    "neutral": 7,
+    "score": 0.1
+  },
+  "3199": {
+    "suburb_name": "Frankston",
+    "positive": 3,
+    "negative": 2,
+    "neutral": 3,
+    "score": 0.375
+  },
+  "3215": {
+    "suburb_name": "Geelong",
+    "positive": 5,
+    "negative": 1,
+    "neutral": 9,
+    "score": 0.3333
+  },
+  "3337": {
+    "suburb_name": "Gisborne",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 2,
+    "score": 0.3333
+  },
+  "3043": {
+    "suburb_name": "Gladstone Park - Westmeadows",
+    "positive": 1,
+    "negative": 1,
+    "neutral": 2,
+    "score": 0.25
+  },
+  "3123": {
+    "suburb_name": "Glen Iris - East",
+    "positive": 3,
+    "negative": 0,
+    "neutral": 3,
+    "score": 0.5
+  },
+  "3150": {
+    "suburb_name": "Glen Waverley - East",
+    "positive": 4,
+    "negative": 2,
+    "neutral": 9,
+    "score": 0.2667
+  },
+  "3333": {
+    "suburb_name": "Gordon (Vic.)",
+    "positive": 0,
+    "negative": 0,
+    "neutral": 2,
+    "score": 0.0
+  },
+  "3088": {
+    "suburb_name": "Greensborough",
+    "positive": 1,
+    "negative": 1,
+    "neutral": 2,
+    "score": 0.25
+  },
+  "3048": {
+    "suburb_name": "Greenvale - Bulla",
+    "positive": 3,
+    "negative": 0,
+    "neutral": 2,
+    "score": 0.6
+  },
+  "3803": {
+    "suburb_name": "Hallam",
+    "positive": 0,
+    "negative": 1,
+    "neutral": 1,
+    "score": 0.0
+  },
+  "3976": {
+    "suburb_name": "Hampton Park - Lynbrook",
+    "positive": 2,
+    "negative": 0,
+    "neutral": 0,
+    "score": 1.0
+  },
+  "3122": {
+    "suburb_name": "Hawthorn",
+    "positive": 5,
+    "negative": 1,
+    "neutral": 5,
+    "score": 0.4545
+  },
+  "3770": {
+    "suburb_name": "Healesville - Yarra Glen",
+    "positive": 10,
+    "negative": 4,
+    "neutral": 13,
+    "score": 0.3704
+  },
+  "3084": {
+    "suburb_name": "Heidelberg - Rosanna",
+    "positive": 8,
+    "negative": 4,
+    "neutral": 21,
+    "score": 0.2424
+  },
+  "3081": {
+    "suburb_name": "Heidelberg West",
+    "positive": 5,
+    "negative": 1,
+    "neutral": 4,
+    "score": 0.5
+  },
+  "3037": {
+    "suburb_name": "Hillside",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.5
+  },
+  "3029": {
+    "suburb_name": "Hoppers Crossing - North",
+    "positive": 9,
+    "negative": 3,
+    "neutral": 4,
+    "score": 0.5625
+  },
+  "3079": {
+    "suburb_name": "Ivanhoe",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.5
+  },
+  "3555": {
+    "suburb_name": "Kangaroo Flat - Golden Square",
+    "positive": 0,
+    "negative": 1,
+    "neutral": 1,
+    "score": 0.0
+  },
+  "3033": {
+    "suburb_name": "Keilor",
+    "positive": 2,
+    "negative": 1,
+    "neutral": 5,
+    "score": 0.25
+  },
+  "3101": {
+    "suburb_name": "Kew",
+    "positive": 1,
+    "negative": 3,
+    "neutral": 4,
+    "score": 0.125
+  },
+  "3173": {
+    "suburb_name": "Keysborough",
+    "positive": 0,
+    "negative": 1,
+    "neutral": 4,
+    "score": 0.0
+  },
+  "3658": {
+    "suburb_name": "Kilmore - Broadford",
+    "positive": 2,
+    "negative": 1,
+    "neutral": 1,
+    "score": 0.5
+  },
+  "3137": {
+    "suburb_name": "Kilsyth",
+    "positive": 2,
+    "negative": 0,
+    "neutral": 2,
+    "score": 0.5
+  },
+  "3021": {
+    "suburb_name": "Kings Park (Vic.)",
+    "positive": 2,
+    "negative": 1,
+    "neutral": 4,
+    "score": 0.2857
+  },
+  "3809": {
+    "suburb_name": "Koo Wee Rup",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 0,
+    "score": 1.0
+  },
+  "3561": {
+    "suburb_name": "Kyabram",
+    "positive": 0,
+    "negative": 1,
+    "neutral": 3,
+    "score": 0.0
+  },
+  "3435": {
+    "suburb_name": "Kyneton",
+    "positive": 4,
+    "negative": 1,
+    "neutral": 3,
+    "score": 0.5
+  },
+  "3074": {
+    "suburb_name": "Lalor",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 5,
+    "score": 0.1667
+  },
+  "3910": {
+    "suburb_name": "Langwarrin",
+    "positive": 4,
+    "negative": 0,
+    "neutral": 2,
+    "score": 0.6667
+  },
+  "3211": {
+    "suburb_name": "Lara",
+    "positive": 2,
+    "negative": 0,
+    "neutral": 5,
+    "score": 0.2857
+  },
+  "3026": {
+    "suburb_name": "Laverton",
+    "positive": 0,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.0
+  },
+  "3835": {
+    "suburb_name": "Leongatha",
+    "positive": 4,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.8
+  },
+  "3140": {
+    "suburb_name": "Lilydale - Coldstream",
+    "positive": 10,
+    "negative": 2,
+    "neutral": 11,
+    "score": 0.4348
+  },
+  "3850": {
+    "suburb_name": "Longford - Loch Sport",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 0,
+    "score": 1.0
+  },
+  "3230": {
+    "suburb_name": "Lorne - Anglesea",
+    "positive": 9,
+    "negative": 2,
+    "neutral": 16,
+    "score": 0.3333
+  },
+  "3975": {
+    "suburb_name": "Lynbrook - Lyndhurst",
+    "positive": 2,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.6667
+  },
+  "3437": {
+    "suburb_name": "Macedon",
+    "positive": 4,
+    "negative": 1,
+    "neutral": 6,
+    "score": 0.3636
+  },
+  "3144": {
+    "suburb_name": "Malvern - Glen Iris",
+    "positive": 7,
+    "negative": 4,
+    "neutral": 13,
+    "score": 0.2917
+  },
+  "3036": {
+    "suburb_name": "Melbourne Airport",
+    "positive": 2,
+    "negative": 8,
+    "neutral": 4,
+    "score": 0.1429
+  },
+  "3335": {
+    "suburb_name": "Melton",
+    "positive": 4,
+    "negative": 0,
+    "neutral": 3,
+    "score": 0.5714
+  },
+  "3338": {
+    "suburb_name": "Melton South",
+    "positive": 4,
+    "negative": 2,
+    "neutral": 0,
+    "score": 0.6667
+  },
+  "3194": {
+    "suburb_name": "Mentone",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 2,
+    "score": 0.3333
+  },
+  "3076": {
+    "suburb_name": "Mill Park - North",
+    "positive": 4,
+    "negative": 0,
+    "neutral": 6,
+    "score": 0.4
+  },
+  "3082": {
+    "suburb_name": "Mill Park - South",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 0,
+    "score": 1.0
+  },
+  "3132": {
+    "suburb_name": "Mitcham (Vic.)",
+    "positive": 0,
+    "negative": 1,
+    "neutral": 1,
+    "score": 0.0
+  },
+  "3825": {
+    "suburb_name": "Moe - Newborough",
+    "positive": 10,
+    "negative": 4,
+    "neutral": 7,
+    "score": 0.4762
+  },
+  "3782": {
+    "suburb_name": "Monbulk - Silvan",
+    "positive": 2,
+    "negative": 0,
+    "neutral": 3,
+    "score": 0.4
+  },
+  "3039": {
+    "suburb_name": "Moonee Ponds",
+    "positive": 17,
+    "negative": 3,
+    "neutral": 5,
+    "score": 0.68
+  },
+  "3629": {
+    "suburb_name": "Mooroopna",
+    "positive": 5,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.8333
+  },
+  "3931": {
+    "suburb_name": "Mornington",
+    "positive": 12,
+    "negative": 4,
+    "neutral": 7,
+    "score": 0.5217
+  },
+  "3818": {
+    "suburb_name": "Mount Baw Baw Region",
+    "positive": 5,
+    "negative": 4,
+    "neutral": 3,
+    "score": 0.4167
+  },
+  "3159": {
+    "suburb_name": "Mount Dandenong - Olinda",
+    "positive": 8,
+    "negative": 2,
+    "neutral": 11,
+    "score": 0.381
+  },
+  "3930": {
+    "suburb_name": "Mount Eliza",
+    "positive": 7,
+    "negative": 0,
+    "neutral": 2,
+    "score": 0.7778
+  },
+  "3934": {
+    "suburb_name": "Mount Martha",
+    "positive": 0,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.0
+  },
+  "3149": {
+    "suburb_name": "Mount Waverley - North",
+    "positive": 7,
+    "negative": 1,
+    "neutral": 4,
+    "score": 0.5833
+  },
+  "3265": {
+    "suburb_name": "Moyne - East",
+    "positive": 4,
+    "negative": 2,
+    "neutral": 8,
+    "score": 0.2857
+  },
+  "3275": {
+    "suburb_name": "Moyne - West",
+    "positive": 5,
+    "negative": 1,
+    "neutral": 5,
+    "score": 0.4545
+  },
+  "3170": {
+    "suburb_name": "Mulgrave",
+    "positive": 2,
+    "negative": 0,
+    "neutral": 5,
+    "score": 0.2857
+  },
+  "3737": {
+    "suburb_name": "Myrtleford",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 0,
+    "score": 1.0
+  },
+  "3523": {
+    "suburb_name": "Nagambie",
+    "positive": 4,
+    "negative": 2,
+    "neutral": 20,
+    "score": 0.1538
+  },
+  "3219": {
+    "suburb_name": "Newcomb - Moolap",
+    "positive": 4,
+    "negative": 2,
+    "neutral": 6,
+    "score": 0.3333
+  },
+  "3015": {
+    "suburb_name": "Newport",
+    "positive": 1,
+    "negative": 2,
+    "neutral": 4,
+    "score": 0.1429
+  },
+  "3220": {
+    "suburb_name": "Newtown (Vic.)",
+    "positive": 25,
+    "negative": 7,
+    "neutral": 30,
+    "score": 0.4032
+  },
+  "3634": {
+    "suburb_name": "Numurkah",
+    "positive": 4,
+    "negative": 1,
+    "neutral": 1,
+    "score": 0.6667
+  },
+  "3166": {
+    "suburb_name": "Oakleigh - Huntingdale",
+    "positive": 4,
+    "negative": 1,
+    "neutral": 9,
+    "score": 0.2857
+  },
+  "3097": {
+    "suburb_name": "Panton Hill - St Andrews",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 0,
+    "score": 1.0
+  },
+  "3912": {
+    "suburb_name": "Pearcedale - Tooradin",
+    "positive": 0,
+    "negative": 0,
+    "neutral": 2,
+    "score": 0.0
+  },
+  "3922": {
+    "suburb_name": "Phillip Island",
+    "positive": 12,
+    "negative": 11,
+    "neutral": 30,
+    "score": 0.2264
+  },
+  "3939": {
+    "suburb_name": "Point Nepean",
+    "positive": 9,
+    "negative": 1,
+    "neutral": 12,
+    "score": 0.4091
+  },
+  "3207": {
+    "suburb_name": "Port Melbourne",
+    "positive": 7,
+    "negative": 2,
+    "neutral": 15,
+    "score": 0.2917
+  },
+  "3072": {
+    "suburb_name": "Reservoir - East",
+    "positive": 3,
+    "negative": 6,
+    "neutral": 0,
+    "score": 0.3333
+  },
+  "3058": {
+    "suburb_name": "Reservoir - West",
+    "positive": 15,
+    "negative": 4,
+    "neutral": 7,
+    "score": 0.5769
+  },
+  "3121": {
+    "suburb_name": "Richmond (Vic.)",
+    "positive": 39,
+    "negative": 12,
+    "neutral": 61,
+    "score": 0.3482
+  },
+  "3431": {
+    "suburb_name": "Riddells Creek",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.5
+  },
+  "3134": {
+    "suburb_name": "Ringwood",
+    "positive": 5,
+    "negative": 1,
+    "neutral": 2,
+    "score": 0.625
+  },
+  "3114": {
+    "suburb_name": "Ringwood North",
+    "positive": 1,
+    "negative": 1,
+    "neutral": 2,
+    "score": 0.25
+  },
+  "3430": {
+    "suburb_name": "Romsey",
+    "positive": 3,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.75
+  },
+  "3059": {
+    "suburb_name": "Roxburgh Park - Somerton",
+    "positive": 2,
+    "negative": 5,
+    "neutral": 4,
+    "score": 0.1818
+  },
+  "3197": {
+    "suburb_name": "Seaford (Vic.)",
+    "positive": 6,
+    "negative": 2,
+    "neutral": 3,
+    "score": 0.5455
+  },
+  "3630": {
+    "suburb_name": "Shepparton - North",
+    "positive": 6,
+    "negative": 0,
+    "neutral": 4,
+    "score": 0.6
+  },
+  "3608": {
+    "suburb_name": "Shepparton Region - West",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 0,
+    "score": 1.0
+  },
+  "3911": {
+    "suburb_name": "Somerville",
+    "positive": 5,
+    "negative": 0,
+    "neutral": 0,
+    "score": 1.0
+  },
+  "3141": {
+    "suburb_name": "South Yarra - East",
+    "positive": 44,
+    "negative": 9,
+    "neutral": 46,
+    "score": 0.4444
+  },
+  "3171": {
+    "suburb_name": "Springvale",
+    "positive": 3,
+    "negative": 1,
+    "neutral": 1,
+    "score": 0.6
+  },
+  "3384": {
+    "suburb_name": "St Arnaud",
+    "positive": 2,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.6667
+  },
+  "3182": {
+    "suburb_name": "St Kilda East",
+    "positive": 4,
+    "negative": 4,
+    "neutral": 4,
+    "score": 0.3333
+  },
+  "3374": {
+    "suburb_name": "Stawell",
+    "positive": 11,
+    "negative": 4,
+    "neutral": 8,
+    "score": 0.4783
+  },
+  "3427": {
+    "suburb_name": "Sunbury - South",
+    "positive": 4,
+    "negative": 0,
+    "neutral": 2,
+    "score": 0.6667
+  },
+  "3020": {
+    "suburb_name": "Sunshine",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 8,
+    "score": 0.1111
+  },
+  "3024": {
+    "suburb_name": "Tarneit",
+    "positive": 3,
+    "negative": 1,
+    "neutral": 2,
+    "score": 0.5
+  },
+  "3106": {
+    "suburb_name": "Templestowe Lower",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 2,
+    "score": 0.3333
+  },
+  "3142": {
+    "suburb_name": "Toorak",
+    "positive": 5,
+    "negative": 1,
+    "neutral": 4,
+    "score": 0.5
+  },
+  "3821": {
+    "suburb_name": "Trafalgar (Vic.)",
+    "positive": 0,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.0
+  },
+  "3844": {
+    "suburb_name": "Traralgon",
+    "positive": 1,
+    "negative": 2,
+    "neutral": 1,
+    "score": 0.25
+  },
+  "3027": {
+    "suburb_name": "Truganina",
+    "positive": 1,
+    "negative": 2,
+    "neutral": 3,
+    "score": 0.1667
+  },
+  "3133": {
+    "suburb_name": "Vermont",
+    "positive": 1,
+    "negative": 1,
+    "neutral": 1,
+    "score": 0.3333
+  },
+  "3677": {
+    "suburb_name": "Wangaratta",
+    "positive": 1,
+    "negative": 3,
+    "neutral": 9,
+    "score": 0.0769
+  },
+  "3673": {
+    "suburb_name": "Wangaratta Region",
+    "positive": 4,
+    "negative": 3,
+    "neutral": 3,
+    "score": 0.4
+  },
+  "3277": {
+    "suburb_name": "Warrnambool - South",
+    "positive": 6,
+    "negative": 0,
+    "neutral": 7,
+    "score": 0.4615
+  },
+  "3089": {
+    "suburb_name": "Wattle Glen - Diamond Creek",
+    "positive": 1,
+    "negative": 0,
+    "neutral": 1,
+    "score": 0.5
+  },
+  "3064": {
+    "suburb_name": "Whittlesea",
+    "positive": 2,
+    "negative": 0,
+    "neutral": 2,
+    "score": 0.5
+  },
+  "3016": {
+    "suburb_name": "Williamstown",
+    "positive": 5,
+    "negative": 4,
+    "neutral": 16,
+    "score": 0.2
+  },
+  "3960": {
+    "suburb_name": "Wilsons Promontory",
+    "positive": 1,
+    "negative": 2,
+    "neutral": 6,
+    "score": 0.1111
+  },
+  "3925": {
+    "suburb_name": "Wonthaggi - Inverloch",
+    "positive": 4,
+    "negative": 3,
+    "neutral": 1,
+    "score": 0.5
+  },
+  "3013": {
+    "suburb_name": "Yarraville",
+    "positive": 9,
+    "negative": 1,
+    "neutral": 12,
+    "score": 0.4091
+  }
+}

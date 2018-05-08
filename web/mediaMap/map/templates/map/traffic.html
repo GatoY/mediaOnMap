@@ -1,0 +1,22 @@
+{% extends 'map/base.html' %}
+{% load static %}
+
+{% block content-css %}
+<link href="{% static 'map/css/custom.css' %}" rel='stylesheet' type='text/css'>
+{% endblock content-css %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row-fluid">
+
+
+    </div>
+</div>
+
+{% endblock content %}
+
+{% block content-js %}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6Z479QhF3vXmksr0WsN6PtYGkDaYIoxA"></script>
+<script src="{% static 'map/js/echarts.js' %}"></script>
+
+{% endblock content-js %}

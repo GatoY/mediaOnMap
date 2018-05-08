@@ -22,10 +22,14 @@ def sentiment(request):
 
 
 # RESTful api
-def sentimentData(request):
-    with open('map/static/map/res/Melb_ad.geojson') as f:
-        sentiment_data = json.load(f)
-        return HttpResponse(json.dumps(sentiment_data), content_type='application/json')
+# def sentimentData(request):
+#     with open('map/static/map/res/Melb_ad.geojson') as f:
+#         sentiment_data = json.load(f)
+#         return HttpResponse(json.dumps(sentiment_data), content_type='application/json')
+def sentiment_by_suburbs(request):
+    with open('map/static/map/res/melbourne_suburbs.geojson') as f:
+        data = json.load(f)
+        return HttpResponse(json.dumps(data), content_type='application/json')
 
 
 # RESTful api
@@ -43,7 +47,7 @@ def sentiment_by_weekdays(request):
 
 
 def word_cloud(request):
-    with open('map/static/map/res/hot_topics_large.json') as f:
+    with open('map/static/map/res/hot_topics_50.json') as f:
         data = json.load(f)
         return HttpResponse(json.dumps(data), content_type='application/json')
 
@@ -58,8 +62,10 @@ def avengers_data(request):
         return HttpResponse(json.dumps(data), content_type='application/json')
 
 
-def scenario2(request):
-    return render(request, 'map/scenario2.html')
+# def scenario2(request):
+#     return render(request, 'map/scenario2.html')
+def traffic(request):
+    return render(request, 'map/traffic.html')
 
 
 def affordability(request):
@@ -141,4 +147,3 @@ def aboutUs(request):
 
 def report(request):
     return render(request, 'map/report.html')
-# Create your views here.
