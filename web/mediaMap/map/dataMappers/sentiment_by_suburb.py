@@ -15,6 +15,8 @@ with open('../static/map/img/ToMason.json') as f:
                 result[key]["positive"] + result[key]["negative"] + result[key]["neutral"])
         result[key]["score"] = round(percentage, 4)
 
+    print(result)
+
     with open('../static/map/res/affordability20162017.geojson') as g:
         geojson = json.load(g)
         for feature in geojson["features"]:
