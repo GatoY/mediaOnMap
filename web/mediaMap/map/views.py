@@ -64,6 +64,18 @@ def traffic(request):
     return render(request, 'map/traffic.html')
 
 
+def traffic_data(request):
+    with open('map/static/map/res/traffic_volumes.geojson') as f:
+        data = json.load(f)
+        return HttpResponse(json.dumps(data), content_type='application/json')
+
+
+def traffic_by_hours(request):
+    with open('map/static/map/res/traffic_by_hours.json') as f:
+        data = json.load(f)
+        return HttpResponse(json.dumps(data), content_type='application/json')
+
+
 def affordability(request):
     return render(request, 'map/affordability.html')
 

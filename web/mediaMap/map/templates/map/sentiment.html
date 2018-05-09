@@ -12,7 +12,7 @@
         <div id="info-box">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-body">
+                     <div class="card-body">
                         <h5 id="suburb-name" class="card-title">Suburb Name</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Sentiment: </h6>
                         <p id="sentiment" class="card-text">sentiment number</p>
@@ -255,12 +255,9 @@
         });
         map.data.addListener('mouseover', function (event) {
             event.feature.setProperty('state', 'hover');
-
-            console.log(event.feature.getProperty('pos'));
             // $("#suburb-name").text(event.feature.getProperty('geography_name'));
-            $("#suburb-name").text(event.feature.getProperty('suburb_name'));
+            // $("#suburb-name").text(event.feature.getProperty('suburb_name'));
             $("#sentiment").text(event.feature.getProperty('score'));
-            event.feature.setProperty('state', 'hover');
 
         });
         map.data.addListener('mouseout', function (event) {
