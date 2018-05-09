@@ -1,608 +1,608 @@
 {
   "all_topics": [
     {
+      "topic": "Melbourne",
+      "number": 381
+    },
+    {
+      "topic": "melbourne",
+      "number": 212
+    },
+    {
+      "topic": "victraffic",
+      "number": 168
+    },
+    {
       "topic": "auspol",
-      "number": 9810
-    },
-    {
-      "topic": "Map",
-      "number": 5443
-    },
-    {
-      "topic": "map",
-      "number": 3969
-    },
-    {
-      "topic": "MVFC",
-      "number": 3086
-    },
-    {
-      "topic": "ALeagueGF",
-      "number": 2676
-    },
-    {
-      "topic": "Etsy",
-      "number": 2526
-    },
-    {
-      "topic": "GodofWar",
-      "number": 2453
+      "number": 138
     },
     {
       "topic": "SYDvMVC",
-      "number": 2383
-    },
-    {
-      "topic": "funkykidsradio",
-      "number": 2253
-    },
-    {
-      "topic": "music4kids",
-      "number": 2252
-    },
-    {
-      "topic": "\u2026",
-      "number": 2114
-    },
-    {
-      "topic": "Melbourne",
-      "number": 2069
-    },
-    {
-      "topic": "springst",
-      "number": 1825
-    },
-    {
-      "topic": "Handmade",
-      "number": 1816
-    },
-    {
-      "topic": "changetherules",
-      "number": 1723
-    },
-    {
-      "topic": "Aggretsuko",
-      "number": 1643
-    },
-    {
-      "topic": "ALeagueFinals",
-      "number": 1397
-    },
-    {
-      "topic": "NowPlaying",
-      "number": 1219
-    },
-    {
-      "topic": "\u0e17\u0e35\u0e21\u0e1e\u0e35\u0e23\u0e0d\u0e32",
-      "number": 1216
-    },
-    {
-      "topic": "SingtoKrist",
-      "number": 1170
-    },
-    {
-      "topic": "AFLDogsBlues",
-      "number": 1153
-    },
-    {
-      "topic": "SingtoPrachaya",
-      "number": 1108
-    },
-    {
-      "topic": "Ceramic",
-      "number": 1086
-    },
-    {
-      "topic": "KristPerawat",
-      "number": 1054
-    },
-    {
-      "topic": "etsymntt",
-      "number": 1050
+      "number": 125
     },
     {
       "topic": "AFLPiesTigers",
-      "number": 1023
+      "number": 117
     },
     {
-      "topic": "follow",
-      "number": 1010
+      "topic": "ALeagueGF",
+      "number": 105
     },
     {
-      "topic": "Africa",
-      "number": 1003
-    },
-    {
-      "topic": "Jalals",
-      "number": 994
-    },
-    {
-      "topic": "NEWvMVC",
-      "number": 991
-    },
-    {
-      "topic": "ATN",
-      "number": 977
-    },
-    {
-      "topic": "startup",
-      "number": 953
-    },
-    {
-      "topic": "Jewellery",
-      "number": 944
-    },
-    {
-      "topic": "Europe",
-      "number": 925
-    },
-    {
-      "topic": "NTS",
-      "number": 892
-    },
-    {
-      "topic": "nauticus",
-      "number": 883
-    },
-    {
-      "topic": "VoiceSaveSharane",
-      "number": 876
-    },
-    {
-      "topic": "7News",
-      "number": 863
+      "topic": "AFLHawksSaints",
+      "number": 90
     },
     {
       "topic": "AFLCatsGiants",
-      "number": 858
+      "number": 82
     },
     {
-      "topic": "VicBudget",
-      "number": 840
+      "topic": "tsanzconf",
+      "number": 80
     },
     {
-      "topic": "Pottery",
-      "number": 822
+      "topic": "BachelorInParadiseAU",
+      "number": 78
     },
     {
-      "topic": "bitcoin",
-      "number": 818
+      "topic": "job",
+      "number": 78
     },
     {
-      "topic": "liddell",
-      "number": 814
+      "topic": "AFLCatsSwans",
+      "number": 77
     },
     {
-      "topic": "business",
-      "number": 808
+      "topic": "photo",
+      "number": 72
+    },
+    {
+      "topic": "springst",
+      "number": 69
+    },
+    {
+      "topic": "AFLDonsDees",
+      "number": 68
+    },
+    {
+      "topic": "australia",
+      "number": 68
+    },
+    {
+      "topic": "CareerArc",
+      "number": 68
+    },
+    {
+      "topic": "AFLDogsBlues",
+      "number": 66
+    },
+    {
+      "topic": "gotiges",
+      "number": 64
+    },
+    {
+      "topic": "mkr",
+      "number": 61
+    },
+    {
+      "topic": "AFLDonsHawks",
+      "number": 61
+    },
+    {
+      "topic": "neighbours",
+      "number": 60
+    },
+    {
+      "topic": "Hiring",
+      "number": 58
     },
     {
       "topic": "MKR",
-      "number": 799
+      "number": 56
     },
     {
-      "topic": "AFL",
-      "number": 789
+      "topic": "NEWvMCY",
+      "number": 55
+    },
+    {
+      "topic": "InfinityWar",
+      "number": 54
+    },
+    {
+      "topic": "hiring",
+      "number": 50
     },
     {
       "topic": "Australia",
-      "number": 789
+      "number": 50
     },
     {
-      "topic": "ChangeTheRules",
-      "number": 779
+      "topic": "ALeagueFinals",
+      "number": 49
     },
     {
-      "topic": "marketing",
-      "number": 774
+      "topic": "WWEAustralia",
+      "number": 48
     },
     {
-      "topic": "F1",
-      "number": 757
+      "topic": "WWEGRR",
+      "number": 44
+    },
+    {
+      "topic": "TheBool",
+      "number": 41
+    },
+    {
+      "topic": "AFLSwansNorth",
+      "number": 40
+    },
+    {
+      "topic": "gopies",
+      "number": 38
+    },
+    {
+      "topic": "fordmustang",
+      "number": 37
+    },
+    {
+      "topic": "mustang",
+      "number": 37
+    },
+    {
+      "topic": "49ers",
+      "number": 34
+    },
+    {
+      "topic": "NEWvMVC",
+      "number": 34
+    },
+    {
+      "topic": "MyTwitterAnniversary",
+      "number": 34
+    },
+    {
+      "topic": "NFLDraft",
+      "number": 33
+    },
+    {
+      "topic": "RAW",
+      "number": 33
+    },
+    {
+      "topic": "AFLCrowsBlues",
+      "number": 32
+    },
+    {
+      "topic": "AvengersInfinityWar",
+      "number": 31
+    },
+    {
+      "topic": "qanda",
+      "number": 29
+    },
+    {
+      "topic": "Job",
+      "number": 29
+    },
+    {
+      "topic": "goswans",
+      "number": 28
+    },
+    {
+      "topic": "AzerbaijanGP",
+      "number": 28
+    },
+    {
+      "topic": "autumn",
+      "number": 28
+    },
+    {
+      "topic": "transplant",
+      "number": 28
     }
   ],
   "pos_topics": [
     {
-      "topic": "auspol",
-      "number": 3210
-    },
-    {
-      "topic": "Map",
-      "number": 2912
-    },
-    {
-      "topic": "GodofWar",
-      "number": 2404
-    },
-    {
-      "topic": "map",
-      "number": 2398
-    },
-    {
-      "topic": "Aggretsuko",
-      "number": 1639
-    },
-    {
-      "topic": "MVFC",
-      "number": 1334
-    },
-    {
-      "topic": "\u2026",
-      "number": 1063
-    },
-    {
-      "topic": "changetherules",
-      "number": 962
-    },
-    {
-      "topic": "SYDvMVC",
-      "number": 957
-    },
-    {
       "topic": "Melbourne",
-      "number": 861
-    },
-    {
-      "topic": "startup",
-      "number": 768
-    },
-    {
-      "topic": "springst",
-      "number": 749
-    },
-    {
-      "topic": "ALeagueGF",
-      "number": 715
-    },
-    {
-      "topic": "business",
-      "number": 657
-    },
-    {
-      "topic": "Africa",
-      "number": 634
-    },
-    {
-      "topic": "ALeagueFinals",
-      "number": 619
-    },
-    {
-      "topic": "infographic",
-      "number": 574
-    },
-    {
-      "topic": "VicBudget",
-      "number": 551
-    },
-    {
-      "topic": "Shanghai",
-      "number": 524
-    },
-    {
-      "topic": "Madrid",
-      "number": 521
-    },
-    {
-      "topic": "Europe",
-      "number": 510
-    },
-    {
-      "topic": "music4kids",
-      "number": 449
-    },
-    {
-      "topic": "funkykidsradio",
-      "number": 449
-    },
-    {
-      "topic": "Germany",
-      "number": 438
-    },
-    {
-      "topic": "books",
-      "number": 436
-    },
-    {
-      "topic": "FCBD",
-      "number": 424
-    },
-    {
-      "topic": "read",
-      "number": 416
-    },
-    {
-      "topic": "AFLPiesTigers",
-      "number": 399
-    },
-    {
-      "topic": "AFLDogsBlues",
-      "number": 392
-    },
-    {
-      "topic": "ALeague",
-      "number": 375
-    },
-    {
-      "topic": "Infographic",
-      "number": 366
-    },
-    {
-      "topic": "AFL",
-      "number": 357
-    },
-    {
-      "topic": "BLACKPINK",
-      "number": 355
-    },
-    {
-      "topic": "JEN",
-      "number": 353
-    },
-    {
-      "topic": "BLINK",
-      "number": 353
-    },
-    {
-      "topic": "Manus",
-      "number": 347
-    },
-    {
-      "topic": "HAPPY",
-      "number": 342
-    },
-    {
-      "topic": "IMY",
-      "number": 341
-    },
-    {
-      "topic": "\uc5b4\ub9b0\uc774\ub0a0",
-      "number": 341
-    },
-    {
-      "topic": "marketing",
-      "number": 336
-    },
-    {
-      "topic": "TheBool",
-      "number": 328
-    },
-    {
-      "topic": "disability",
-      "number": 322
-    },
-    {
-      "topic": "ilooked\u2026",
-      "number": 322
-    },
-    {
-      "topic": "whistlepodu",
-      "number": 322
-    },
-    {
-      "topic": "AFLCatsGiants",
-      "number": 314
-    },
-    {
-      "topic": "ChangeTheRules",
-      "number": 312
-    },
-    {
-      "topic": "manufacturing",
-      "number": 309
+      "number": 130
     },
     {
       "topic": "melbourne",
-      "number": 308
+      "number": 75
     },
     {
-      "topic": "WhistlePodu",
-      "number": 307
+      "topic": "job",
+      "number": 74
     },
     {
-      "topic": "robots",
-      "number": 307
+      "topic": "victraffic",
+      "number": 59
+    },
+    {
+      "topic": "auspol",
+      "number": 51
+    },
+    {
+      "topic": "Hiring",
+      "number": 50
+    },
+    {
+      "topic": "AFLPiesTigers",
+      "number": 45
+    },
+    {
+      "topic": "CareerArc",
+      "number": 44
+    },
+    {
+      "topic": "AFLHawksSaints",
+      "number": 43
+    },
+    {
+      "topic": "SYDvMVC",
+      "number": 39
+    },
+    {
+      "topic": "ALeagueGF",
+      "number": 37
+    },
+    {
+      "topic": "BachelorInParadiseAU",
+      "number": 36
+    },
+    {
+      "topic": "gotiges",
+      "number": 32
+    },
+    {
+      "topic": "springst",
+      "number": 30
+    },
+    {
+      "topic": "AFLCatsSwans",
+      "number": 30
+    },
+    {
+      "topic": "AFLDogsBlues",
+      "number": 24
+    },
+    {
+      "topic": "australia",
+      "number": 24
+    },
+    {
+      "topic": "AFLCatsGiants",
+      "number": 23
+    },
+    {
+      "topic": "TheBool",
+      "number": 23
+    },
+    {
+      "topic": "mkr",
+      "number": 22
+    },
+    {
+      "topic": "NEWvMCY",
+      "number": 22
+    },
+    {
+      "topic": "WWEAustralia",
+      "number": 21
+    },
+    {
+      "topic": "gopies",
+      "number": 20
+    },
+    {
+      "topic": "AFLDonsHawks",
+      "number": 20
+    },
+    {
+      "topic": "neighbours",
+      "number": 19
+    },
+    {
+      "topic": "photo",
+      "number": 19
+    },
+    {
+      "topic": "SDLive",
+      "number": 19
+    },
+    {
+      "topic": "Australia",
+      "number": 19
+    },
+    {
+      "topic": "ALeagueFinals",
+      "number": 18
+    },
+    {
+      "topic": "InfinityWar",
+      "number": 18
+    },
+    {
+      "topic": "WWEGRR",
+      "number": 17
+    },
+    {
+      "topic": "AFLDonsDees",
+      "number": 16
+    },
+    {
+      "topic": "StarWarsDay",
+      "number": 16
+    },
+    {
+      "topic": "BusinessMgmt",
+      "number": 15
+    },
+    {
+      "topic": "AFLSwansNorth",
+      "number": 15
+    },
+    {
+      "topic": "49ers",
+      "number": 14
+    },
+    {
+      "topic": "love",
+      "number": 14
+    },
+    {
+      "topic": "hiring",
+      "number": 14
+    },
+    {
+      "topic": "MayThe4thBeWithYou",
+      "number": 14
+    },
+    {
+      "topic": "CriticalRole",
+      "number": 14
+    },
+    {
+      "topic": "autumn",
+      "number": 13
+    },
+    {
+      "topic": "MONvCRY",
+      "number": 13
+    },
+    {
+      "topic": "goswans",
+      "number": 12
+    },
+    {
+      "topic": "tsanzconf",
+      "number": 12
+    },
+    {
+      "topic": "AFLCrowsBlues",
+      "number": 12
+    },
+    {
+      "topic": "lioness",
+      "number": 12
+    },
+    {
+      "topic": "qanda",
+      "number": 12
+    },
+    {
+      "topic": "AFL360",
+      "number": 12
+    },
+    {
+      "topic": "evalcomplexity2018",
+      "number": 12
+    },
+    {
+      "topic": "DocRat",
+      "number": 12
     }
   ],
   "neg_topics": [
     {
-      "topic": "auspol",
-      "number": 1837
-    },
-    {
-      "topic": "map",
-      "number": 802
-    },
-    {
-      "topic": "Etsy",
-      "number": 662
-    },
-    {
-      "topic": "NowPlaying",
-      "number": 543
-    },
-    {
-      "topic": "ATN",
-      "number": 481
-    },
-    {
-      "topic": "ALeagueGF",
-      "number": 418
-    },
-    {
-      "topic": "SYDvMVC",
-      "number": 391
-    },
-    {
-      "topic": "Handmade",
-      "number": 384
-    },
-    {
-      "topic": "\u2026",
-      "number": 382
-    },
-    {
-      "topic": "Africa",
-      "number": 364
-    },
-    {
-      "topic": "etsymntt",
-      "number": 315
-    },
-    {
-      "topic": "BLACKPINK",
-      "number": 285
+      "topic": "victraffic",
+      "number": 52
     },
     {
       "topic": "AFLCatsGiants",
-      "number": 251
+      "number": 28
     },
     {
-      "topic": "nauticus",
-      "number": 248
-    },
-    {
-      "topic": "\u0e17\u0e35\u0e21\u0e1e\u0e35\u0e23\u0e0d\u0e32",
-      "number": 245
-    },
-    {
-      "topic": "SingtoKrist",
-      "number": 244
-    },
-    {
-      "topic": "KristPerawat",
-      "number": 244
-    },
-    {
-      "topic": "SingtoPrachaya",
-      "number": 243
-    },
-    {
-      "topic": "sotusS\u2026",
-      "number": 240
-    },
-    {
-      "topic": "AFLDonsDees",
-      "number": 239
-    },
-    {
-      "topic": "springst",
-      "number": 222
-    },
-    {
-      "topic": "AFLPiesTigers",
-      "number": 222
-    },
-    {
-      "topic": "Libfilth",
-      "number": 221
-    },
-    {
-      "topic": "AFLDogsBlues",
-      "number": 218
+      "topic": "SYDvMVC",
+      "number": 27
     },
     {
       "topic": "Melbourne",
-      "number": 216
+      "number": 26
     },
     {
-      "topic": "Jewellery",
-      "number": 215
+      "topic": "AFLDonsDees",
+      "number": 26
     },
     {
-      "topic": "Ceramic",
-      "number": 201
+      "topic": "RAW",
+      "number": 25
     },
     {
-      "topic": "MKR",
-      "number": 181
-    },
-    {
-      "topic": "funkykidsradio",
-      "number": 178
-    },
-    {
-      "topic": "music4kids",
-      "number": 178
-    },
-    {
-      "topic": "AFL",
-      "number": 177
-    },
-    {
-      "topic": "LISA",
-      "number": 168
-    },
-    {
-      "topic": "Beads",
-      "number": 168
-    },
-    {
-      "topic": "fakenews",
-      "number": 168
-    },
-    {
-      "topic": "AFLDonsHawks",
-      "number": 167
-    },
-    {
-      "topic": "Earrings",
-      "number": 166
-    },
-    {
-      "topic": "7News",
-      "number": 157
-    },
-    {
-      "topic": "Palestine::",
-      "number": 157
-    },
-    {
-      "topic": "RaminHosseinPanahi",
-      "number": 156
-    },
-    {
-      "topic": "USA",
-      "number": 156
-    },
-    {
-      "topic": "AFLLionsPies",
-      "number": 154
+      "topic": "AFLPiesTigers",
+      "number": 25
     },
     {
       "topic": "AFLHawksSaints",
-      "number": 148
+      "number": 24
     },
     {
-      "topic": "RenewShadowhunters",
-      "number": 147
+      "topic": "WWEAustralia",
+      "number": 24
     },
     {
-      "topic": "nbn",
-      "number": 146
+      "topic": "AFLDonsHawks",
+      "number": 23
     },
     {
-      "topic": "Europe",
-      "number": 145
+      "topic": "ALeagueGF",
+      "number": 21
     },
     {
-      "topic": "Pottery",
-      "number": 145
+      "topic": "melbourne",
+      "number": 19
     },
     {
-      "topic": "Necklace",
-      "number": 144
+      "topic": "BachelorInParadiseAU",
+      "number": 19
     },
     {
-      "topic": "History",
-      "number": 143
+      "topic": "auspol",
+      "number": 17
     },
     {
-      "topic": "change\u2026",
-      "number": 142
+      "topic": "AFLDogsBlues",
+      "number": 16
     },
     {
-      "topic": "NTS\u2026",
-      "number": 141
+      "topic": "photo",
+      "number": 16
+    },
+    {
+      "topic": "AFLCatsSwans",
+      "number": 16
+    },
+    {
+      "topic": "MKR",
+      "number": 16
+    },
+    {
+      "topic": "InfinityWar",
+      "number": 12
+    },
+    {
+      "topic": "neighbours",
+      "number": 11
+    },
+    {
+      "topic": "mkr",
+      "number": 11
+    },
+    {
+      "topic": "NEWvMCY",
+      "number": 10
+    },
+    {
+      "topic": "AFLSwansNorth",
+      "number": 10
+    },
+    {
+      "topic": "art",
+      "number": 10
+    },
+    {
+      "topic": "AFLCrowsBlues",
+      "number": 9
+    },
+    {
+      "topic": "springst",
+      "number": 9
+    },
+    {
+      "topic": "WWEGRR",
+      "number": 9
+    },
+    {
+      "topic": "AFL360",
+      "number": 9
+    },
+    {
+      "topic": "AFLFreoEagles",
+      "number": 9
+    },
+    {
+      "topic": "tsanzconf",
+      "number": 8
+    },
+    {
+      "topic": "gotiges",
+      "number": 8
+    },
+    {
+      "topic": "Cat",
+      "number": 7
+    },
+    {
+      "topic": "BachelorinParadiseAU",
+      "number": 7
+    },
+    {
+      "topic": "LOST",
+      "number": 6
+    },
+    {
+      "topic": "NDIS",
+      "number": 6
+    },
+    {
+      "topic": "green",
+      "number": 6
+    },
+    {
+      "topic": "ALeagueFinals",
+      "number": 6
+    },
+    {
+      "topic": "AFL",
+      "number": 6
+    },
+    {
+      "topic": "AFLBombersHawks",
+      "number": 6
+    },
+    {
+      "topic": "F1",
+      "number": 5
+    },
+    {
+      "topic": "moron",
+      "number": 5
+    },
+    {
+      "topic": "BankingRC",
+      "number": 5
+    },
+    {
+      "topic": "afl",
+      "number": 5
+    },
+    {
+      "topic": "WeAreGeelong",
+      "number": 5
+    },
+    {
+      "topic": "VFLW",
+      "number": 5
+    },
+    {
+      "topic": "DnD",
+      "number": 5
+    },
+    {
+      "topic": "RedSox",
+      "number": 5
+    },
+    {
+      "topic": "FOREVER",
+      "number": 5
+    },
+    {
+      "topic": "TACCupGirls",
+      "number": 5
+    },
+    {
+      "topic": "BAYvMON",
+      "number": 5
     }
   ]
 }
