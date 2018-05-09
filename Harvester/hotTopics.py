@@ -74,19 +74,6 @@ def wirte_to_file(common, pos_common, neg_common):
 	with open('hotTopics.json', 'w+') as file:
 		file.write(topics_json)
 
-	# with open('hotTopics.txt', 'w+') as file:
-	# 	file.write('All topics:\n')
-	# 	for topic in common:
-	# 		file.write('%s, %d\n' % (topic[0].encode('utf-8'), topic[1]))
-
-	# 	file.write('\nPostitive topics:\n')
-	# 	for topic in pos_common:
-	# 		file.write('%s, %d\n' % (topic[0].encode('utf-8'), topic[1]))
-
-	# 	file.write('\nNegative topics:\n')
-	# 	for topic in neg_common:
-	# 		file.write('%s, %d\n' % (topic[0].encode('utf-8'), topic[1]))
-
 def main():
 	db_server = 'http://localhost:5984/'
 	db_name = 'twitter'
