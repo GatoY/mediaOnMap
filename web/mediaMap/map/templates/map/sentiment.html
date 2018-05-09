@@ -13,9 +13,9 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
-                        <h5 id="suburb-name" class="card-title">Suburb Name</h5>
+                        <h5 id="suburb-name" class="card-title">N/A</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Sentiment: </h6>
-                        <p id="sentiment" class="card-text">sentiment number</p>
+                        <p id="sentiment" class="card-text">N/A</p>
                     </div>
                 </div>
             </div>
@@ -256,8 +256,8 @@
         map.data.addListener('mouseover', function (event) {
             event.feature.setProperty('state', 'hover');
             // $("#suburb-name").text(event.feature.getProperty('geography_name'));
-            // $("#suburb-name").text(event.feature.getProperty('suburb_name'));
-            $("#sentiment").text(event.feature.getProperty('score'));
+            $("#suburb-name").text(event.feature.getProperty('SA2_NAME16'));
+            $("#sentiment").text(event.feature.getProperty('pos_rate'));
 
         });
         map.data.addListener('mouseout', function (event) {
