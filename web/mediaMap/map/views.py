@@ -58,8 +58,6 @@ def avengers_data(request):
         return HttpResponse(json.dumps(data), content_type='application/json')
 
 
-# def scenario2(request):
-#     return render(request, 'map/scenario2.html')
 def traffic(request):
     return render(request, 'map/traffic.html')
 
