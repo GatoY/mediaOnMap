@@ -12,7 +12,7 @@
         <div id="info-box">
             <div class="col-md-12">
                 <div class="card">
-                     <div class="card-body">
+                    <div class="card-body">
                         <h5 id="suburb-name" class="card-title">Suburb Name</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Sentiment: </h6>
                         <p id="sentiment" class="card-text">sentiment number</p>
@@ -479,7 +479,7 @@
         });
     });
 
-    $.get(API_DOMAIN +"/sentiment_by_weekdays").done(function (json) {
+    $.get(API_DOMAIN + "/sentiment_by_weekdays").done(function (json) {
         var dayList = [];
         var posCount = 0;
         var negCount = 0;
@@ -560,7 +560,7 @@
                 }
             ],
             color:
-                ['#99FF33', '#FF3333', '#FFFF33']
+                ['#00BB00', '#FF3333', '#FFD700']
 
         });
     });
