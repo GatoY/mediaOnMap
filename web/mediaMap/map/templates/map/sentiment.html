@@ -237,69 +237,36 @@
         var map = new google.maps.Map(mapCanvas, mapOptions);
 
 
-        // $.get("http://127.0.0.1:8000/api/v1/sentiment_by_suburbs").done(function (geojson) {
-            map.data.loadGeoJson("{% static 'map/res/melbourne_suburbs.geojson' %}");
-            map.data.setStyle(function (feature) {
-                var outlineWeight = 0.5, zIndex = 1;
-                if (feature.getProperty('state') === 'hover') {
-                    outlineWeight = zIndex = 2;
-                }
+        map.data.loadGeoJson(API_DOMAIN + "/sentiment_by_suburbs");
+        map.data.setStyle(function (feature) {
+            var outlineWeight = 0.5, zIndex = 1;
+            if (feature.getProperty('state') === 'hover') {
+                outlineWeight = zIndex = 2;
+            }
 
-                return ({
-                    fillColor: feature.getProperty('color'),
-                    fillOpacity: 0.6,
-                    strokeWeight: outlineWeight,
-                    zIndex: zIndex,
-                    strokeColor: '#FFFFFF',
-                    strokeOpacity: 0.9
-                });
+            return ({
+                fillColor: feature.getProperty('color'),
+                fillOpacity: 0.6,
+                strokeWeight: outlineWeight,
+                zIndex: zIndex,
+                strokeColor: '#FFFFFF',
+                strokeOpacity: 0.9
             });
-            map.data.addListener('mouseover', function (event) {
-                event.feature.setProperty('state', 'hover');
+        });
+        map.data.addListener('mouseover', function (event) {
+            event.feature.setProperty('state', 'hover');
 
-                console.log(event.feature.getProperty('pos'));
-                // $("#suburb-name").text(event.feature.getProperty('geography_name'));
-                $("#suburb-name").text(event.feature.getProperty('suburb_name'));
-                $("#sentiment").text(event.feature.getProperty('score'));
-                event.feature.setProperty('state', 'hover');
+            console.log(event.feature.getProperty('pos'));
+            // $("#suburb-name").text(event.feature.getProperty('geography_name'));
+            $("#suburb-name").text(event.feature.getProperty('suburb_name'));
+            $("#sentiment").text(event.feature.getProperty('score'));
+            event.feature.setProperty('state', 'hover');
 
-            });
-            map.data.addListener('mouseout', function (event) {
-                event.feature.setProperty('state', 'normal');
-            });
+        });
+        map.data.addListener('mouseout', function (event) {
+            event.feature.setProperty('state', 'normal');
+        });
 
-        // });
-
-
-        // // map.data.loadGeoJson("{% static 'map/img/affordability20162017.geojson' %}");
-        // map.data.setStyle(function (feature) {
-        //     var outlineWeight = 0.5, zIndex = 1;
-        //     if (feature.getProperty('state') === 'hover') {
-        //         outlineWeight = zIndex = 2;
-        //     }
-        //
-        //     return ({
-        //         fillColor: feature.getProperty('color'),
-        //         fillOpacity: 0.6,
-        //         strokeWeight: outlineWeight,
-        //         zIndex: zIndex,
-        //         strokeColor: '#FFFFFF',
-        //         strokeOpacity: 0.9
-        //     });
-        // });
-        // map.data.addListener('mouseover', function (event) {
-        //     event.feature.setProperty('state', 'hover');
-        //
-        //     console.log(event.feature.getProperty('pos'));
-        //     // $("#suburb-name").text(event.feature.getProperty('geography_name'));
-        //     $("#suburb-name").text(event.feature.getProperty('vic_loca_2'));
-        //     $("#sentiment").text(event.feature.getProperty('score'));
-        //     event.feature.setProperty('state', 'hover');
-        //
-        // });
-        // map.data.addListener('mouseout', function (event) {
-        //     event.feature.setProperty('state', 'normal');
-        // })
     }
 
     google.maps.event.addDomListener(window, 'load', initMap);
@@ -331,7 +298,7 @@
         }
     });
 
-    $.get("http://127.0.0.1:8000/api/v1/word_cloud").done(function (json) {
+    $.get(API_DOMAIN + "/word_cloud").done(function (json) {
         const dv = new DataSet.View().source(json["all_topics"]);
         const range = dv.range('number');
         const min = range[0];
@@ -487,7 +454,7 @@
     });
 
 
-    $.get("http://127.0.0.1:8000/api/v1/sentiment_by_hours").done(function (json) {
+    $.get(API_DOMAIN + "/sentiment_by_hours").done(function (json) {
         var hourList = [];
         var xList = [];
         $.each(json, function (key, value) {
@@ -515,7 +482,7 @@
         });
     });
 
-    $.get("http://127.0.0.1:8000/api/v1/sentiment_by_weekdays").done(function (json) {
+    $.get(API_DOMAIN +"/sentiment_by_weekdays").done(function (json) {
         var dayList = [];
         var posCount = 0;
         var negCount = 0;
