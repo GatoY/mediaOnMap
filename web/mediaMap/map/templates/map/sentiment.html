@@ -13,9 +13,9 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
-                        <h5 id="suburb-name" class="card-title">Suburb Name</h5>
+                        <h5 id="suburb-name" class="card-title">N/A</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Sentiment: </h6>
-                        <p id="sentiment" class="card-text">sentiment number</p>
+                        <p id="sentiment" class="card-text">N/A</p>
                     </div>
                 </div>
             </div>
@@ -33,21 +33,21 @@
     </div>
     <div style="margin-top: 40px">
         <div align="center">
-            <h4>Top 20 Topics</h4>
+            <h4>Top 50 Topics</h4>
         </div>
         <div id="word-cloud-all"></div>
     </div>
 
     <div style="margin-top: 40px">
         <div align="center">
-            <h4>Top 20 Negative Topics</h4>
+            <h4>Top 50 Negative Topics</h4>
         </div>
         <div id="word-cloud-neg"></div>
     </div>
 
     <div style="margin-top: 40px">
         <div align="center">
-            <h4>Top 20 Positive Topics</h4>
+            <h4>Top 50 Positive Topics</h4>
         </div>
         <div id="word-cloud-pos"></div>
     </div>
@@ -236,8 +236,8 @@
         };
         var map = new google.maps.Map(mapCanvas, mapOptions);
 
-        map.data.loadGeoJson("{% static 'map/res/Melb_ad.geojson' %}");
-        // map.data.loadGeoJson("{% static 'map/img/affordability20162017.geojson' %}");
+
+        map.data.loadGeoJson(API_DOMAIN + "/sentiment_by_suburbs");
         map.data.setStyle(function (feature) {
             var outlineWeight = 0.5, zIndex = 1;
             if (feature.getProperty('state') === 'hover') {
@@ -255,17 +255,14 @@
         });
         map.data.addListener('mouseover', function (event) {
             event.feature.setProperty('state', 'hover');
-
-            console.log(event.feature.getProperty('pos'));
             // $("#suburb-name").text(event.feature.getProperty('geography_name'));
-            $("#suburb-name").text(event.feature.getProperty('vic_loca_2'));
-            $("#sentiment").text(event.feature.getProperty('score'));
-            event.feature.setProperty('state', 'hover');
+            $("#suburb-name").text(event.feature.getProperty('SA2_NAME16'));
+            $("#sentiment").text(event.feature.getProperty('pos_rate'));
 
         });
         map.data.addListener('mouseout', function (event) {
             event.feature.setProperty('state', 'normal');
-        })
+        });
 
     }
 
@@ -298,7 +295,7 @@
         }
     });
 
-    $.get("http://127.0.0.1:8000/api/v1/word_cloud").done(function (json) {
+    $.get(API_DOMAIN + "/word_cloud").done(function (json) {
         const dv = new DataSet.View().source(json["all_topics"]);
         const range = dv.range('number');
         const min = range[0];
@@ -454,7 +451,7 @@
     });
 
 
-    $.get("http://127.0.0.1:8000/api/v1/sentiment_by_hours").done(function (json) {
+    $.get(API_DOMAIN + "/sentiment_by_hours").done(function (json) {
         var hourList = [];
         var xList = [];
         $.each(json, function (key, value) {
@@ -482,7 +479,7 @@
         });
     });
 
-    $.get("http://127.0.0.1:8000/api/v1/sentiment_by_weekdays").done(function (json) {
+    $.get(API_DOMAIN + "/sentiment_by_weekdays").done(function (json) {
         var dayList = [];
         var posCount = 0;
         var negCount = 0;
@@ -563,7 +560,7 @@
                 }
             ],
             color:
-                ['#99FF33', '#FF3333', '#FFFF33']
+                ['#00BB00', '#FF3333', '#FFD700']
 
         });
     });

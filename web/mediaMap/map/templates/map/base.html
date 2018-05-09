@@ -35,7 +35,7 @@
                 <a class="nav-link" href="{% url 'map:avengers' %}">Avengers</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% url 'map:scenario2' %}">Scenario2</a>
+                <a class="nav-link" href="{% url 'map:traffic' %}">Traffic Complaints</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{% url 'map:affordability' %}">Rental Affordability</a>
@@ -67,7 +67,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
         integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
-{% block content-js %}{% endblock %}
 
 <script>
     $('#navbar').find('a').each(function () {
@@ -76,7 +75,13 @@
         }
     });
 
+    let DOMAIN = "http://127.0.0.1:8000";
+    let API_DOMAIN = DOMAIN + "/api/v1";
+
 </script>
+
+{% block content-js %}{% endblock %}
+
 
 </body>
 </html>

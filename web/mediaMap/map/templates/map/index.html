@@ -7,54 +7,61 @@
 
 
 {% block content %}
-<div class="container">
+<div class="container" style="margin-bottom: 80px;">
     <div class="row">
         <div id="map"></div>
         <div class="card z-depth-1-half" style="width: 100%; margin-bottom: 20px">
             <div class="card-body">
                 <h5 class="card-title">COMP90024 Assignment 2 - Twitter Analysis</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Team 16</h6>
-                <p class="card-text">Technologies we've picked into the project: </p>
+                <h6 class="card-subtitle mb-2 text-muted">Team 16: Yu Liu, Xingping Ding, Minglun Zhang, Minsheng Wang,
+                    Jize Dong</h6>
+                <p class="card-text">Data Source:&nbsp;&nbsp;&nbsp;
+                    <a href="https://portal.aurin.org.au/">AURIN</a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://developer.twitter.com/">Twitter API</a>&nbsp;&nbsp;&nbsp;
+                    <a href="http://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.006July%202011?OpenDocument">
+                        Australian Bureau of Statistics</a>
+                </p>
             </div>
         </div>
     </div>
 
-    <h3>
+    <h3 align="center" style="margin-top: 20px; margin-bottom: 20px">
         Scenarios
     </h3>
 
     <div class="row">
-        <div class="col-sm-6 col-md-6 col-xl-3 mb-3" align="center">
+        <div class="col-sm-6 col-md-6 col-xl-3 mb-3">
             <a href="{% url 'map:sentiment' %}">
-                <img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
-                     width="960" height="600">
-                <h5 class="mb-1">Sentiment Analysis</h5>
+                <img class="img-thumbnail mb-3" src="{% static 'map/img/sentiment.png' %}" alt="sentiment"
+                     align="center">
+                <h5 class="mb-1" align="center">Sentiment Analysis</h5>
             </a>
             <p class="text-muted">Sentiment analysis based on the tweets of Melbourne in the past couple of weeks.</p>
         </div>
-        <div class="col-sm-6 col-md-6 col-xl-3 mb-3" align="center">
+        <div class="col-sm-6 col-md-6 col-xl-3 mb-3">
             <a href="{% url 'map:avengers' %}">
-                <img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
-                     width="960" height="600">
-                <h5 class="mb-1">Avengers</h5>
+                <img class="img-thumbnail mb-3" src="{% static 'map/img/avengers.png' %}" alt="avengers"
+                     align="center">
+                <h5 class="mb-1" align="center">Avengers</h5>
             </a>
-            <p class="text-muted">description description description description description description</p>
+            <p class="text-muted">Melburnians' attitudes towards the movie <b>Avengers: Infinity War</b> and super heroes in
+                it.</p>
         </div>
-        <div class="col-sm-6 col-md-6 col-xl-3 mb-3" align="center">
-            <a href="{% url 'map:scenario2' %}">
-                <img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
-                     width="960" height="600">
-                <h5 class="mb-1">Scenario 2</h5>
+        <div class="col-sm-6 col-md-6 col-xl-3 mb-3">
+            <a href="{% url 'map:traffic' %}">
+                <img class="img-thumbnail mb-3" src="{% static 'map/img/traffic.png' %}" alt="traffic"
+                     align="center">
+                <h5 class="mb-1" align="center">Traffic</h5>
             </a>
-            <p class="text-muted">description description description description description description</p>
+            <p class="text-muted">Have a look at Melbourne's traffic volume and the complaints about Melburnian traffic...</p>
         </div>
-        <div class="col-sm-6 col-md-6 col-xl-3 mb-3" align="center">
+        <div class="col-sm-6 col-md-6 col-xl-3 mb-3">
             <a href="{% url 'map:affordability' %}">
-                <img class="img-thumbnail mb-3" src="{% static 'map/img/album2.jpg' %}" alt="Album screenshot"
-                     width="960" height="600">
-                <h5 class="mb-1">Rental Affordability</h5>
+                <img class="img-thumbnail mb-3" src="{% static 'map/img/affordability.png' %}" alt="affordability"
+                     align="center">
+                <h5 class="mb-1" align="center">Rental</h5>
             </a>
-            <p class="text-muted">The 2016-2017 rental affordability data of greater Melbourne district.</p>
+            <p class="text-muted">The visualisation of 2016-2017 rental affordability data of greater Melbourne district.</p>
         </div>
     </div>
 </div>

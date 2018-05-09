@@ -3,8 +3,6 @@ import json
 with open('../static/map/img/sentimentByHours.json') as f:
     data = json.load(f)
     for row in data["rows"]:
-        hour = row["key"][0]
-    for row in data["rows"]:
         row["key"][0] = (int(row["key"][0]) + 10) % 24
 
     result = {

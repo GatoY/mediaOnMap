@@ -1,6 +1,6 @@
 import json
 
-with open('../static/map/img/affordability20162017.geojson') as f:
+with open('../static/map/res/affordability20162017.geojson') as f:
     data = json.load(f)
     # print(aa['features'][0])
     data.pop("type")

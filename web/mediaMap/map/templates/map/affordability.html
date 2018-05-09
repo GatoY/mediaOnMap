@@ -55,8 +55,6 @@
 
     var map;
 
-    $(".navbar-brand").text("Rental Affordability");
-
     $("#quarter-select").change(function () {
         var quarterProperty = "rai_national_total_2017_q2";
         var value = $(this).children('option:selected').val();
@@ -124,12 +122,10 @@
     function mapAddListener(quarter) {
         map.data.addListener('mouseover', function (event) {
             event.feature.setProperty('state', 'hover');
-
             $("#suburb-name").text(event.feature.getProperty('geography_name') == null ?
                 'N/A' : event.feature.getProperty('geography_name'));
             $("#sentiment").text(event.feature.getProperty(quarter) === null ?
                 'N/A' : event.feature.getProperty(quarter));
-            event.feature.setProperty('state', 'hover');
         });
         map.data.addListener('mouseout', function (event) {
             event.feature.setProperty('state', 'normal');
@@ -309,41 +305,16 @@
         };
         map = new google.maps.Map(mapCanvas, mapOptions);
 
-        // map.data.loadGeoJson("{% static 'map/img/Melb_ad.geojson' %}");
-        map.data.loadGeoJson("{% static 'map/img/affordability20162017.geojson' %}");
+        map.data.loadGeoJson("{% static 'map/res/affordability20162017.geojson' %}"); //TODO
 
         mapSetStyle("rai_national_total_2017_q2");
         mapAddListener("rai_national_total_2017_q2");
-
 
     }
 
     google.maps.event.addDomListener(window, 'load', initMap);
 
-    // TODO asynchronized loading
-    // var myChart = echarts.init(document.getElementById('main'));
-    // $.get('data.json').done(function (data) {
-    //     myChart.setOption({
-    //         title: {
-    //             text: '异步数据加载示例'
-    //         },
-    //         tooltip: {},
-    //         legend: {
-    //             data: ['销量']
-    //         },
-    //         xAxis: {
-    //             data: ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"]
-    //         },
-    //         yAxis: {},
-    //         series: [{
-    //             name: '销量',
-    //             type: 'bar',
-    //             data: [5, 20, 36, 10, 10, 20]
-    //         }]
-    //     });
-    // });
-
-    $.get("http://127.0.0.1:8000/api/v1/affordability_proportions").done(function (data) {
+    $.get(API_DOMAIN + "/affordability_proportions").done(function (data) {
         var pieChart1 = echarts.init(document.getElementById('pie-chart1')).setOption({
             title: {
                 text: 'Rental Affordability Proportion 2016 Q3',
@@ -557,12 +528,7 @@
 
         });
 
-
     });
-
-    // $.getJSON("http://127.0.0.1:8000/affordability_proportions",
-    // );
-
 
 </script>
 
