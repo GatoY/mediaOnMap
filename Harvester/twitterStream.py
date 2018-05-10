@@ -49,7 +49,7 @@ class MyStreamListener(StreamListener):
 		try:
 			tweet = json.loads(data)
 
-			if tweet['coordinates'] or tweet['geo'] or tweet['place']:
+			if tweet:
 				text = tweet['text']
 
 				polarity = sentimentAnalysis(text)
