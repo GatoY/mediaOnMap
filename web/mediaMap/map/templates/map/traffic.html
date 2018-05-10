@@ -241,8 +241,12 @@
     google.maps.event.addDomListener(window, 'load', initMap);
 
 
-    $.get(API_DOMAIN + "/traffic_by_hours").done(function (json) {
-        var xList = [];
+    $.ajax({
+        url: API_DOMAIN + "/traffic_by_hours",
+        headers: {'Access-Control-Allow-Origin': '*'},
+        crossDomain: true,
+        success: function (json) {
+            var xList = [];
         var hourList = [];
         $.each(json, function (key, value) {
             xList.push(key);
@@ -267,7 +271,13 @@
                 type: 'line'
             }]
         });
+        },
+        error: function () {
+            console.log("error")
+        },
+        datatype: 'jsonp'
     });
+
 
 </script>
 
