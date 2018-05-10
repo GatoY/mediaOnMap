@@ -451,32 +451,69 @@
     });
 
 
-    $.get(API_DOMAIN + "/sentiment_by_hours").done(function (json) {
-        var hourList = [];
-        var xList = [];
-        $.each(json, function (key, value) {
-            xList.push(key);
-            hourList.push(value["percentage"]);
-        });
-        var hourChart = echarts.init(document.getElementById('chart-hour')).setOption({
-            title: {
-                text: "Sentiment in 24 Hours",
-                x: 'center'
-            },
-            xAxis: {
-                name: 'hours',
-                type: 'category',
-                data: xList
-            },
-            yAxis: {
-                name: 'sentiment',
-                type: 'value'
-            },
-            series: [{
-                data: hourList,
-                type: 'line'
-            }]
-        });
+    // $.get(API_DOMAIN + "/sentiment_by_hours").done(function (json) {
+    //     var hourList = [];
+    //     var xList = [];
+    //     $.each(json, function (key, value) {
+    //         xList.push(key);
+    //         hourList.push(value["percentage"]);
+    //     });
+    //     var hourChart = echarts.init(document.getElementById('chart-hour')).setOption({
+    //         title: {
+    //             text: "Sentiment in 24 Hours",
+    //             x: 'center'
+    //         },
+    //         xAxis: {
+    //             name: 'hours',
+    //             type: 'category',
+    //             data: xList
+    //         },
+    //         yAxis: {
+    //             name: 'sentiment',
+    //             type: 'value'
+    //         },
+    //         series: [{
+    //             data: hourList,
+    //             type: 'line'
+    //         }]
+    //     });
+    // });
+
+    $.ajax({
+        url: API_DOMAIN + "/sentiment_by_hours",
+        headers: {'Access-Control-Allow-Origin': '*'},
+        crossDomain: true,
+        success: function () {
+            var hourList = [];
+            var xList = [];
+            $.each(json, function (key, value) {
+                xList.push(key);
+                hourList.push(value["percentage"]);
+            });
+            var hourChart = echarts.init(document.getElementById('chart-hour')).setOption({
+                title: {
+                    text: "Sentiment in 24 Hours",
+                    x: 'center'
+                },
+                xAxis: {
+                    name: 'hours',
+                    type: 'category',
+                    data: xList
+                },
+                yAxis: {
+                    name: 'sentiment',
+                    type: 'value'
+                },
+                series: [{
+                    data: hourList,
+                    type: 'line'
+                }]
+            });
+        },
+        error: function () {
+            console.log("error")
+        },
+        datatype: 'jsonp'
     });
 
     $.get(API_DOMAIN + "/sentiment_by_weekdays").done(function (json) {
