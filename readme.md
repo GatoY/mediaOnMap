@@ -14,6 +14,13 @@
 
 ### How to Use
 
+### Scenarios
+- Sentiment Analysis
+- Top Hot Topics
+- Peoples attitudes towards Avengers: Infinity War
+- Traffic Complaints of Melbourne
+- Rental Affordability of Melbourne
+
 ### Version
 - python 3.6.3
 - couchdb 2.1.1
