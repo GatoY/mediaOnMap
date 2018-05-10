@@ -5,11 +5,8 @@
 ### Directories
 - **Ansible** - ansible automatic deployment methods
 - **Boto** - Boto scripts
-- **databaseConfig** - CouchDB configuration
-- **docker** - docker scripts
 - **Harvester** - data harvester and analysis methods and data we used
 - **mapreduce** - mapreduce methods for couchdb
-- **scripts** - python scripts on boto
 - **web** - data visualisation (django + html/css/js)
 
 ### How to Use
