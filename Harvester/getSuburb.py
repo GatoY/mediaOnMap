@@ -1,5 +1,19 @@
-#!/usr/bin/env python
+# !/usr/bin/env python
 # -*- coding: utf-8 -*-
+
+"""
+========================= COMP90024 TEAM 16 =========================
+
+889545   Yu Liu          yul22       yul22@student.unimelb.edu.au
+875095   Jize Dong       jized       jized@student.unimelb.edu.au
+911764   Minsheng Wang   minshengw   minshengw@student.unimelb.edu.au
+890742   Minglun Zhang   minglunz    minglunz@student.unimelb.edu.au
+905084   Xingping Ding   xingpingd   xingpingd@student.unimelb.edu.au
+
+=====================================================================
+
+"""
+
 import os
 import csv
 import fiona
@@ -7,6 +21,7 @@ from shapely.geometry import Point, shape
 
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
 SA2_SHP = DIR_PATH + '/sa2/SA2_2016_AUST.shp'
+
 
 class CoordinateToSA2():
     def __init__(self):

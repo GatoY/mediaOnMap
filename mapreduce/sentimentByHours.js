@@ -1,24 +1,37 @@
+/**
+ * ======================= COMP90024 TEAM 16 =======================
+
+ 889545   Yu Liu          yul22       yul22@student.unimelb.edu.au
+ 875095   Jize Dong       jized       jized@student.unimelb.edu.au
+ 911764   Minsheng Wang   minshengw   minshengw@student.unimelb.edu.au
+ 890742   Minglun Zhang   minglunz    minglunz@student.unimelb.edu.au
+ 905084   Xingping Ding   xingpingd   xingpingd@student.unimelb.edu.au
+
+ ==================================================================== */
+
+
 //get average sentiment by 24 hours
 //map
-function(doc) {
+function (doc) {
     if (doc['created_at']) {
-      var sentiment = doc.sentiment;
-      var hour = doc.created_at.substring(11,13);
-      if (sentiment > 0){
-        var res = "positive";
-      }
-      else if(sentiment < 0){
-        var res = "negative";
-      }
-      else{
-        var res = "neutral";
-      }
+        var sentiment = doc.sentiment;
+        var hour = doc.created_at.substring(11, 13);
+        if (sentiment > 0) {
+            var res = "positive";
+        }
+        else if (sentiment < 0) {
+            var res = "negative";
+        }
+        else {
+            var res = "neutral";
+        }
 
 
-      emit([hour, res], 1);
+        emit([hour, res], 1);
 
     }
 }
+
 // function(doc) {
 //     if (doc['created_at']) {
 //       var sentiment = doc['sentiment'];
@@ -43,13 +56,12 @@ function(doc) {
 
 //reduce
 function (keys, values, rereduce) {
-  if (rereduce) {
-    return sum(values);
-  } else {
-    return values.length;
-  }
+    if (rereduce) {
+        return sum(values);
+    } else {
+        return values.length;
+    }
 }
-
 
 
 //
