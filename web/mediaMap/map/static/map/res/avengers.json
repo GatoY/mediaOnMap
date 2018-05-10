@@ -1,116 +1,137 @@
 {
-  "Star-Lord": {
-    "positive": 1,
-    "negative": 0,
-    "neutral": 0,
-    "total": 1
-  },
-  "Scarlet Witch": {
-    "positive": 1,
-    "negative": 0,
-    "neutral": 0,
-    "total": 1
-  },
-  "Black Widow": {
-    "positive": 0,
-    "negative": 1,
-    "neutral": 0,
-    "total": 1
-  },
-  "War Machine": {
-    "positive": 0,
-    "negative": 1,
-    "neutral": 1,
-    "total": 2
-  },
-  "Nebula": {
-    "positive": 1,
-    "negative": 0,
-    "neutral": 1,
-    "total": 2
-  },
-  "Gamora": {
-    "positive": 0,
-    "negative": 0,
-    "neutral": 2,
-    "total": 2
-  },
-  "Doctor Strange": {
-    "positive": 0,
-    "negative": 3,
-    "neutral": 0,
-    "total": 3
-  },
-  "Iron Man": {
-    "positive": 0,
-    "negative": 2,
-    "neutral": 2,
-    "total": 4
-  },
-  "Captain America": {
-    "positive": 1,
-    "negative": 3,
-    "neutral": 2,
-    "total": 6
-  },
-  "Groot": {
-    "positive": 3,
-    "negative": 0,
-    "neutral": 4,
-    "total": 7
-  },
-  "Black Panther": {
-    "positive": 4,
-    "negative": 4,
-    "neutral": 0,
-    "total": 8
-  },
-  "Spider-Man": {
-    "positive": 4,
-    "negative": 1,
-    "neutral": 5,
-    "total": 10
-  },
-  "Hulk": {
-    "positive": 6,
-    "negative": 1,
-    "neutral": 5,
-    "total": 12
-  },
-  "Loki": {
-    "positive": 15,
-    "negative": 2,
-    "neutral": 5,
-    "total": 22
-  },
-  "Thanos": {
-    "positive": 21,
-    "negative": 5,
-    "neutral": 15,
-    "total": 41
-  },
-  "Falcon": {
-    "positive": 16,
-    "negative": 8,
-    "neutral": 25,
-    "total": 49
-  },
-  "Vision": {
-    "positive": 52,
-    "negative": 22,
-    "neutral": 60,
-    "total": 134
-  },
-  "Thor": {
-    "positive": 146,
-    "negative": 42,
-    "neutral": 161,
-    "total": 349
-  },
-  "avenger": {
-    "positive": 80,
-    "negative": 38,
-    "neutral": 101,
-    "total": 219
-  }
+  "data": [
+    {
+      "name": "Star-Lord",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "total": 1
+    },
+    {
+      "name": "Scarlet Witch",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "total": 1
+    },
+    {
+      "name": "Black Widow",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "total": 1
+    },
+    {
+      "name": "War Machine",
+      "positive": 0,
+      "negative": 1,
+      "neutral": 1,
+      "total": 2
+    },
+    {
+      "name": "Nebula",
+      "positive": 1,
+      "negative": 0,
+      "neutral": 1,
+      "total": 2
+    },
+    {
+      "name": "Gamora",
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2,
+      "total": 2
+    },
+    {
+      "name": "Doctor Strange",
+      "positive": 0,
+      "negative": 3,
+      "neutral": 0,
+      "total": 3
+    },
+    {
+      "name": "Iron Man",
+      "positive": 0,
+      "negative": 2,
+      "neutral": 2,
+      "total": 4
+    },
+    {
+      "name": "Captain America",
+      "positive": 1,
+      "negative": 3,
+      "neutral": 2,
+      "total": 6
+    },
+    {
+      "name": "Groot",
+      "positive": 3,
+      "negative": 0,
+      "neutral": 4,
+      "total": 7
+    },
+    {
+      "name": "Black Panther",
+      "positive": 4,
+      "negative": 4,
+      "neutral": 0,
+      "total": 8
+    },
+    {
+      "name": "Spider-Man",
+      "positive": 4,
+      "negative": 1,
+      "neutral": 5,
+      "total": 10
+    },
+    {
+      "name": "Hulk",
+      "positive": 6,
+      "negative": 1,
+      "neutral": 5,
+      "total": 12
+    },
+    {
+      "name": "Loki",
+      "positive": 15,
+      "negative": 2,
+      "neutral": 5,
+      "total": 22
+    },
+    {
+      "name": "Thanos",
+      "positive": 21,
+      "negative": 5,
+      "neutral": 15,
+      "total": 41
+    },
+    {
+      "name": "Falcon",
+      "positive": 16,
+      "negative": 8,
+      "neutral": 25,
+      "total": 49
+    },
+    {
+      "name": "Vision",
+      "positive": 52,
+      "negative": 22,
+      "neutral": 60,
+      "total": 134
+    },
+    {
+      "name": "Thor",
+      "positive": 146,
+      "negative": 42,
+      "neutral": 161,
+      "total": 349
+    },
+    {
+      "name": "avenger",
+      "positive": 80,
+      "negative": 38,
+      "neutral": 101,
+      "total": 219
+    }
+  ]
 }
