@@ -1,8 +1,8 @@
-## Cluster and Cloud Computing - Assignment 2 Team 16
+# Cluster and Cloud Computing - Assignment 2 Team 16
 
-### Australian Social Media Analytics
+## Australian Social Media Analytics
 
-#### Directories
+### Directories
 - **Ansible** - ansible automatic deployment methods
 - **Boto** - Boto scripts
 - **databaseConfig** - CouchDB configuration
@@ -12,9 +12,9 @@
 - **scripts** - python scripts on boto
 - **web** - data visualisation (django + html/css/js)
 
-#### How to Use
+### How to Use
 
-#### Version
+### Version
 - python 3.6.3
 - couchdb 2.1.1
 - Boto Python 2.7.13
