@@ -1,5 +1,3 @@
-# Cluster and Cloud Computing - Assignment 2 Team 16
-
 ## Australian Social Media Analytics
 
 ### Directories
